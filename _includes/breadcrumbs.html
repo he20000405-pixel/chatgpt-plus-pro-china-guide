@@ -1,0 +1,11 @@
+{% if page.breadcrumbs %}
+<nav class="breadcrumbs" aria-label="面包屑导航">
+  {% for item in page.breadcrumbs %}
+    {% if forloop.last %}
+      <span aria-current="page">{{ item.name }}</span>
+    {% else %}
+      <a href="{{ item.url | relative_url }}">{{ item.name }}</a><span aria-hidden="true">/</span>
+    {% endif %}
+  {% endfor %}
+</nav>
+{% endif %}

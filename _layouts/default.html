@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#087f5b">
+    {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
+    {% if site.bing_site_verification %}<meta name="msvalidate.01" content="{{ site.bing_site_verification }}">{% endif %}
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% if page.canonical %}
+      <link rel="canonical" href="{{ page.canonical }}">
+    {% endif %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ChongGrok",
+      "url": "https://chonggrok.com/",
+      "description": "面向中文用户的 AI 会员订阅充值服务平台。"
+    }
+    </script>
+    {% if page.schema_type == 'Article' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "inLanguage": {{ page.lang | default: site.lang | jsonify }},
+      "datePublished": {{ page.date_published | jsonify }},
+      "dateModified": {{ page.date_modified | jsonify }},
+      "author": {"@type": "Organization", "name": "ChongGrok", "url": "https://chonggrok.com/"},
+      "publisher": {"@type": "Organization", "name": "ChongGrok", "url": "https://chonggrok.com/"},
+      "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}
+    }
+    </script>
+    {% endif %}
+    {% if page.faq %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {% for item in page.faq %}
+        {
+          "@type": "Question",
+          "name": {{ item.question | jsonify }},
+          "acceptedAnswer": {"@type": "Answer", "text": {{ item.answer | jsonify }}}
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+    </script>
+    {% endif %}
+    {% if page.breadcrumbs %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for item in page.breadcrumbs %}
+        {
+          "@type": "ListItem",
+          "position": {{ forloop.index }},
+          "name": {{ item.name | jsonify }},
+          "item": {{ item.url | absolute_url | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+    </script>
+    {% endif %}
+  </head>
+  <body>
+    {% include header.html %}
+    <main class="page-shell">
+      {% include breadcrumbs.html %}
+      <article class="content">
+        {{ content }}
+      </article>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,42 @@
+title: "ChatGPT Plus / Pro 国内充值指南"
+tagline: "chonggrok.com ChatGPT 充值、核销与报错知识库"
+description: "chonggrok.com 的 ChatGPT Plus / Pro 国内充值指南，说明 Plus 全自动核销、Pro 客服协助、支付宝微信付款、session 风险边界和常见付款报错。"
+url: "https://he20000405-pixel.github.io"
+baseurl: "/chatgpt-plus-pro-china-guide"
+repository: "he20000405-pixel/chatgpt-plus-pro-china-guide"
+lang: "zh-CN"
+timezone: "Asia/Shanghai"
+author:
+  name: "ChongGrok"
+  url: "https://chonggrok.com/chatgpt"
+
+# 收到站长平台验证码后再取消注释并填写；不要提前填写示例值。
+# google_site_verification: ""
+# bing_site_verification: ""
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: null
+  - scope:
+      path: "guides"
+    values:
+      lang: "zh-CN"
+      schema_type: Article
+
+exclude:
+  - README.md
+  - PUBLISHING.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

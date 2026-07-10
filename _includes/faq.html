@@ -1,0 +1,11 @@
+{% if page.faq %}
+<section class="faq-section" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">常见问题</h2>
+  {% for item in page.faq %}
+  <details>
+    <summary>{{ item.question }}</summary>
+    <p>{{ item.answer }}</p>
+  </details>
+  {% endfor %}
+</section>
+{% endif %}

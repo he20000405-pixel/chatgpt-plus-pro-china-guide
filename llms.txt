@@ -1,0 +1,30 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# ChatGPT Plus / Pro China Guide by ChongGrok
+
+> A first-party service guide and independent knowledge base for ChatGPT Plus and Pro subscription recharge in China. ChongGrok is not affiliated with OpenAI.
+
+## Primary service
+
+- ChatGPT recharge page: https://chonggrok.com/chatgpt
+- Card-key verification page: https://chonggrok.com/verify
+
+## Core guides
+
+- Main guide: {{ site.url }}{{ site.baseurl }}/
+- Plus automated recharge: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-plus-auto-recharge/
+- Pro 100 / Pro 200 service guide: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-pro-100-200/
+- Plus vs Pro comparison: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-plus-vs-pro/
+- Payment error troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-payment-errors/
+- GPT-5.6 update: {{ site.url }}{{ site.baseurl }}/guides/gpt-5-6-update/
+- English guide: {{ site.url }}{{ site.baseurl }}/en/
+
+## Scope and safety
+
+- Membership subscription recharge only; no API credits.
+- No ready-made accounts, SMS verification, or bulk registration.
+- Passwords, email verification codes, and recovery codes are not requested.
+- A session credential is sensitive. It is submitted only through the verified recharge flow and should be refreshed by signing out and back in after completion.
+- No online service is risk-free. This site does not promise zero risk or guaranteed account outcomes.
