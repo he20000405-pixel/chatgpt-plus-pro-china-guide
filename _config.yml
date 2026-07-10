@@ -11,7 +11,7 @@ author:
   url: "https://chonggrok.com/chatgpt"
 
 # 收到站长平台验证码后再取消注释并填写；不要提前填写示例值。
-# google_site_verification: ""
+google_site_verification: "V4hVuMBqc3EQvKOc9sySCkXlwwFM9lSNGu4-XknGF7A"
 # bing_site_verification: ""
 
 markdown: kramdown
