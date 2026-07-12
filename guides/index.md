@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT 充值、套餐与付款报错专题"
-description: "ChatGPT Plus 自动充值、Pro 100/200、套餐对比、付款失败、已付款仍显示 Free 和 GPT-5.6 更新专题目录。"
+description: "ChatGPT Plus 自动充值、Pro 100/200、套餐对比、付款失败、续费失败、已付款仍显示 Free 和 GPT-5.6 更新专题目录。"
 permalink: /guides/
 schema_type: CollectionPage
 breadcrumbs:
@@ -19,7 +19,8 @@ breadcrumbs:
 3. [ChatGPT Plus 与 Pro 怎么选](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-plus-vs-pro/)
 4. [ChatGPT 付款被拒与支付认证失败排查](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-payment-errors/)
 5. [ChatGPT Plus 已付款但仍显示 Free 排查](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/)
-6. [GPT-5.6 更新、可用套餐与国内体验入口](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/gpt-5-6-update/)
+6. [ChatGPT Plus / Pro 续费失败后变回 Free 排查](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-renewal-failed-back-to-free/)
+7. [GPT-5.6 更新、可用套餐与国内体验入口](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/gpt-5-6-update/)
 
 ## 内容原则
 

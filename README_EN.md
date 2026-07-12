@@ -82,9 +82,10 @@ OpenAI released the GPT-5.6 model family on July 9, 2026. GPT-5.6 Sol is rolling
 ## Further reading
 
 - [ChatGPT Plus paid but still showing Free: account, purchase channel, and subscription troubleshooting](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/)
+- [ChatGPT Plus or Pro renewal failed and the account returned to Free](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-renewal-failed-back-to-free/)
 - [ChatGPT plan comparison on chonggrok.com](https://chonggrok.com/blog/chatgpt-taocan-free-go-plus-pro-2026)
 - [ChatGPT Plus upgrade guide on chonggrok.com](https://chonggrok.com/blog/chatgpt-plus-upgrade-guide)
-- [ChatGPT payment-decline guide on chonggrok.com](https://chonggrok.com/blog/chatgpt-plus-payment-declined-2026)
+- [ChatGPT payment-decline guide on chonggrok.com](https://chonggrok.com/blog/chatgpt-payment-not-approved)
 - [OpenAI: What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
 - [OpenAI: Why was my credit card declined?](https://help.openai.com/en/articles/7232916-why-was-my-credit-card-declined)
 - [OpenAI: GPT-5.6 release](https://openai.com/index/gpt-5-6/)

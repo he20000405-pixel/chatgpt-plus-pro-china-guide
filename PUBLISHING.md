@@ -191,7 +191,7 @@ git push -u origin main
    sitemap.xml
    ```
 
-8. 使用 URL 检查，依次请求首页和 5 篇核心专题编入索引。不要同一天无意义重复提交同一 URL。
+8. 使用 URL 检查，依次请求首页和 7 篇核心专题编入索引。不要同一天无意义重复提交同一 URL。
 
 ## 第七阶段：提交 Bing Webmaster Tools
 
@@ -210,7 +210,7 @@ git push -u origin main
    https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/sitemap.xml
    ```
 
-6. 使用 URL Submission 提交首页和 5 篇核心专题。
+6. 使用 URL Submission 提交首页和 7 篇核心专题。
 
 ## 第八阶段：让主站与 GitHub 形成合理关联
 
@@ -220,7 +220,7 @@ GitHub 已经通过正文链接到以下主站页面：
 - `https://chonggrok.com/verify`
 - `https://chonggrok.com/blog/chatgpt-taocan-free-go-plus-pro-2026`
 - `https://chonggrok.com/blog/chatgpt-plus-upgrade-guide`
-- `https://chonggrok.com/blog/chatgpt-plus-payment-declined-2026`
+- `https://chonggrok.com/blog/chatgpt-payment-not-approved`
 
 主站后续可以在对应 Blog 的“延伸阅读”中自然加入一次 GitHub Pages 专题链接。不要在每篇文章底部堆一排重复链接，也不要复制 GitHub 全文回主站。
 

@@ -19,6 +19,7 @@ permalink: /llms.txt
 - Plus vs Pro comparison: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-plus-vs-pro/
 - Payment error troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-payment-errors/
 - Paid but still showing Free troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-paid-but-still-free/
+- Renewal failed and returned to Free troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-renewal-failed-back-to-free/
 - GPT-5.6 update: {{ site.url }}{{ site.baseurl }}/guides/gpt-5-6-update/
 - English guide: {{ site.url }}{{ site.baseurl }}/en/
 
