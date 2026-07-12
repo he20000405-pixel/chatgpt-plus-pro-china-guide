@@ -3,7 +3,7 @@ title: "ChatGPT Plus 与 Pro 怎么选：国内用户订阅对比"
 description: "从官方价格、使用频率、任务复杂度、模型开放与国内付款方式，对比 ChatGPT Plus 和 Pro，并说明 chonggrok.com 的充值路径。"
 permalink: /guides/chatgpt-plus-vs-pro/
 date_published: "2026-07-10"
-date_modified: "2026-07-12"
+last_modified_at: "2026-07-12"
 breadcrumbs:
   - name: 首页
     url: /

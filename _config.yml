@@ -27,7 +27,7 @@ defaults:
       path: ""
     values:
       layout: default
-      image: null
+      image: "https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/assets/images/social-preview.webp"
   - scope:
       path: "guides"
     values:

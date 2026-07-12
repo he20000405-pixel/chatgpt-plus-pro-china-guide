@@ -3,7 +3,7 @@ title: "GPT-5.6 更新、可用套餐与国内体验入口"
 description: "核实 GPT-5.6 Sol、Terra、Luna 发布时间、ChatGPT 付费计划开放范围，以及国内用户开通 Plus 或 Pro 前应检查的事项。"
 permalink: /guides/gpt-5-6-update/
 date_published: "2026-07-10"
-date_modified: "2026-07-10"
+last_modified_at: "2026-07-10"
 breadcrumbs:
   - name: 首页
     url: /

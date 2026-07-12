@@ -3,7 +3,7 @@ title: "ChatGPT Plus 已付款但仍显示 Free：账号、订阅入口、App St
 description: "排查 ChatGPT Plus 已扣款仍显示 Free、App Store 订阅未同步、Google Play 原购买账号不一致、订阅关联其他 OpenAI 账号和 ChongGrok 卡密核销状态。"
 permalink: /guides/chatgpt-paid-but-still-free/
 date_published: "2026-07-12"
-date_modified: "2026-07-12"
+last_modified_at: "2026-07-12"
 breadcrumbs:
   - name: 首页
     url: /

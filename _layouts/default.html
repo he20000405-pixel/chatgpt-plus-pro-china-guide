@@ -6,7 +6,13 @@
     <meta name="theme-color" content="#087f5b">
     {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
     {% if site.bing_site_verification %}<meta name="msvalidate.01" content="{{ site.bing_site_verification }}">{% endif %}
+    {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
     {% seo %}
+    {% if page.url == '/' or page.url == '/en/' %}
+    <link rel="alternate" hreflang="zh-CN" href="{{ '/' | absolute_url }}">
+    <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+    {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% if page.canonical %}
       <link rel="canonical" href="{{ page.canonical }}">
@@ -29,7 +35,7 @@
       "description": {{ page.description | jsonify }},
       "inLanguage": {{ page.lang | default: site.lang | jsonify }},
       "datePublished": {{ page.date_published | jsonify }},
-      "dateModified": {{ page.date_modified | jsonify }},
+      "dateModified": {{ page.last_modified_at | default: page.date_modified | jsonify }},
       "author": {"@type": "Organization", "name": "ChongGrok", "url": "https://chonggrok.com/"},
       "publisher": {"@type": "Organization", "name": "ChongGrok", "url": "https://chonggrok.com/"},
       "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}

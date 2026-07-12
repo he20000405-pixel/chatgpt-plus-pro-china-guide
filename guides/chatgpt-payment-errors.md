@@ -3,7 +3,7 @@ title: "ChatGPT 付款被拒与支付认证失败排查"
 description: "排查 ChatGPT Your card has been declined、unable to authenticate payment method 和 3D Secure 失败，并链接续费失败与已付款仍显示 Free 的独立专题。"
 permalink: /guides/chatgpt-payment-errors/
 date_published: "2026-07-10"
-date_modified: "2026-07-12"
+last_modified_at: "2026-07-12"
 breadcrumbs:
   - name: 首页
     url: /

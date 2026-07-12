@@ -3,7 +3,7 @@ title: "ChatGPT Plus / Pro 续费失败后变回 Free：网页、App Store、Goo
 description: "排查 ChatGPT Plus 或 Pro 续费失败后显示 Free、网页银行卡续费失败、Apple 续费恢复、Google Play 原购买账号和跨平台重复订阅问题。"
 permalink: /guides/chatgpt-renewal-failed-back-to-free/
 date_published: "2026-07-12"
-date_modified: "2026-07-12"
+last_modified_at: "2026-07-12"
 breadcrumbs:
   - name: 首页
     url: /

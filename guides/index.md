@@ -3,6 +3,7 @@ title: "ChatGPT 充值、套餐与付款报错专题"
 description: "ChatGPT Plus 自动充值、Pro 100/200、套餐对比、付款失败、续费失败、已付款仍显示 Free 和 GPT-5.6 更新专题目录。"
 permalink: /guides/
 schema_type: CollectionPage
+last_modified_at: 2026-07-12
 breadcrumbs:
   - name: 首页
     url: /

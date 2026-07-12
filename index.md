@@ -2,6 +2,7 @@
 title: "ChatGPT Plus / Pro 国内充值指南"
 description: "chonggrok.com ChatGPT Plus 全自动充值、Pro 客服协助、支付宝微信付款、卡密核销和付款报错知识库。"
 permalink: /
+last_modified_at: 2026-07-12
 breadcrumbs:
   - name: 首页
     url: /

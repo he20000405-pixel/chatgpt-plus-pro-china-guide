@@ -3,7 +3,7 @@ title: "ChatGPT Pro 100 美金与 Pro 200 美金充值说明"
 description: "解释 chonggrok.com 的 ChatGPT Pro 100 美金与 Pro 200 美金服务名称、客服协助付款流程、账号确认清单和风险边界。"
 permalink: /guides/chatgpt-pro-100-200/
 date_published: "2026-07-10"
-date_modified: "2026-07-10"
+last_modified_at: "2026-07-10"
 breadcrumbs:
   - name: 首页
     url: /

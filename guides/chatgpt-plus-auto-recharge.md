@@ -3,7 +3,7 @@ title: "ChatGPT Plus 全自动充值与卡密核销流程"
 description: "通过 chonggrok.com 使用支付宝或微信购买 ChatGPT Plus 卡密，在 verify 页面提交 session、确认账号并自动充值的完整流程与安全说明。"
 permalink: /guides/chatgpt-plus-auto-recharge/
 date_published: "2026-07-10"
-date_modified: "2026-07-12"
+last_modified_at: "2026-07-12"
 breadcrumbs:
   - name: 首页
     url: /

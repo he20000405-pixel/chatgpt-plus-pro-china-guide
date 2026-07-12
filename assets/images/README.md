@@ -1,3 +1,11 @@
+---
+layout: default
+title: "图片目录说明"
+description: "ChatGPT 指南的真实截图、隐私处理和图片更新规范。"
+sitemap: false
+robots: noindex,follow
+---
+
 # 图片目录说明
 
 首版不公开展示模糊截图。后续请把经过裁剪、隐私检查和清晰度优化的真实图片放在本目录。
