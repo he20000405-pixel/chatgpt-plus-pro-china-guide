@@ -1,9 +1,9 @@
 ---
 title: "ChatGPT 付款被拒与支付认证失败排查"
-description: "排查 ChatGPT Your card has been declined、unable to authenticate payment method、3D Secure 失败、续费失败和扣款后仍显示 Free。"
+description: "排查 ChatGPT Your card has been declined、unable to authenticate payment method、3D Secure 失败和续费失败，并链接已扣款仍显示 Free 的独立专题。"
 permalink: /guides/chatgpt-payment-errors/
 date_published: "2026-07-10"
-date_modified: "2026-07-10"
+date_modified: "2026-07-12"
 breadcrumbs:
   - name: 首页
     url: /
@@ -17,7 +17,7 @@ faq:
   - question: "We were unable to authenticate your payment method 通常是什么问题？"
     answer: "通常与 3D Secure 或 Strong Customer Authentication 流程有关，例如弹窗被拦截、OTP 或银行 App 确认失败、发卡行未启用相关验证。"
   - question: "已扣款但 ChatGPT 仍显示 Free 怎么办？"
-    answer: "确认使用了同一账号和同一登录方式，移动端可尝试 Restore purchases，退出所有设备后重新登录；仍未恢复时联系 OpenAI 支持并准备付款收据。"
+    answer: "不要重复付款。先区分网页、Apple App Store、Google Play 或 ChongGrok 购买入口，再核对原购买账号；Restore purchases 是 OpenAI 提供的 iOS 路径，Android 应检查原 Google Play 账号和订阅状态。"
 ---
 
 # ChatGPT 付款被拒与支付认证失败排查
@@ -34,7 +34,7 @@ faq:
 | `We were unable to authenticate your payment method` | 3DS / SCA 认证 | 检查弹窗、OTP、银行 App 和浏览器拦截 |
 | `3D Secure attempt failed` | 身份验证失败 | 不刷新付款页，重新完成银行验证或换卡 |
 | 续费交易失败 | 卡片、余额、地区或银行风控 | 清缓存，检查余额与地区，联系银行 |
-| 已扣款但仍显示 Free | 账号或订阅同步 | 核对登录方式，恢复购买，重新登录 |
+| 已扣款但仍显示 Free | 账号或订阅同步 | 不重复付款，转到独立专题按购买入口排查 |
 
 ## `Your card has been declined`
 
@@ -86,16 +86,9 @@ OpenAI 对 Plus 或 Pro 续费失败的建议包括：
 
 ## 已扣款但仍显示 Free
 
-这类问题首先查账号，不要立刻重复付款。
+这类问题与“付款被拒”不是同一层。不要立刻重复付款，应先区分网页、Apple App Store、Google Play 或 ChongGrok 购买入口，再核对原购买账号与订阅状态。`Restore purchases` 是 OpenAI 提供的 iOS 路径；Android 应检查原 Google Play 账号及订阅。
 
-1. 确认登录的是购买时使用的同一账号；
-2. 确认登录方式一致，例如 Google、Apple、Microsoft 或邮箱登录；
-3. 使用 Apple 隐藏邮箱时，检查 Apple 私有转发邮箱；
-4. iOS 或 Android App 可尝试 `Restore purchases`；
-5. 退出所有设备，再用正确账号重新登录；
-6. 仍未恢复时联系 OpenAI 支持，准备收据或付款卡末四位。
-
-如果订单来自 chonggrok.com，请同时保留卡密、订单页面和必要付款记录，通过主站确认渠道核对。
+完整步骤见：[ChatGPT Plus 已付款但仍显示 Free：账号、订阅入口、App Store / Google Play 与卡密核销排查](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/)。
 
 ## 什么时候考虑支付宝或微信充值？
 
@@ -120,7 +113,7 @@ OpenAI 对 Plus 或 Pro 续费失败的建议包括：
 
 ### 已扣款但 ChatGPT 仍显示 Free 怎么办？
 
-确认使用了同一账号和同一登录方式，移动端可尝试 `Restore purchases`，退出所有设备后重新登录；仍未恢复时联系 OpenAI 支持并准备付款收据。
+不要重复付款。先按[独立专题](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/)区分购买入口和原购买账号。iOS 可按官方路径恢复购买；Android 检查原 Google Play 账号和订阅状态。
 
 ## 官方来源
 

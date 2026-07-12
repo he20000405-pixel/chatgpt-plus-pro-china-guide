@@ -32,7 +32,7 @@ faq:
 
 人民币价格可能变化，请直接查看 <https://chonggrok.com/chatgpt>，不要以搜索快照中的旧价格为准。
 
-## 五个核心专题
+## 六个核心专题
 
 <div class="guide-grid">
   <section class="guide-card">
@@ -49,7 +49,11 @@ faq:
   </section>
   <section class="guide-card">
     <h3><a href="https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-payment-errors/">付款被拒排查</a></h3>
-    <p>处理 card declined、支付认证失败、3DS 和扣款后仍显示 Free。</p>
+    <p>处理 card declined、支付认证失败、3DS 和续费交易失败。</p>
+  </section>
+  <section class="guide-card">
+    <h3><a href="https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/">已付款仍显示 Free</a></h3>
+    <p>按网页、App Store、Google Play 或卡密核销入口检查账号和订阅状态。</p>
   </section>
   <section class="guide-card">
     <h3><a href="https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/gpt-5-6-update/">GPT-5.6 更新</a></h3>
@@ -91,4 +95,4 @@ Plus 自动充值不需要 ChatGPT 密码，但 session 仍属于敏感登录凭
 
 **<https://chonggrok.com/chatgpt>**
 
-<p class="meta">最后更新：2026-07-10</p>
+<p class="meta">最后更新：2026-07-12</p>

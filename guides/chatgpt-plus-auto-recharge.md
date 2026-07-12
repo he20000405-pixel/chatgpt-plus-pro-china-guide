@@ -3,7 +3,7 @@ title: "ChatGPT Plus 全自动充值与卡密核销流程"
 description: "通过 chonggrok.com 使用支付宝或微信购买 ChatGPT Plus 卡密，在 verify 页面提交 session、确认账号并自动充值的完整流程与安全说明。"
 permalink: /guides/chatgpt-plus-auto-recharge/
 date_published: "2026-07-10"
-date_modified: "2026-07-10"
+date_modified: "2026-07-12"
 breadcrumbs:
   - name: 首页
     url: /
@@ -116,10 +116,12 @@ alt：chonggrok.com ChatGPT 卡密核销入口
 | 卡密验证失败 | 是否复制完整、是否已经核销、是否进入正确域名 |
 | 系统识别不到账号 | ChatGPT 是否仍保持登录、session 是否已经失效 |
 | 识别到错误账号 | 立即停止，退出错误账号后重新核对 |
-| 完成后仍显示 Free | 登录方式是否一致，退出所有设备后重登，并保留订单信息 |
+| 完成后仍显示 Free | 不要重复购买；核对卡密、目标账号和核销状态，并保留订单信息 |
 | 模型选择器没有最新模型 | 查看 OpenAI 滚动开放说明和账号计划，不把模型可用性与订单状态混为一谈 |
 
 如果问题与官方银行卡支付有关，请看[ChatGPT 付款被拒与支付认证失败排查](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-payment-errors/)。
+
+如果已经付款、已有收据或卡密核销后仍显示 Free，请按[已付款仍显示 Free 专题](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/)区分购买入口、目标账号和订阅状态，不要直接再次购买。
 
 ## 为什么不索要密码仍需要风险说明？
 

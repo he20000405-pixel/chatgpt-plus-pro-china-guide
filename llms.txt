@@ -18,6 +18,7 @@ permalink: /llms.txt
 - Pro 100 / Pro 200 service guide: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-pro-100-200/
 - Plus vs Pro comparison: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-plus-vs-pro/
 - Payment error troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-payment-errors/
+- Paid but still showing Free troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-paid-but-still-free/
 - GPT-5.6 update: {{ site.url }}{{ site.baseurl }}/guides/gpt-5-6-update/
 - English guide: {{ site.url }}{{ site.baseurl }}/en/
 
