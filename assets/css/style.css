@@ -140,7 +140,7 @@ code { background: #eef1f2; border-radius: 4px; padding: 2px 5px; font-size: 0.9
   body { font-size: 16px; }
   .nav-shell { align-items: flex-start; flex-direction: column; padding: 12px 0; gap: 10px; }
   .site-header { position: static; }
-  .site-nav { width: 100%; gap: 12px; overflow-x: auto; padding-bottom: 2px; }
+  .site-nav { width: 100%; flex-wrap: wrap; gap: 8px 12px; padding-bottom: 2px; }
   .site-nav a { white-space: nowrap; }
   h1 { font-size: 1.75rem; }
   h2 { font-size: 1.35rem; }

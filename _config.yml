@@ -4,6 +4,10 @@ description: "chonggrok.com 的 ChatGPT Plus / Pro 国内充值指南，说明 P
 url: "https://he20000405-pixel.github.io"
 baseurl: "/chatgpt-plus-pro-china-guide"
 repository: "he20000405-pixel/chatgpt-plus-pro-china-guide"
+portal_url: "https://he20000405-pixel.github.io/"
+chatgpt_guide_url: "https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/"
+grok_guide_url: "https://he20000405-pixel.github.io/supergrok-china-guide/"
+asset_version: "20260713-portal"
 lang: "zh-CN"
 timezone: "Asia/Shanghai"
 author:
