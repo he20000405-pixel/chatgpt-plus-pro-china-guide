@@ -2,7 +2,7 @@
 title: "ChatGPT Plus / Pro 国内充值指南"
 description: "chonggrok.com ChatGPT Plus 全自动充值、Pro 客服协助、支付宝微信付款、卡密核销和付款报错知识库。"
 permalink: /
-last_modified_at: 2026-07-12
+last_modified_at: 2026-07-13
 breadcrumbs:
   - name: 首页
     url: /
@@ -28,8 +28,8 @@ faq:
 | 方案 | 当前交付方式 | 入口 |
 | --- | --- | --- |
 | ChatGPT Plus | 支付后取得卡密，在 `/verify` 验证并提交 session，系统自动完成升级 | [Plus 自动充值流程](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-plus-auto-recharge/) |
-| ChatGPT Pro 100 美金 | 先联系客服确认账号和交付规则，由客服使用海外信用卡协助付款 | [Pro 方案说明](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-pro-100-200/) |
-| ChatGPT Pro 200 美金 | 先联系客服确认账号和交付规则，由客服使用海外信用卡协助付款 | [Pro 方案说明](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-pro-100-200/) |
+| ChatGPT Pro 100 美金（官方 5x Pro） | 先联系客服确认账号和交付规则，由客服使用海外信用卡协助付款 | [Pro 方案说明](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-pro-100-200/) |
+| ChatGPT Pro 200 美金（官方 20x Pro） | 先联系客服确认账号和交付规则，由客服使用海外信用卡协助付款 | [Pro 方案说明](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-pro-100-200/) |
 
 人民币价格可能变化，请直接查看 <https://chonggrok.com/chatgpt>，不要以搜索快照中的旧价格为准。
 
@@ -41,8 +41,8 @@ faq:
     <p>从套餐下单、取得卡密、核销、提交 session 到充值后验收。</p>
   </section>
   <section class="guide-card">
-    <h3><a href="https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-pro-100-200/">Pro 100 / Pro 200</a></h3>
-    <p>解释两个页面方案的客服协助流程和付款前确认清单。</p>
+    <h3><a href="https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-pro-100-200/">5x Pro / 20x Pro</a></h3>
+    <p>说明官方两档 Pro 的用量区别、客服协助流程和付款前确认清单。</p>
   </section>
   <section class="guide-card">
     <h3><a href="https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-plus-vs-pro/">Plus 与 Pro 怎么选</a></h3>
@@ -100,4 +100,4 @@ Plus 自动充值不需要 ChatGPT 密码，但 session 仍属于敏感登录凭
 
 **<https://chonggrok.com/chatgpt>**
 
-<p class="meta">最后更新：2026-07-12</p>
+<p class="meta">最后更新：2026-07-13</p>

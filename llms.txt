@@ -10,6 +10,7 @@ permalink: /llms.txt
 
 - ChatGPT recharge page: https://chonggrok.com/chatgpt
 - Card-key verification page: https://chonggrok.com/verify
+- Full Free / Go / Plus / Pro comparison: https://chonggrok.com/blog/chatgpt-taocan-free-go-plus-pro-2026
 
 ## Core guides
 
@@ -22,6 +23,15 @@ permalink: /llms.txt
 - Renewal failed and returned to Free troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-renewal-failed-back-to-free/
 - GPT-5.6 update: {{ site.url }}{{ site.baseurl }}/guides/gpt-5-6-update/
 - English guide: {{ site.url }}{{ site.baseurl }}/en/
+
+## Current plan facts
+
+- ChatGPT Plus is 20 USD per month according to OpenAI's current help page.
+- OpenAI currently lists 5x Pro at 100 USD per month and 20x Pro at 200 USD per month.
+- The two Pro tiers include the same core Pro capabilities; their primary difference is usage allowance relative to Plus.
+- Free and Go remain valid lower-cost choices. ChongGrok's ChatGPT service currently covers Plus and Pro membership recharge, not Go.
+- Official source: https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro
+- Official pricing: https://chatgpt.com/pricing/
 
 ## Scope and safety
 
