@@ -229,6 +229,8 @@ OpenAI 给出的 `Restore purchases` 路径针对 iOS。Android 应检查 Google
 
 不要再次购买。通过 [卡密核销页面](https://chonggrok.com/verify)核对卡密、目标账号和处理状态，并保留订单及核销记录供售后查询。
 
+如果还不能确定应该联系银行、Apple、Google Play、OpenAI 还是 ChongGrok，可先走[跨产品 AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)。
+
 ## OpenAI 官方来源
 
 - [Why am I seeing a message that my subscription is associated with another account?](https://help.openai.com/en/articles/20001056)
