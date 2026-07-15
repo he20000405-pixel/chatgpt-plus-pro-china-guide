@@ -146,4 +146,7 @@ code { background: #eef1f2; border-radius: 4px; padding: 2px 5px; font-size: 0.9
   h2 { font-size: 1.35rem; }
   .guide-grid { grid-template-columns: 1fr; }
   th, td { min-width: 126px; }
+  table:not(:has(tr > :nth-child(4))) { display: table; table-layout: fixed; overflow: visible; }
+  table:not(:has(tr > :nth-child(4))) th,
+  table:not(:has(tr > :nth-child(4))) td { min-width: 0; padding: 9px 8px; overflow-wrap: anywhere; }
 }

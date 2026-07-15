@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Pro 100 美元与 Pro 200 美元：5x / 20x 套餐及充值说明"
+title: "ChatGPT Pro 5x / 20x 怎么选：100 与 200 美元套餐"
 description: "说明 OpenAI 当前 ChatGPT Pro 100 美元 5x 与 Pro 200 美元 20x 两档的官方边界，以及 chonggrok.com 的客服协助付款、账号确认和验收流程。"
 permalink: /guides/chatgpt-pro-100-200/
 date_published: "2026-07-10"

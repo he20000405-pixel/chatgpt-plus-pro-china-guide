@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Plus and Pro Recharge in China: ChongGrok Service Guide"
+title: "ChatGPT Plus and Pro Recharge Guide"
 description: "A practical English guide to ChongGrok's ChatGPT Plus automated recharge, Pro assisted payment, Alipay and WeChat checkout, session safety, and payment errors in China."
 lang: en
 permalink: /en/
