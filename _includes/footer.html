@@ -1,7 +1,14 @@
 <footer class="site-footer">
   <div class="footer-shell">
-    <p><strong>ChongGrok AI 会员指南 · ChatGPT</strong></p>
-    <p>本站为 chonggrok.com 的独立服务指南，与 OpenAI 不存在隶属、授权或官方合作关系。ChatGPT 的套餐、模型、额度和价格以 OpenAI 实时展示为准。</p>
-    <p><a href="{{ site.portal_url }}">知识库总首页</a> · <a href="{{ '/guides/' | relative_url }}">ChatGPT 专题</a> · <a href="{{ site.grok_guide_url }}">Grok</a> · <a href="{{ site.claude_guide_url }}">Claude</a> · <a href="{{ site.gemini_guide_url }}">Gemini</a> · <a href="{{ site.portal_url }}resources/ai-membership-safety-checklist/">订阅安全清单</a> · <a href="https://chonggrok.com/chatgpt">ChatGPT 充值入口</a></p>
+    <div class="footer-brand">
+      <span class="brand-mark" aria-hidden="true">CG</span>
+      <div><strong>ChongGrok AI 会员指南 · ChatGPT</strong><p>充值、套餐选择与付款排障知识库。</p></div>
+    </div>
+    <div class="footer-links" aria-label="页脚导航">
+      <div><strong>知识库</strong><a href="{{ site.portal_url }}">总首页</a><a href="{{ '/guides/' | relative_url }}">ChatGPT 专题</a><a href="{{ site.grok_guide_url }}">Grok 指南</a></div>
+      <div><strong>实用资源</strong><a href="{{ site.portal_url }}resources/ai-membership-safety-checklist/">订阅安全清单</a><a href="{{ site.portal_url }}resources/ai-subscription-payment-troubleshooting/">付款排障决策树</a><a href="{{ site.portal_url }}search/">搜索全部内容</a></div>
+      <div><strong>服务入口</strong><a href="https://chonggrok.com/chatgpt">ChatGPT 实时方案</a><a href="https://chonggrok.com/verify">已有卡密核销</a><a href="{{ '/en/' | relative_url }}" lang="en">English guide</a></div>
+    </div>
+    <p class="footer-disclaimer">本站为 chonggrok.com 的独立服务指南，与 OpenAI 不存在隶属、授权或官方合作关系。套餐、模型、额度和价格以 OpenAI 实时展示为准。</p>
   </div>
 </footer>

@@ -81,8 +81,27 @@
     }
     </script>
     {% endif %}
+    {% if page.schema_type == 'CollectionPage' and page.item_list %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {% for item in page.item_list %}
+          {"@type":"ListItem","position":{{ forloop.index }},"name":{{ item.name | jsonify }},"url":{{ item.url | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ]
+      }
+    }
+    </script>
+    {% endif %}
   </head>
-  <body>
+  <body class="{% if page.url == '/' %}home-page{% elsif page.schema_type == 'CollectionPage' %}collection-page{% else %}article-page{% endif %}">
     {% include header.html %}
     <main class="page-shell">
       {% include breadcrumbs.html %}

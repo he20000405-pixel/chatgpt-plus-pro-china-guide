@@ -2,17 +2,41 @@
   <div class="nav-shell">
     <a class="brand" href="{{ site.portal_url }}" aria-label="ChongGrok AI 会员指南总首页">
       <span class="brand-mark" aria-hidden="true">CG</span>
-      <span>ChongGrok AI 会员指南</span>
+      <span class="brand-copy"><strong>ChongGrok</strong><small>AI 会员指南</small></span>
     </a>
-    <nav class="site-nav" aria-label="主导航">
+    <nav class="site-nav desktop-nav" aria-label="主导航">
       <a href="{{ site.portal_url }}">总首页</a>
-      <a href="{{ '/' | relative_url }}">ChatGPT</a>
+      <a class="is-current" href="{{ '/' | relative_url }}" aria-current="page">ChatGPT</a>
       <a href="{{ site.grok_guide_url }}">Grok</a>
       <a href="{{ site.claude_guide_url }}">Claude</a>
       <a href="{{ site.gemini_guide_url }}">Gemini</a>
       <a href="{{ '/guides/' | relative_url }}">专题</a>
-      <a href="{{ '/en/' | relative_url }}" lang="en">English</a>
-      <a class="nav-cta" href="https://chonggrok.com/chatgpt">查看充值方案</a>
+      <a class="search-link" href="{{ site.portal_url }}search/" aria-label="搜索全部知识库">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+        <span>搜索</span>
+      </a>
+      <a class="nav-cta" href="https://chonggrok.com/chatgpt">查看方案</a>
     </nav>
+    <details class="mobile-nav">
+      <summary aria-label="打开导航菜单">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </summary>
+      <div class="mobile-panel">
+        <nav aria-label="移动端主导航">
+          <a href="{{ site.portal_url }}">知识库总首页</a>
+          <a class="is-current" href="{{ '/' | relative_url }}" aria-current="page">ChatGPT</a>
+          <a href="{{ site.grok_guide_url }}">Grok</a>
+          <a href="{{ site.claude_guide_url }}">Claude</a>
+          <a href="{{ site.gemini_guide_url }}">Gemini</a>
+          <a href="{{ '/guides/' | relative_url }}">全部专题</a>
+          <a href="{{ '/en/' | relative_url }}" lang="en">English</a>
+        </nav>
+        <form class="nav-search" action="{{ site.portal_url }}search/" method="get" role="search">
+          <label for="mobile-search">搜索四个产品知识库</label>
+          <div><input id="mobile-search" name="q" type="search" placeholder="付款失败、Free、session"><button type="submit">搜索</button></div>
+        </form>
+        <a class="mobile-cta" href="https://chonggrok.com/chatgpt">查看 ChatGPT 实时方案</a>
+      </div>
+    </details>
   </div>
 </header>
