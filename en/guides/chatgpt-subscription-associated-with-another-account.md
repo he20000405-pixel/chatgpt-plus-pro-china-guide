@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Subscription Associated with Another Account: Fix"
+title: "ChatGPT Subscription Associated with Another Account"
 description: "Resolve This subscription is associated with another OpenAI account by finding the original ChatGPT sign-in, Apple ID or Google Play account and avoiding duplicate subscriptions."
 permalink: /en/guides/chatgpt-subscription-associated-with-another-account/
 lang: en
