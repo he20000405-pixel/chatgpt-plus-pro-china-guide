@@ -24,6 +24,10 @@ item_list:
     url: /guides/chatgpt-renewal-failed-back-to-free/
   - name: GPT-5.6 更新
     url: /guides/gpt-5-6-update/
+  - name: ChatGPT 订阅关联其他账号
+    url: /guides/chatgpt-subscription-associated-with-another-account/
+  - name: ChatGPT Subscription Associated with Another Account
+    url: /en/guides/chatgpt-subscription-associated-with-another-account/
 ---
 
 <p class="eyebrow">ChatGPT Topic Index</p>
@@ -39,7 +43,12 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/chatgpt-paid-but-still-free/' | relative_url }}"><span class="catalog-number">05</span><span class="catalog-copy"><strong>已付款但仍显示 Free</strong><p>网页、App Store、Google Play、原购买账号和卡密状态。</p></span><span class="intent-label">高意向 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-renewal-failed-back-to-free/' | relative_url }}"><span class="catalog-number">06</span><span class="catalog-copy"><strong>续费失败后变回 Free</strong><p>区分订阅到期、续费失败、待处理交易和登录错账号。</p></span><span class="intent-label">续费 / 搜索</span></a>
   <a class="catalog-item" href="{{ '/guides/gpt-5-6-update/' | relative_url }}"><span class="catalog-number">07</span><span class="catalog-copy"><strong>GPT-5.6 更新与可用性</strong><p>官方更新事实、模型层级、套餐入口和滚动开放边界。</p></span><span class="intent-label">热点 / GEO</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-subscription-associated-with-another-account/' | relative_url }}"><span class="catalog-number">08</span><span class="catalog-copy"><strong>订阅关联其他 OpenAI 账号</strong><p>核对原购买账号、Apple / Google Play 绑定和重复订阅风险。</p></span><span class="intent-label">高意向 / 搜索</span></a>
 </div>
+
+## English troubleshooting guide
+
+- [ChatGPT Subscription Associated with Another Account: Fix]({{ '/en/guides/chatgpt-subscription-associated-with-another-account/' | relative_url }})
 
 ## 内容原则
 
