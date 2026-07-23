@@ -167,4 +167,3 @@ Only after confirming that no active or pending subscription remains should a ne
 - [Chinese guide]({{ '/guides/chatgpt-subscription-associated-with-another-account/' | relative_url }})
 
 **Fact check:** July 23, 2026. Account, subscription and refund rules can change; verify the current OpenAI, Apple and Google Play documentation.
-
