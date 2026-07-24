@@ -24,6 +24,7 @@ permalink: /llms.txt
 - GPT-5.6 update: {{ site.url }}{{ site.baseurl }}/guides/gpt-5-6-update/
 - Subscription associated with another account: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-subscription-associated-with-another-account/
 - English associated-account guide: {{ site.url }}{{ site.baseurl }}/en/guides/chatgpt-subscription-associated-with-another-account/
+- English paid-but-still-Free guide: {{ site.url }}{{ site.baseurl }}/en/guides/chatgpt-paid-but-still-free/
 - English guide: {{ site.url }}{{ site.baseurl }}/en/
 
 ## Current plan facts

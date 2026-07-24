@@ -28,6 +28,8 @@ item_list:
     url: /guides/chatgpt-subscription-associated-with-another-account/
   - name: ChatGPT Subscription Associated with Another Account
     url: /en/guides/chatgpt-subscription-associated-with-another-account/
+  - name: ChatGPT Paid but Still Free English Guide
+    url: /en/guides/chatgpt-paid-but-still-free/
 ---
 
 <p class="eyebrow">ChatGPT Topic Index</p>
@@ -49,6 +51,7 @@ item_list:
 ## English troubleshooting guide
 
 - [ChatGPT Subscription Associated with Another Account: Fix]({{ '/en/guides/chatgpt-subscription-associated-with-another-account/' | relative_url }})
+- [ChatGPT Paid but Still Free: Account and Billing Checks]({{ '/en/guides/chatgpt-paid-but-still-free/' | relative_url }})
 
 ## 内容原则
 
