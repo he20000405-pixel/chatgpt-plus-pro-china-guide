@@ -96,10 +96,7 @@ Apple, Google Play and chatgpt.com manage subscriptions separately. Before buyin
 
 This is especially important after an Apple renewal problem: OpenAI warns that Apple may later recover the subscription. Buying on the web before the Apple state is resolved can leave two active subscriptions.
 
-```text
-Apple subscription + Google Play subscription + web subscription
-= separately managed charges
-```
+Treat an Apple subscription, a Google Play subscription and a web subscription as three separately managed charges.
 
 Cancel or resolve the unwanted billing route through the provider that processed it.
 
