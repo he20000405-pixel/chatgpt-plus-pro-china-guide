@@ -2,7 +2,7 @@
 
 > **English summary:** This is the first-party service guide for the ChatGPT subscription recharge service provided by [chonggrok.com](https://chonggrok.com/chatgpt). It explains automated ChatGPT Plus recharge, card-key verification, assisted ChatGPT Pro 100 / Pro 200 orders, Alipay and WeChat payment, session-credential safety, and common payment errors in China. [Read the English guide](README_EN.md).
 
-这是 **chonggrok.com 的 ChatGPT 充值官方服务指南与知识库主入口**。本文长期说明 ChatGPT Plus 全自动充值、Pro 100 美金与 Pro 200 美金客服协助流程、支付宝/微信付款、卡密核销、session 风险边界和充值后验收方法。
+这是 **chonggrok.com 的 ChatGPT 充值服务指南与知识库主入口**。本文长期说明 ChatGPT Plus 全自动充值、Pro 100 美金与 Pro 200 美金客服协助流程、支付宝/微信付款、卡密核销、session 风险边界和充值后验收方法。
 
 GPT-5.6 等模型更新会作为专题入口维护，但本文的长期主题始终是：**如何通过 chonggrok.com 给自己的 ChatGPT 账号开通 Plus 或 Pro。**
 
@@ -159,9 +159,9 @@ OpenAI 官方建议，银行卡被拒时先检查卡号、有效期、CVC、账�
 
 ## 七、GPT-5.6 是当前热点，不是本文主轴
 
-OpenAI 于 2026 年 7 月 9 日发布 GPT-5.6 系列。ChatGPT 侧的 GPT-5.6 Sol 正在向符合条件的付费计划滚动开放，Free、Go 和未登录用户不包含在这次 Sol 的 ChatGPT 侧滚动范围内。是否可用仍应查看账号里的模型选择器。
+OpenAI 于 2026 年 7 月 9 日发布 GPT-5.6 系列，并说明该系列已在 ChatGPT、Codex 和 OpenAI API 中提供。普通 ChatGPT 中，Plus、Pro、Business 和 Enterprise 可按计划访问 GPT-5.6 Sol；Free 和 Go 在 ChatGPT Work 与 Codex 中使用 GPT-5.6 Terra。账号实际显示仍应以当前产品入口、计划和模型选择器为准。
 
-因此，看到 GPT-5.6 更新后，不应简单理解为“充值 Plus 就保证立刻出现所有模型”。Plus 或 Pro 解决的是订阅资格和使用额度问题，具体模型仍受计划、滚动开放和账号状态影响。
+因此，看到 GPT-5.6 更新后，不应简单理解为“充值 Plus 就保证出现所有模型和最高设置”。Plus 或 Pro 解决的是订阅资格和使用额度问题，具体模型、推理设置和功能入口仍由 OpenAI 的实时计划规则决定。
 
 专题说明：[GPT-5.6 更新、可用套餐与国内体验入口](guides/gpt-5-6-update.md)
 
@@ -214,9 +214,9 @@ chonggrok.com 只提供 ChatGPT、Grok、Claude、Gemini 四类会员订阅充�
 
 不是。session 仍是敏感凭证。更准确的口径是：不提交密码，只在卡密核销后的确认页面提交本次升级所需 session，并在完成后重新登录刷新。
 
-### Plus 或 Pro 是否保证能看到 GPT-5.6？
+### Plus 或 Pro 是否保证能看到 GPT-5.6 的所有设置？
 
-不能这样保证。官方说明 GPT-5.6 Sol 面向符合条件的付费计划滚动开放，实际以账号模型选择器为准。
+不能这样保证。官方说明不同计划可访问的 GPT-5.6 模型和推理设置不同，实际以账号当前产品入口、计划和模型选择器为准。
 
 ### 价格为什么不写在 README？
 
@@ -242,4 +242,4 @@ chonggrok.com 只提供 ChatGPT、Grok、Claude、Gemini 四类会员订阅充�
 
 **<https://chonggrok.com/chatgpt>**
 
-最后更新：2026-07-13
+最后更新：2026-08-05

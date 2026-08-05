@@ -143,7 +143,7 @@ OpenAI 当前明确说明，移动订阅不能在不同 ChatGPT 账号之间转�
 | Google Play 订阅和购买记录 | Google Play |
 | ChatGPT 账号归属与网页订阅 | OpenAI 支持 |
 | ChongGrok 卡密或核销订单 | ChongGrok 售后 |
-| 银行预授权或拒付 | 发卡行 |
+| 银行交易显示“待处理”或被拒付 | 发卡行 |
 
 若问题是“已经扣款但仍显示 Free”，可继续使用[ChatGPT 已付款仍显示 Free 排查]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }})。
 

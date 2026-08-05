@@ -3,7 +3,7 @@ title: "GPT-5.6 更新、可用套餐与国内体验入口"
 description: "核实 GPT-5.6 Sol、Terra、Luna 发布时间、ChatGPT 付费计划开放范围，以及国内用户开通 Plus 或 Pro 前应检查的事项。"
 permalink: /guides/gpt-5-6-update/
 date_published: "2026-07-10"
-last_modified_at: "2026-07-10"
+last_modified_at: "2026-08-05"
 breadcrumbs:
   - name: 首页
     url: /
@@ -13,16 +13,16 @@ breadcrumbs:
     url: /guides/gpt-5-6-update/
 faq:
   - question: "GPT-5.6 是什么时候发布的？"
-    answer: "OpenAI 于 2026 年 7 月 9 日发布 GPT-5.6 系列，并开始在 ChatGPT 等产品中逐步推出。"
+    answer: "OpenAI 于 2026 年 7 月 9 日发布 GPT-5.6 系列，并说明该系列已在 ChatGPT、Codex 和 OpenAI API 中提供。"
   - question: "ChatGPT Plus 是否一定立即出现 GPT-5.6 Sol？"
-    answer: "不一定。Plus 属于官方列出的可访问计划，但实际显示会受到滚动开放、账号状态和模型选择器变化影响。"
+    answer: "不一定。Plus 可按计划访问 GPT-5.6 Sol，但不同产品入口、计划和推理设置并不相同，仍应查看账号当前界面。"
   - question: "Free 或 Go 用户能否在普通 ChatGPT 中使用 GPT-5.6 Sol？"
-    answer: "OpenAI 的 ChatGPT 模型发布记录写明，本次 Sol 滚动面向符合条件的付费计划，Free、Go 和未登录用户不包含在内。"
+    answer: "普通 ChatGPT 中，Sol 面向 Plus、Pro、Business 和 Enterprise；Free 和 Go 可在 ChatGPT Work 与 Codex 中使用 Terra。"
 ---
 
 # GPT-5.6 更新、可用套餐与国内体验入口
 
-OpenAI 于 **2026 年 7 月 9 日**发布 GPT-5.6 系列。对普通 ChatGPT 用户来说，最重要的不是参数表，而是自己的计划是否属于开放范围、模型选择器是否已经出现相关选项，以及能否顺利完成 Plus 或 Pro 订阅付款。
+OpenAI 于 **2026 年 7 月 9 日**发布 GPT-5.6 系列，并说明该系列已在 ChatGPT、Codex 和 OpenAI API 中提供。对普通 ChatGPT 用户来说，最重要的不是参数表，而是先确认自己使用的是普通 ChatGPT、ChatGPT Work 还是 Codex，再查看当前计划能够选择的模型和推理设置。
 
 国内用户需要解决付款时，可查看 [chonggrok.com ChatGPT 充值页面](https://chonggrok.com/chatgpt)。
 
@@ -44,9 +44,9 @@ OpenAI 发布页说明：
 
 - Plus、Pro、Business 和 Enterprise 用户可通过中等及更高 effort 设置访问 GPT-5.6 Sol；
 - Pro 和 Enterprise 用户还可以选择 GPT-5.6 Sol Pro；
-- GPT-5.6 从发布日起逐步推出，可用性不是所有账号同一时刻完全一致。
+- 不同产品入口和计划提供的模型及推理设置不同，账号实际界面是最终核对入口。
 
-OpenAI Help Center 的模型发布记录进一步说明，GPT-5.6 Sol 正在向符合条件的付费 ChatGPT 计划滚动开放；Free、Go 和未登录用户不包含在这次普通 ChatGPT 的 Sol 滚动范围内，托管工作区还可能受管理员设置影响。
+OpenAI 官方发布页说明，普通 ChatGPT 中的 GPT-5.6 Sol 面向 Plus、Pro、Business 和 Enterprise；ChatGPT Work 与 Codex 中，Free 和 Go 使用 Terra，付费计划可在 Sol、Terra 和 Luna 之间选择。托管工作区还可能受管理员设置影响。
 
 ## 上下文窗口怎么核实？
 
@@ -62,10 +62,10 @@ OpenAI 的 ChatGPT Business 模型限制文档列出：
 
 | 需求 | 更实际的判断 |
 | --- | --- |
-| 只是想看看 GPT-5.6 | 先观察模型选择器与官方滚动范围，不必直接购买高金额方案 |
+| 只是想看看 GPT-5.6 | 先查看当前模型选择器与官方可用范围，不必直接购买高金额方案 |
 | 日常写作、办公、学习、文件分析 | 通常先评估 Plus |
 | 高频代码、研究、复杂推理 | 已经明确需要更高使用强度时再评估 Pro |
-| Plus 已开通但没看到 Sol | 检查是否仍在滚动、账号是否正确、模型选择器是否更新 |
+| Plus 已开通但没看到 Sol | 确认当前产品入口、账号、计划和模型选择器；托管工作区再检查管理员设置 |
 | 没有海外付款方式 | Plus 可走自动充值；Pro 需先联系客服确认 |
 
 进一步阅读：[ChatGPT Plus 与 Pro 怎么选](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-plus-vs-pro/)。
@@ -93,7 +93,7 @@ OpenAI 的 ChatGPT Business 模型限制文档列出：
 - “所有 Free 用户都能用 GPT-5.6 Sol”与当前官方发布记录不符；
 - “chonggrok.com 是 OpenAI 官方合作渠道”不属实；
 - “不要密码等于绝对安全”不成立；
-- “Pro 100 美金是 OpenAI 官方新增月费档位”不能从服务名称推出。
+- 不要只凭第三方服务名称判断官方套餐；当前 100 美元 5x Pro 与 200 美元 20x Pro 应以 OpenAI 实时价格页和账号结账页为准。
 
 模型热点会变化，但充值前的账号检查、付款路径和凭证安全长期有效。因此，本专题负责追踪 GPT-5.6，仓库主 README 仍以长期充值流程为核心。
 
@@ -101,15 +101,15 @@ OpenAI 的 ChatGPT Business 模型限制文档列出：
 
 ### GPT-5.6 是什么时候发布的？
 
-OpenAI 于 2026 年 7 月 9 日发布 GPT-5.6 系列，并开始在 ChatGPT 等产品中逐步推出。
+OpenAI 于 2026 年 7 月 9 日发布 GPT-5.6 系列，并说明该系列已在 ChatGPT、Codex 和 OpenAI API 中提供。
 
 ### ChatGPT Plus 是否一定立即出现 GPT-5.6 Sol？
 
-不一定。Plus 属于官方列出的可访问计划，但实际显示会受到滚动开放、账号状态和模型选择器变化影响。
+不一定。Plus 可按计划访问 GPT-5.6 Sol，但不同产品入口、计划和推理设置并不相同，仍应查看账号当前界面。
 
 ### Free 或 Go 用户能否在普通 ChatGPT 中使用 GPT-5.6 Sol？
 
-OpenAI 的 ChatGPT 模型发布记录写明，本次 Sol 滚动面向符合条件的付费计划，Free、Go 和未登录用户不包含在内。
+普通 ChatGPT 中，Sol 面向 Plus、Pro、Business 和 Enterprise；Free 和 Go 可在 ChatGPT Work 与 Codex 中使用 Terra。
 
 ## 官方来源
 

@@ -3,7 +3,7 @@ title: "ChatGPT Pro 5x / 20x 怎么选：100 与 200 美元套餐"
 description: "说明 OpenAI 当前 ChatGPT Pro 100 美元 5x 与 Pro 200 美元 20x 两档的官方边界，以及 chonggrok.com 的客服协助付款、账号确认和验收流程。"
 permalink: /guides/chatgpt-pro-100-200/
 date_published: "2026-07-10"
-last_modified_at: "2026-07-13"
+last_modified_at: "2026-08-05"
 breadcrumbs:
   - name: 首页
     url: /
@@ -27,6 +27,8 @@ faq:
 OpenAI 当前正式提供两档个人 ChatGPT Pro：**100 美元的 5x Pro** 和 **200 美元的 20x Pro**。两档包含相同的核心 Pro 能力，主要区别是相对 Plus 的使用额度。
 
 chonggrok.com 的 ChatGPT 页面对应展示 `Pro 100 美金` 和 `Pro 200 美金`。这两个方案都属于客服协助订单，不走 Plus 的自动卡密核销流程。
+
+直接判断方法：如果 Plus 尚未成为持续的用量瓶颈，先不要购买 Pro；如果 Plus 经常不够，先评估 5x Pro；只有 5x Pro 的用量也长期不足时，才评估 20x Pro。
 
 <a class="primary-link" href="https://chonggrok.com/chatgpt">查看 Pro 实时方案与客服入口</a>
 
@@ -109,6 +111,8 @@ alt：chonggrok.com ChatGPT Pro 5x 和 20x 方案
 
 ## Pro 100 与 Pro 200 怎么选
 
+先查看最近一段时间实际受限的任务，而不是只比较套餐名称。把任务、受限频率和可接受预算写下来，再按下面两组条件判断。
+
 ### 更适合先评估 5x Pro
 
 - Plus 已经持续影响工作，但尚未证明需要最高档用量；
@@ -122,6 +126,15 @@ alt：chonggrok.com ChatGPT Pro 5x 和 20x 方案
 - 长期运行复杂研究、编程或多步骤任务；
 - 5x 档的实际用量仍持续成为瓶颈；
 - 使用收益能够覆盖更高的订阅成本。
+
+### 暂时不适合 Pro
+
+- 还没有使用 Plus，无法判断真实用量；
+- 只是偶尔进行聊天、翻译或短文件分析；
+- 当前账号已有待处理付款或其他平台订阅；
+- 购买目的只是追逐某个模型名称，而不是解决持续的工作瓶颈。
+
+满足以上任一项时，先停止下单并完成账号、订阅和需求核对。
 
 如果只是偶尔使用、尚未触及 Plus 限制，或只想体验热点模型，通常没有必要直接选择 Pro。可先阅读 [Plus 与 Pro 怎么选](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-plus-vs-pro/)。
 

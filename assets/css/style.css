@@ -131,6 +131,8 @@ code { padding: 2px 5px; border-radius: 4px; background: #edf2ef; font-size: .92
 .catalog-number { color: var(--brand-dark); font-size: 13px; font-weight: 800; }
 .catalog-copy strong { display: block; margin-bottom: 3px; }
 .catalog-copy p { margin: 0; color: var(--muted); font-size: .92rem; }
+.catalog-copy p + .catalog-meta { display: block; margin-top: 5px; }
+.catalog-meta { color: var(--muted); font-size: .78rem; }
 .catalog-item .intent-label { margin: 0; white-space: nowrap; }
 .service-panel { margin-top: 48px; padding: 24px; border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--surface-brand); }
 .service-panel h2 { margin: 0 0 9px; padding: 0; border: 0; }

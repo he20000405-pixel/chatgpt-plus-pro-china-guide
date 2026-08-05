@@ -3,7 +3,7 @@ title: "ChatGPT Plus and Pro Recharge Guide"
 description: "A practical English guide to ChongGrok's ChatGPT Plus automated recharge, Pro assisted payment, Alipay and WeChat checkout, session safety, and payment errors in China."
 lang: en
 permalink: /en/
-last_modified_at: 2026-07-13
+last_modified_at: 2026-08-05
 breadcrumbs:
   - name: Home
     url: /
@@ -28,6 +28,15 @@ ChongGrok currently lists three ChatGPT service options: **ChatGPT Plus**, **Cha
 
 <a class="primary-link" href="https://chonggrok.com/chatgpt">View the live ChatGPT recharge options</a>
 
+## Choose the right route first
+
+| Your current situation | Start here | Stop condition |
+| --- | --- | --- |
+| No payment has been completed and no subscription is pending | Compare Plus, 5x Pro, and 20x Pro below | Do not pay until the target account and plan are confirmed |
+| A card payment was declined | Check card details, billing address, 3DS, and the issuing bank | Stop repeated attempts when the bank has not explained the decline |
+| A payment or store receipt already exists but the account shows Free | Use the paid-but-still-Free guide | Do not purchase again while a charge or subscription is pending |
+| A renewal failed and the plan expired | Return to the original billing channel | Do not create a second subscription on another platform first |
+
 ## Service overview
 
 | Option shown on ChongGrok | Delivery method | Payment | Important note |
@@ -47,7 +56,7 @@ ChongGrok currently lists three ChatGPT service options: **ChatGPT Plus**, **Cha
 7. Verify that the detected account is your own account, then confirm the recharge.
 8. After the membership appears, check the plan on ChatGPT, sign out, and sign back in to refresh the previous session.
 
-The public repository intentionally does not provide detailed session-extraction instructions. Necessary guidance belongs inside the controlled flow after card-key verification. A session is sensitive even though it is not a password, and no online process is risk-free.
+For safety, follow the instructions displayed after card-key verification rather than third-party session-extraction tutorials. A session is sensitive even though it is not a password, and no online process is risk-free.
 
 ## ChatGPT Pro 100 USD and Pro 200 USD flow
 
@@ -69,7 +78,7 @@ If you have a supported international card, direct official payment remains an o
 
 ## GPT-5.6 note
 
-OpenAI released the GPT-5.6 model family on July 9, 2026. GPT-5.6 Sol is rolling out to eligible paid ChatGPT plans; Free, Go, and logged-out users are not included in that ChatGPT Sol rollout. Availability can vary, so a paid subscription should not be described as a guarantee that every model appears immediately. Check the model picker on the account.
+OpenAI released the GPT-5.6 model family on July 9, 2026 and states that it is available across ChatGPT, Codex, and the OpenAI API. In regular ChatGPT, Plus, Pro, Business, and Enterprise plans can access GPT-5.6 Sol according to their plan; Free and Go can use GPT-5.6 Terra in ChatGPT Work and Codex. A paid subscription still does not guarantee every model or reasoning setting, so check the current product surface, plan, and model picker.
 
 ## Scope and safety boundaries
 
@@ -113,4 +122,4 @@ For current options, prices, and service rules, visit:
 
 **<https://chonggrok.com/chatgpt>**
 
-Last updated: July 13, 2026.
+Last updated: August 5, 2026.

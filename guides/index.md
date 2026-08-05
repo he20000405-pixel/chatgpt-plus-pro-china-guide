@@ -3,7 +3,7 @@ title: "ChatGPT 充值与付款排障专题"
 description: "ChatGPT Plus 自动充值、5x/20x Pro、套餐对比、付款失败、续费失败、已付款仍显示 Free 和 GPT-5.6 专题目录。"
 permalink: /guides/
 schema_type: CollectionPage
-last_modified_at: 2026-07-20
+last_modified_at: 2026-08-05
 breadcrumbs:
   - name: 首页
     url: /
@@ -37,15 +37,17 @@ item_list:
 
 <p class="lead">围绕国内用户给自己的 ChatGPT 账号开通 Plus 或 Pro、处理付款和订阅异常持续更新。每篇只解决一个明确问题，并优先引用 OpenAI 官方资料。</p>
 
+> **不知道先读哪篇？** 尚未付款先看套餐或开通流程；付款时报错看“付款被拒”；已经扣款看“仍显示 Free”；原会员到期后降级看“续费失败”；出现账号关联提示看“订阅关联其他账号”。
+
 <div class="catalog-list">
-  <a class="catalog-item" href="{{ '/guides/chatgpt-plus-auto-recharge/' | relative_url }}"><span class="catalog-number">01</span><span class="catalog-copy"><strong>ChatGPT Plus 全自动充值与卡密核销</strong><p>下单、取得卡密、提交 session、账号确认和到账验收。</p></span><span class="intent-label">流程 / 转化</span></a>
-  <a class="catalog-item" href="{{ '/guides/chatgpt-pro-100-200/' | relative_url }}"><span class="catalog-number">02</span><span class="catalog-copy"><strong>5x Pro 与 20x Pro 客服协助说明</strong><p>两档用量、账号检查、付款方式和验收边界。</p></span><span class="intent-label">套餐 / 转化</span></a>
-  <a class="catalog-item" href="{{ '/guides/chatgpt-plus-vs-pro/' | relative_url }}"><span class="catalog-number">03</span><span class="catalog-copy"><strong>ChatGPT Plus 与 Pro 怎么选</strong><p>按工作流、使用频率和预算判断，不按身份标签硬选。</p></span><span class="intent-label">决策 / GEO</span></a>
-  <a class="catalog-item" href="{{ '/guides/chatgpt-payment-errors/' | relative_url }}"><span class="catalog-number">04</span><span class="catalog-copy"><strong>付款被拒与支付认证失败排查</strong><p>card declined、3DS、账单地址和发卡行问题。</p></span><span class="intent-label">报错 / 搜索</span></a>
-  <a class="catalog-item" href="{{ '/guides/chatgpt-paid-but-still-free/' | relative_url }}"><span class="catalog-number">05</span><span class="catalog-copy"><strong>已付款但仍显示 Free</strong><p>网页、App Store、Google Play、原购买账号和卡密状态。</p></span><span class="intent-label">高意向 / GEO</span></a>
-  <a class="catalog-item" href="{{ '/guides/chatgpt-renewal-failed-back-to-free/' | relative_url }}"><span class="catalog-number">06</span><span class="catalog-copy"><strong>续费失败后变回 Free</strong><p>区分订阅到期、续费失败、待处理交易和登录错账号。</p></span><span class="intent-label">续费 / 搜索</span></a>
-  <a class="catalog-item" href="{{ '/guides/gpt-5-6-update/' | relative_url }}"><span class="catalog-number">07</span><span class="catalog-copy"><strong>GPT-5.6 更新与可用性</strong><p>官方更新事实、模型层级、套餐入口和滚动开放边界。</p></span><span class="intent-label">热点 / GEO</span></a>
-  <a class="catalog-item" href="{{ '/guides/chatgpt-subscription-associated-with-another-account/' | relative_url }}"><span class="catalog-number">08</span><span class="catalog-copy"><strong>订阅关联其他 OpenAI 账号</strong><p>核对原购买账号、Apple / Google Play 绑定和重复订阅风险。</p></span><span class="intent-label">高意向 / 搜索</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-plus-auto-recharge/' | relative_url }}"><span class="catalog-number">01</span><span class="catalog-copy"><strong>ChatGPT Plus 全自动充值与卡密核销</strong><p>下单、取得卡密、提交 session、账号确认和到账验收。</p><span class="catalog-meta">约 7 分钟 · 完成目标：走完自助升级并回官方页面验收</span></span><span class="intent-label">流程 / 转化</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-pro-100-200/' | relative_url }}"><span class="catalog-number">02</span><span class="catalog-copy"><strong>5x Pro 与 20x Pro 客服协助说明</strong><p>两档用量、账号检查、付款方式和验收边界。</p><span class="catalog-meta">约 6 分钟 · 完成目标：按使用强度选择 Pro 档位</span></span><span class="intent-label">套餐 / 转化</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-plus-vs-pro/' | relative_url }}"><span class="catalog-number">03</span><span class="catalog-copy"><strong>ChatGPT Plus 与 Pro 怎么选</strong><p>按工作流、使用频率和预算判断，不按身份标签硬选。</p><span class="catalog-meta">约 6 分钟 · 完成目标：判断 Plus 是否已经足够</span></span><span class="intent-label">决策 / GEO</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-payment-errors/' | relative_url }}"><span class="catalog-number">04</span><span class="catalog-copy"><strong>付款被拒与支付认证失败排查</strong><p>card declined、3DS、账单地址和发卡行问题。</p><span class="catalog-meta">约 8 分钟 · 完成目标：找到拒付责任方并停止无效重试</span></span><span class="intent-label">报错 / 搜索</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-paid-but-still-free/' | relative_url }}"><span class="catalog-number">05</span><span class="catalog-copy"><strong>已付款但仍显示 Free</strong><p>网页、App Store、Google Play、原购买账号和卡密状态。</p><span class="catalog-meta">约 9 分钟 · 完成目标：确认订阅应附着到哪个账号</span></span><span class="intent-label">高意向 / GEO</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-renewal-failed-back-to-free/' | relative_url }}"><span class="catalog-number">06</span><span class="catalog-copy"><strong>续费失败后变回 Free</strong><p>区分订阅到期、续费失败、待处理交易和登录错账号。</p><span class="catalog-meta">约 8 分钟 · 完成目标：回原计费渠道恢复或结束订阅</span></span><span class="intent-label">续费 / 搜索</span></a>
+  <a class="catalog-item" href="{{ '/guides/gpt-5-6-update/' | relative_url }}"><span class="catalog-number">07</span><span class="catalog-copy"><strong>GPT-5.6 更新与可用性</strong><p>官方更新事实、模型层级、套餐入口和当前可用性边界。</p><span class="catalog-meta">约 6 分钟 · 完成目标：确认自己的套餐能否选择目标模型</span></span><span class="intent-label">热点 / GEO</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-subscription-associated-with-another-account/' | relative_url }}"><span class="catalog-number">08</span><span class="catalog-copy"><strong>订阅关联其他 OpenAI 账号</strong><p>核对原购买账号、Apple / Google Play 绑定和重复订阅风险。</p><span class="catalog-meta">约 9 分钟 · 完成目标：找回原购买账号而不是再次订阅</span></span><span class="intent-label">高意向 / 搜索</span></a>
 </div>
 
 ## English troubleshooting guide

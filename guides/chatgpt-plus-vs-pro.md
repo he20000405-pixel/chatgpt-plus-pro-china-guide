@@ -3,7 +3,7 @@ title: "ChatGPT Plus 与 Pro 怎么选：国内用户订阅对比"
 description: "从 Free、Go 的前置边界出发，对比 ChatGPT Plus、5x Pro 和 20x Pro 的官方价格、使用频率、任务复杂度与国内付款路径。"
 permalink: /guides/chatgpt-plus-vs-pro/
 date_published: "2026-07-10"
-last_modified_at: "2026-07-13"
+last_modified_at: "2026-08-05"
 breadcrumbs:
   - name: 首页
     url: /
@@ -26,6 +26,8 @@ faq:
 
 先说结论：偶尔使用先看 Free，想增加基础使用空间但不需要高级推理可先了解 Go；多数稳定用于学习、写作、办公和开发的个人用户应从 Plus 判断；只有已经明确遇到 Plus 使用限制的人，才值得评估 5x Pro 或 20x Pro。
 
+如果当前账号已有有效订阅、付款待处理或成功扣款，请先处理原订单，不要为了更换档位立即再次购买。
+
 如果国内付款不方便，可以在 [chonggrok.com ChatGPT 页面](https://chonggrok.com/chatgpt)查看 Plus 全自动充值和 Pro 客服协助方案。
 
 ## 先排除 Free 与 Go 已经够用的情况
@@ -41,7 +43,7 @@ OpenAI 当前个人方案包含 Free、Go、Plus 和 Pro。chonggrok.com 本页�
 
 ## 官方 Plus 与 Pro 价格口径
 
-截至 2026 年 7 月 13 日：
+截至 2026 年 8 月 5 日：
 
 - ChatGPT Plus 为 20 美元/月；
 - 5x Pro 为 100 美元/月；
@@ -97,7 +99,7 @@ OpenAI 当前个人方案包含 Free、Go、Plus 和 Pro。chonggrok.com 本页�
 
 ## GPT-5.6 会改变选择吗？
 
-OpenAI 在 2026 年 7 月 9 日开始推出 GPT-5.6。官方说明 ChatGPT Plus、Pro、Business 和 Enterprise 用户可访问 GPT-5.6 Sol 的相应设置，Pro 和 Enterprise 还可选择更高等级的 Sol Pro；但可用性会随滚动开放与账号状态变化。
+OpenAI 在 2026 年 7 月 9 日发布 GPT-5.6，并说明该系列已在 ChatGPT、Codex 和 OpenAI API 中提供。普通 ChatGPT 中，Plus、Pro、Business 和 Enterprise 可按计划访问 GPT-5.6 Sol，Pro 和 Enterprise 还可选择 Sol Pro；不同产品入口和计划提供的模型与推理设置并不相同。
 
 所以判断逻辑仍然不变：
 
@@ -133,6 +135,16 @@ OpenAI 在 2026 年 7 月 9 日开始推出 GPT-5.6。官方说明 ChatGPT Plus�
 | 5x Pro 仍持续不够 | 评估 20x Pro |
 | 只为 GPT-5.6 热点 | 先看模型开放，不冲动购买 Pro |
 | 没有海外付款方式 | 根据方案选择 Plus 自动充值或 Pro 客服协助 |
+
+## 什么情况下暂时不要升级
+
+- 还没有确认自己登录的是哪个 ChatGPT 账号；
+- Apple、Google Play 或网页端已有待处理交易；
+- 当前套餐的额度并没有影响实际工作；
+- 只是为了某个模型名称，但账号当前产品入口并不提供该模型；
+- 无法说明 Pro 带来的额外使用量如何覆盖更高费用。
+
+先解决账号、订单和真实用量问题，再选择套餐，通常比直接购买更高档位更稳妥。
 
 ## 常见问题
 

@@ -38,7 +38,7 @@ OpenAI explains that a mobile subscription is tied to both the app-store account
 | Apple or Google Play shows active, ChatGPT shows Free | Store billing and current ChatGPT identity do not match | Verify the original sign-in method |
 | The message remains after reinstalling | Local app state changed, account binding did not | Stop reinstalling and resolve account ownership |
 | Web, Apple and Google subscriptions overlap | Duplicate subscriptions may exist | Check and cancel through each original channel |
-| A charge exists but the original account is unknown | Billing evidence exists without confirmed entitlement access | Save the receipt and contact the responsible provider |
+| A charge exists but the original account is unknown | Billing evidence exists, but no one has confirmed which ChatGPT account should show the paid plan | Save the receipt and contact the responsible provider |
 
 ## Why the subscription belongs to another account
 

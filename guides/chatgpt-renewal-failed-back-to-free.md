@@ -199,7 +199,7 @@ Plus 核销流程不需要 ChatGPT 密码，但会按核销页提示使用本次
 
 已有卡密或尚在处理的订单应先进入 [chonggrok.com/verify](https://chonggrok.com/verify)核对卡密、目标账号和处理状态；只有确认没有有效订阅、待处理订单或重复订阅后，才考虑重新进入 ChatGPT 方案页。
 
-跨平台续费状态难以判断时，可按[AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)依次核对预授权、最终扣款、有效订阅和账号权益。
+跨平台续费状态难以判断时，可按[AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)依次核对银行是否仍在处理、平台是否已经收款、订阅是否有效，以及当前账号是否显示会员。
 
 ## OpenAI 官方来源
 
