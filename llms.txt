@@ -25,6 +25,7 @@ permalink: /llms.txt
 - Subscription associated with another account: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-subscription-associated-with-another-account/
 - English associated-account guide: {{ site.url }}{{ site.baseurl }}/en/guides/chatgpt-subscription-associated-with-another-account/
 - English paid-but-still-Free guide: {{ site.url }}{{ site.baseurl }}/en/guides/chatgpt-paid-but-still-free/
+- Codex App, CLI and IDE with ChatGPT Plus / Pro: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-codex-app-cli-ide/
 - English guide: {{ site.url }}{{ site.baseurl }}/en/
 
 ## Current plan facts

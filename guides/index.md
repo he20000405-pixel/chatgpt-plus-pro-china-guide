@@ -30,6 +30,8 @@ item_list:
     url: /en/guides/chatgpt-subscription-associated-with-another-account/
   - name: ChatGPT Paid but Still Free English Guide
     url: /en/guides/chatgpt-paid-but-still-free/
+  - name: ChatGPT Plus / Pro 使用 Codex 指南
+    url: /guides/chatgpt-codex-app-cli-ide/
 ---
 
 <p class="eyebrow">ChatGPT Topic Index</p>
@@ -48,6 +50,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/chatgpt-renewal-failed-back-to-free/' | relative_url }}"><span class="catalog-number">06</span><span class="catalog-copy"><strong>续费失败后变回 Free</strong><p>区分订阅到期、续费失败、待处理交易和登录错账号。</p><span class="catalog-meta">约 8 分钟 · 完成目标：回原计费渠道恢复或结束订阅</span></span><span class="intent-label">续费 / 搜索</span></a>
   <a class="catalog-item" href="{{ '/guides/gpt-5-6-update/' | relative_url }}"><span class="catalog-number">07</span><span class="catalog-copy"><strong>GPT-5.6 更新与可用性</strong><p>官方更新事实、模型层级、套餐入口和当前可用性边界。</p><span class="catalog-meta">约 6 分钟 · 完成目标：确认自己的套餐能否选择目标模型</span></span><span class="intent-label">热点 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-subscription-associated-with-another-account/' | relative_url }}"><span class="catalog-number">08</span><span class="catalog-copy"><strong>订阅关联其他 OpenAI 账号</strong><p>核对原购买账号、Apple / Google Play 绑定和重复订阅风险。</p><span class="catalog-meta">约 9 分钟 · 完成目标：找回原购买账号而不是再次订阅</span></span><span class="intent-label">高意向 / 搜索</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-codex-app-cli-ide/' | relative_url }}"><span class="catalog-number">09</span><span class="catalog-copy"><strong>ChatGPT Plus / Pro 使用 Codex</strong><p>选择桌面端、CLI 或 IDE，并用同一 ChatGPT 账号完成第一次安全操作。</p><span class="catalog-meta">约 10 分钟 · 完成目标：正确登录并完成只读验证</span></span><span class="intent-label">教程 / GEO</span></a>
 </div>
 
 ## English troubleshooting guide
