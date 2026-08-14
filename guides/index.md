@@ -3,7 +3,7 @@ title: "ChatGPT 充值与付款排障专题"
 description: "ChatGPT Plus 自动充值、5x/20x Pro、登录验证、付款失败、续费失败、已付款仍显示 Free 和 GPT-5.6 专题目录。"
 permalink: /guides/
 schema_type: CollectionPage
-last_modified_at: 2026-08-05
+last_modified_at: 2026-08-14
 breadcrumbs:
   - name: 首页
     url: /
@@ -36,6 +36,8 @@ item_list:
     url: /guides/chatgpt-login-verification-loop/
   - name: ChatGPT 重复扣款排查
     url: /guides/chatgpt-charged-twice/
+  - name: ChatGPT 取消订阅与退款
+    url: /guides/chatgpt-cancel-subscription-refund/
 ---
 
 <p class="eyebrow">ChatGPT Topic Index</p>
@@ -57,6 +59,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/chatgpt-codex-app-cli-ide/' | relative_url }}"><span class="catalog-number">09</span><span class="catalog-copy"><strong>ChatGPT Plus / Pro 使用 Codex</strong><p>选择桌面端、CLI 或 IDE，并用同一 ChatGPT 账号完成第一次安全操作。</p><span class="catalog-meta">约 10 分钟 · 完成目标：正确登录并完成只读验证</span></span><span class="intent-label">教程 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-login-verification-loop/' | relative_url }}"><span class="catalog-number">10</span><span class="catalog-copy"><strong>登录失败、验证码与浏览器验证循环</strong><p>按原登录方式、验证码、Checking your browser 和可疑登录提示逐步排查。</p><span class="catalog-meta">约 12 分钟 · 完成目标：确定故障环节并找到正确责任方</span></span><span class="intent-label">登录 / 搜索</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-charged-twice/' | relative_url }}"><span class="catalog-number">11</span><span class="catalog-copy"><strong>网页、Apple 与 Google Play 重复扣款排查</strong><p>核对三处订阅、取消不保留的续费，并向实际收款平台申请退款。</p><span class="catalog-meta">约 12 分钟 · 完成目标：只保留一份订阅并找到正确退款入口</span></span><span class="intent-label">账单 / 高意向</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-cancel-subscription-refund/' | relative_url }}"><span class="catalog-number">12</span><span class="catalog-copy"><strong>取消订阅与申请退款</strong><p>按网页、Apple 或 Google Play 原购买渠道停止续费，并找到对应退款入口。</p><span class="catalog-meta">约 10 分钟 · 完成目标：停止未来续费并把退款申请交给正确平台</span></span><span class="intent-label">订阅管理 / 搜索</span></a>
 </div>
 
 ## English troubleshooting guide

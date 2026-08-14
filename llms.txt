@@ -28,6 +28,7 @@ permalink: /llms.txt
 - Codex App, CLI and IDE with ChatGPT Plus / Pro: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-codex-app-cli-ide/
 - Login failures, OTP issues and browser verification loops: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-login-verification-loop/
 - Duplicate charges across web, Apple and Google Play: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-charged-twice/
+- Cancellation and refund by billing channel: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-cancel-subscription-refund/
 - English guide: {{ site.url }}{{ site.baseurl }}/en/
 
 ## Current plan facts
