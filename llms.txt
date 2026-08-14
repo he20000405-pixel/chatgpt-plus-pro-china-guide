@@ -30,6 +30,7 @@ permalink: /llms.txt
 - Duplicate charges across web, Apple and Google Play: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-charged-twice/
 - Cancellation and refund by billing channel: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-cancel-subscription-refund/
 - Usage limit, model unavailable and reset troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-usage-limit-model-unavailable/
+- Multiple devices, account sharing and subscription ownership: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-plus-multiple-devices-account-sharing/
 - English guide: {{ site.url }}{{ site.baseurl }}/en/
 
 ## Current plan facts
