@@ -34,6 +34,8 @@ item_list:
     url: /guides/chatgpt-codex-app-cli-ide/
   - name: ChatGPT 登录失败与验证循环排查
     url: /guides/chatgpt-login-verification-loop/
+  - name: ChatGPT 重复扣款排查
+    url: /guides/chatgpt-charged-twice/
 ---
 
 <p class="eyebrow">ChatGPT Topic Index</p>
@@ -54,6 +56,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/chatgpt-subscription-associated-with-another-account/' | relative_url }}"><span class="catalog-number">08</span><span class="catalog-copy"><strong>订阅关联其他 OpenAI 账号</strong><p>核对原购买账号、Apple / Google Play 绑定和重复订阅风险。</p><span class="catalog-meta">约 9 分钟 · 完成目标：找回原购买账号而不是再次订阅</span></span><span class="intent-label">高意向 / 搜索</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-codex-app-cli-ide/' | relative_url }}"><span class="catalog-number">09</span><span class="catalog-copy"><strong>ChatGPT Plus / Pro 使用 Codex</strong><p>选择桌面端、CLI 或 IDE，并用同一 ChatGPT 账号完成第一次安全操作。</p><span class="catalog-meta">约 10 分钟 · 完成目标：正确登录并完成只读验证</span></span><span class="intent-label">教程 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-login-verification-loop/' | relative_url }}"><span class="catalog-number">10</span><span class="catalog-copy"><strong>登录失败、验证码与浏览器验证循环</strong><p>按原登录方式、验证码、Checking your browser 和可疑登录提示逐步排查。</p><span class="catalog-meta">约 12 分钟 · 完成目标：确定故障环节并找到正确责任方</span></span><span class="intent-label">登录 / 搜索</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-charged-twice/' | relative_url }}"><span class="catalog-number">11</span><span class="catalog-copy"><strong>网页、Apple 与 Google Play 重复扣款排查</strong><p>核对三处订阅、取消不保留的续费，并向实际收款平台申请退款。</p><span class="catalog-meta">约 12 分钟 · 完成目标：只保留一份订阅并找到正确退款入口</span></span><span class="intent-label">账单 / 高意向</span></a>
 </div>
 
 ## English troubleshooting guide
