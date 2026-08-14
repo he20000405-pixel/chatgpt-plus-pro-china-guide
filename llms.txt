@@ -29,6 +29,7 @@ permalink: /llms.txt
 - Login failures, OTP issues and browser verification loops: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-login-verification-loop/
 - Duplicate charges across web, Apple and Google Play: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-charged-twice/
 - Cancellation and refund by billing channel: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-cancel-subscription-refund/
+- Usage limit, model unavailable and reset troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-usage-limit-model-unavailable/
 - English guide: {{ site.url }}{{ site.baseurl }}/en/
 
 ## Current plan facts
