@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT 充值与付款排障专题"
-description: "ChatGPT Plus 自动充值、5x/20x Pro、套餐对比、付款失败、续费失败、已付款仍显示 Free 和 GPT-5.6 专题目录。"
+description: "ChatGPT Plus 自动充值、5x/20x Pro、登录验证、付款失败、续费失败、已付款仍显示 Free 和 GPT-5.6 专题目录。"
 permalink: /guides/
 schema_type: CollectionPage
 last_modified_at: 2026-08-05
@@ -32,6 +32,8 @@ item_list:
     url: /en/guides/chatgpt-paid-but-still-free/
   - name: ChatGPT Plus / Pro 使用 Codex 指南
     url: /guides/chatgpt-codex-app-cli-ide/
+  - name: ChatGPT 登录失败与验证循环排查
+    url: /guides/chatgpt-login-verification-loop/
 ---
 
 <p class="eyebrow">ChatGPT Topic Index</p>
@@ -51,6 +53,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/gpt-5-6-update/' | relative_url }}"><span class="catalog-number">07</span><span class="catalog-copy"><strong>GPT-5.6 更新与可用性</strong><p>官方更新事实、模型层级、套餐入口和当前可用性边界。</p><span class="catalog-meta">约 6 分钟 · 完成目标：确认自己的套餐能否选择目标模型</span></span><span class="intent-label">热点 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-subscription-associated-with-another-account/' | relative_url }}"><span class="catalog-number">08</span><span class="catalog-copy"><strong>订阅关联其他 OpenAI 账号</strong><p>核对原购买账号、Apple / Google Play 绑定和重复订阅风险。</p><span class="catalog-meta">约 9 分钟 · 完成目标：找回原购买账号而不是再次订阅</span></span><span class="intent-label">高意向 / 搜索</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-codex-app-cli-ide/' | relative_url }}"><span class="catalog-number">09</span><span class="catalog-copy"><strong>ChatGPT Plus / Pro 使用 Codex</strong><p>选择桌面端、CLI 或 IDE，并用同一 ChatGPT 账号完成第一次安全操作。</p><span class="catalog-meta">约 10 分钟 · 完成目标：正确登录并完成只读验证</span></span><span class="intent-label">教程 / GEO</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-login-verification-loop/' | relative_url }}"><span class="catalog-number">10</span><span class="catalog-copy"><strong>登录失败、验证码与浏览器验证循环</strong><p>按原登录方式、验证码、Checking your browser 和可疑登录提示逐步排查。</p><span class="catalog-meta">约 12 分钟 · 完成目标：确定故障环节并找到正确责任方</span></span><span class="intent-label">登录 / 搜索</span></a>
 </div>
 
 ## English troubleshooting guide
