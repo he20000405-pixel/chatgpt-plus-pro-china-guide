@@ -40,6 +40,8 @@ item_list:
     url: /guides/chatgpt-cancel-subscription-refund/
   - name: ChatGPT 使用上限与模型暂时不可用
     url: /guides/chatgpt-usage-limit-model-unavailable/
+  - name: Codex 使用上限与重置排查
+    url: /guides/codex-usage-limit-reached/
 ---
 
 <p class="eyebrow">ChatGPT Topic Index</p>
@@ -64,6 +66,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/chatgpt-cancel-subscription-refund/' | relative_url }}"><span class="catalog-number">12</span><span class="catalog-copy"><strong>取消订阅与申请退款</strong><p>按网页、Apple 或 Google Play 原购买渠道停止续费，并找到对应退款入口。</p><span class="catalog-meta">约 10 分钟 · 完成目标：停止未来续费并把退款申请交给正确平台</span></span><span class="intent-label">订阅管理 / 搜索</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-usage-limit-model-unavailable/' | relative_url }}"><span class="catalog-number">13</span><span class="catalog-copy"><strong>达到使用上限、模型暂时不可用</strong><p>区分模型额度、回答回退、账号变成 Free、续费失败和临时使用限制。</p><span class="catalog-meta">约 12 分钟 · 完成目标：找到重置时间并确定正确处理路径</span></span><span class="intent-label">额度 / 高意向</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-plus-multiple-devices-account-sharing/' | relative_url }}"><span class="catalog-number">14</span><span class="catalog-copy"><strong>多设备登录与账号共享边界</strong><p>区分本人多设备使用、多人共享、移动订阅绑定和跨账号转移。</p><span class="catalog-meta">约 9 分钟 · 完成目标：在新设备登录正确账号并避免共享风险</span></span><span class="intent-label">账号 / 决策</span></a>
+  <a class="catalog-item" href="{{ '/guides/codex-usage-limit-reached/' | relative_url }}"><span class="catalog-number">15</span><span class="catalog-copy"><strong>Codex 使用上限与重置排查</strong><p>核对 ChatGPT 套餐、共享用量、Usage Dashboard、CLI /status 和恢复时间。</p><span class="catalog-meta">约 11 分钟 · 完成目标：分清用量耗尽、账号错误和订阅异常</span></span><span class="intent-label">Codex / 高意向</span></a>
 </div>
 
 ## English troubleshooting guide
