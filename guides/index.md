@@ -56,6 +56,8 @@ item_list:
     url: /guides/chatgpt-cloud-browser/
   - name: ChatGPT Images 2.0 使用指南
     url: /guides/chatgpt-images-2-guide/
+  - name: ChatGPT Projects 使用指南
+    url: /guides/chatgpt-projects-guide/
 ---
 
 <p class="eyebrow">ChatGPT Topic Index</p>
@@ -87,6 +89,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/chatgpt-apps-connectors/' | relative_url }}"><span class="catalog-number">19</span><span class="catalog-copy"><strong>ChatGPT Apps 连接、权限与排障</strong><p>从 Plugins Directory 连接 Gmail、Google Drive、Outlook 或 GitHub，并先完成只读验证。</p><span class="catalog-meta">约 15 分钟 · 完成目标：连接正确账号并安全完成第一次 App 调用</span></span><span class="intent-label">Apps / 教程</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-cloud-browser/' | relative_url }}"><span class="catalog-number">20</span><span class="catalog-copy"><strong>ChatGPT 云端浏览器使用与排障</strong><p>从 Work 启动公开网页任务，分清云端、内置浏览器与 Chrome，并处理登录、拦截和权限异常。</p><span class="catalog-meta">约 14 分钟 · 完成目标：安全完成一次可核验的公开网页任务</span></span><span class="intent-label">浏览器 / 教程</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-images-2-guide/' | relative_url }}"><span class="catalog-number">21</span><span class="catalog-copy"><strong>ChatGPT Images 2.0 生成与编辑</strong><p>从提示结构、文字和透明背景，到局部编辑、比例调整、保存与使用上限排查。</p><span class="catalog-meta">约 14 分钟 · 完成目标：生成并验收一张可继续发布的图片</span></span><span class="intent-label">图片 / 教程</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-projects-guide/' | relative_url }}"><span class="catalog-number">22</span><span class="catalog-copy"><strong>ChatGPT Projects 文件、记忆与共享</strong><p>创建项目、设置项目指令和记忆、上传资料、移动聊天并分配共享权限。</p><span class="catalog-meta">约 16 分钟 · 完成目标：搭建并验收一个可以持续使用的 Project</span></span><span class="intent-label">Projects / 教程</span></a>
 </div>
 
 ## English troubleshooting guide
