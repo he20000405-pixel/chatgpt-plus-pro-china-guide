@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT 充值与付款排障专题"
-description: "ChatGPT Plus / Pro 开通、付款、账号、退款、使用上限、Codex、Work 与 Deep Research 专题目录。"
+description: "ChatGPT Plus / Pro 开通、付款、账号、退款、使用上限、Codex、Work、Deep Research 与记忆设置专题目录。"
 permalink: /guides/
 schema_type: CollectionPage
 last_modified_at: 2026-08-15
@@ -36,6 +36,8 @@ item_list:
     url: /guides/chatgpt-work-guide/
   - name: ChatGPT Deep Research 使用指南
     url: /guides/chatgpt-deep-research-guide/
+  - name: ChatGPT 记忆、临时聊天与隐私设置
+    url: /guides/chatgpt-memory-temporary-chat/
   - name: ChatGPT 登录失败与验证循环排查
     url: /guides/chatgpt-login-verification-loop/
   - name: ChatGPT 重复扣款排查
@@ -75,6 +77,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/chatgpt-usage-limit-model-unavailable/' | relative_url }}"><span class="catalog-number">15</span><span class="catalog-copy"><strong>达到使用上限、模型暂时不可用</strong><p>区分模型额度、回答回退、账号变成 Free、续费失败和临时使用限制。</p><span class="catalog-meta">约 12 分钟 · 完成目标：找到重置时间并确定正确处理路径</span></span><span class="intent-label">额度 / 高意向</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-plus-multiple-devices-account-sharing/' | relative_url }}"><span class="catalog-number">16</span><span class="catalog-copy"><strong>多设备登录与账号共享边界</strong><p>区分本人多设备使用、多人共享、移动订阅绑定和跨账号转移。</p><span class="catalog-meta">约 9 分钟 · 完成目标：在新设备登录正确账号并避免共享风险</span></span><span class="intent-label">账号 / 决策</span></a>
   <a class="catalog-item" href="{{ '/guides/codex-usage-limit-reached/' | relative_url }}"><span class="catalog-number">17</span><span class="catalog-copy"><strong>Codex 使用上限与重置排查</strong><p>核对 ChatGPT 套餐、共享用量、Usage Dashboard、CLI /status 和恢复时间。</p><span class="catalog-meta">约 11 分钟 · 完成目标：分清用量耗尽、账号错误和订阅异常</span></span><span class="intent-label">Codex / 高意向</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-memory-temporary-chat/' | relative_url }}"><span class="catalog-number">18</span><span class="catalog-copy"><strong>记忆、临时聊天与隐私设置</strong><p>分清 Memory、聊天历史、Temporary Chat 和模型训练开关，并按来源删除不需要的信息。</p><span class="catalog-meta">约 12 分钟 · 完成目标：正确开启、检查、纠正或彻底删除记忆</span></span><span class="intent-label">隐私 / 教程</span></a>
 </div>
 
 ## English troubleshooting guide
