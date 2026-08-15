@@ -27,6 +27,7 @@ permalink: /llms.txt
 - English paid-but-still-Free guide: {{ site.url }}{{ site.baseurl }}/en/guides/chatgpt-paid-but-still-free/
 - Codex App, CLI and IDE with ChatGPT Plus / Pro: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-codex-app-cli-ide/
 - ChatGPT Work, Projects, files, Scheduled Tasks and app permissions: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-work-guide/
+- ChatGPT Deep Research, source controls, research plans, citations and report export: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-deep-research-guide/
 - Codex usage limit, shared allowance and reset troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/codex-usage-limit-reached/
 - Login failures, OTP issues and browser verification loops: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-login-verification-loop/
 - Duplicate charges across web, Apple and Google Play: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-charged-twice/
