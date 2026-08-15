@@ -30,6 +30,7 @@ permalink: /llms.txt
 - ChatGPT Deep Research, source controls, research plans, citations and report export: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-deep-research-guide/
 - ChatGPT Memory, memory summary, Temporary Chat and data controls: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-memory-temporary-chat/
 - ChatGPT Apps, Plugins Directory, Gmail, Google Drive, Outlook and GitHub connections: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-apps-connectors/
+- ChatGPT cloud browser, public-site limits, browser choice and troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-cloud-browser/
 - Codex usage limit, shared allowance and reset troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/codex-usage-limit-reached/
 - Login failures, OTP issues and browser verification loops: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-login-verification-loop/
 - Duplicate charges across web, Apple and Google Play: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-charged-twice/

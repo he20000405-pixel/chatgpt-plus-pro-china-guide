@@ -52,6 +52,8 @@ item_list:
     url: /guides/chatgpt-plus-multiple-devices-account-sharing/
   - name: Codex 使用上限与重置排查
     url: /guides/codex-usage-limit-reached/
+  - name: ChatGPT 云端浏览器使用指南
+    url: /guides/chatgpt-cloud-browser/
 ---
 
 <p class="eyebrow">ChatGPT Topic Index</p>
@@ -81,6 +83,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/codex-usage-limit-reached/' | relative_url }}"><span class="catalog-number">17</span><span class="catalog-copy"><strong>Codex 使用上限与重置排查</strong><p>核对 ChatGPT 套餐、共享用量、Usage Dashboard、CLI /status 和恢复时间。</p><span class="catalog-meta">约 11 分钟 · 完成目标：分清用量耗尽、账号错误和订阅异常</span></span><span class="intent-label">Codex / 高意向</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-memory-temporary-chat/' | relative_url }}"><span class="catalog-number">18</span><span class="catalog-copy"><strong>记忆、临时聊天与隐私设置</strong><p>分清 Memory、聊天历史、Temporary Chat 和模型训练开关，并按来源删除不需要的信息。</p><span class="catalog-meta">约 12 分钟 · 完成目标：正确开启、检查、纠正或彻底删除记忆</span></span><span class="intent-label">隐私 / 教程</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-apps-connectors/' | relative_url }}"><span class="catalog-number">19</span><span class="catalog-copy"><strong>ChatGPT Apps 连接、权限与排障</strong><p>从 Plugins Directory 连接 Gmail、Google Drive、Outlook 或 GitHub，并先完成只读验证。</p><span class="catalog-meta">约 15 分钟 · 完成目标：连接正确账号并安全完成第一次 App 调用</span></span><span class="intent-label">Apps / 教程</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-cloud-browser/' | relative_url }}"><span class="catalog-number">20</span><span class="catalog-copy"><strong>ChatGPT 云端浏览器使用与排障</strong><p>从 Work 启动公开网页任务，分清云端、内置浏览器与 Chrome，并处理登录、拦截和权限异常。</p><span class="catalog-meta">约 14 分钟 · 完成目标：安全完成一次可核验的公开网页任务</span></span><span class="intent-label">浏览器 / 教程</span></a>
 </div>
 
 ## English troubleshooting guide
