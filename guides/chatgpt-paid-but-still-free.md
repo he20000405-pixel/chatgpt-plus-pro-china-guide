@@ -3,7 +3,7 @@ title: "ChatGPT Plus 已付款仍显示 Free：账号与订阅排查"
 description: "排查 ChatGPT Plus 已扣款仍显示 Free、App Store 订阅未同步、Google Play 原购买账号不一致、订阅关联其他 OpenAI 账号和 ChongGrok 卡密核销状态。"
 permalink: /guides/chatgpt-paid-but-still-free/
 date_published: "2026-07-12"
-last_modified_at: "2026-07-12"
+last_modified_at: "2026-08-17"
 breadcrumbs:
   - name: 首页
     url: /
@@ -17,9 +17,9 @@ faq:
   - question: "收到付款收据是否代表 ChatGPT Plus 已经在当前账号生效？"
     answer: "不一定。收据能证明某个渠道产生了交易，但还要在网页 Billing、Apple 订阅或 Google Play 订阅中确认状态，并核对订阅绑定的原 ChatGPT 账号。"
   - question: "iPhone 上怎样恢复 ChatGPT Plus 购买？"
-    answer: "使用原购买时的 Apple ID 和 ChatGPT 账号登录，在 ChatGPT iOS App 中进入 Settings、Account，然后选择 Restore purchases。"
+    answer: "使用原购买时的 Apple ID 和 ChatGPT 账号登录，在 ChatGPT iOS App 中打开 Settings，然后选择 Restore purchases。界面层级变化时以 App 实时显示为准。"
   - question: "Android 版 ChatGPT 应该使用 Restore purchases 吗？"
-    answer: "OpenAI 给出的 Restore purchases 路径针对 iOS。Android 应检查 Google Play 中原购买账号的订阅状态，并使用订阅最初绑定的 ChatGPT 账号登录。"
+    answer: "应该。OpenAI 当前说明 iOS 和 Android App 都可在 Settings 中使用 Restore purchases。执行前仍要确认 Google Play 使用原付款账号，ChatGPT 登录原购买账号。"
   - question: "提示订阅关联另一个 OpenAI 账号是什么意思？"
     answer: "移动端订阅会同时关联购买时的 Apple ID 或 Google Play 账号，以及当时登录的 ChatGPT 账号。订阅不能转移到另一个 ChatGPT 账号，应登录原购买账号使用。"
   - question: "ChongGrok 卡密核销后仍显示 Free 怎么办？"
@@ -75,7 +75,7 @@ alt：ChatGPT 网页端 Billing 订阅检查入口
 
 OpenAI 官方提供的 iOS 恢复路径是：
 
-`ChatGPT App → Settings → Account → Restore purchases`
+`ChatGPT App → Settings → Restore purchases`
 
 执行前应同时满足：
 
@@ -93,13 +93,14 @@ alt：ChatGPT iOS 恢复 App Store 购买入口
 
 ## 路径三：通过 Google Play 购买
 
-Android 不应照搬 iOS 的 `Restore purchases` 操作。应按以下顺序检查：
+OpenAI 当前说明 Android App 也可以使用 `Restore purchases`。但恢复购买只能同步原订阅，不能把订阅转移到另一个 ChatGPT 账号。按以下顺序操作：
 
 1. 打开 Google Play，切换到原购买时使用的 Google 账号；
 2. 在订阅管理中确认 ChatGPT 订阅是否有效；
 3. 打开 ChatGPT Android App，确认登录的是购买时绑定的原 OpenAI 账号；
-4. 更新 App 后重新登录原账号；
-5. Google Play 显示有效但 ChatGPT 仍为 Free 时，准备订单收据并联系 OpenAI 支持。
+4. 更新 ChatGPT App，并在 `Settings` 中选择 `Restore purchases`；
+5. 返回账号或套餐页面，检查是否已经显示 Plus / Pro；
+6. Google Play 显示有效但原 ChatGPT 账号仍为 Free 时，停止反复恢复，准备订单收据、Play 订阅页和 ChatGPT 账号页，联系 OpenAI 支持。
 
 切换 Google Play 账号或重新安装 App，不会把订阅转移到另一个 ChatGPT 账号。
 
@@ -146,7 +147,7 @@ ChatGPT 可以分别通过网页、iOS 和 Android 建立订阅。若一个渠�
 2. 退出 ChatGPT；
 3. 更新 App 或清理网页缓存；
 4. 用原购买时的登录方式重新登录；
-5. iOS 订单再执行一次官方 `Restore purchases`；
+5. iOS 或 Android 应用商店订单可执行一次官方 `Restore purchases`；
 6. 仍不一致时联系对应渠道支持。
 
 ## ChongGrok 卡密或订单路径
@@ -215,11 +216,11 @@ OpenAI 网页和 Google Play 订单的退款入口与 Apple 订单不同。Apple
 
 ### iPhone 上怎样恢复 ChatGPT Plus 购买？
 
-使用原购买时的 Apple ID 和 ChatGPT 账号登录，在 ChatGPT iOS App 中进入 `Settings → Account → Restore purchases`。
+使用原购买时的 Apple ID 和 ChatGPT 账号登录，在 ChatGPT iOS App 中进入 `Settings → Restore purchases`。界面层级变化时以 App 实时显示为准。
 
 ### Android 版 ChatGPT 应该使用 Restore purchases 吗？
 
-OpenAI 给出的 `Restore purchases` 路径针对 iOS。Android 应检查 Google Play 中原购买账号的订阅状态，并使用订阅最初绑定的 ChatGPT 账号登录。
+应该。OpenAI 当前说明 iOS 和 Android App 都可在 `Settings` 中使用 `Restore purchases`。执行前要确认 Google Play 使用原付款账号，ChatGPT 登录原购买账号；恢复购买不会把订阅转移到新账号。
 
 ### 提示订阅关联另一个 OpenAI 账号怎么办？
 
@@ -238,6 +239,7 @@ OpenAI 给出的 `Restore purchases` 路径针对 iOS。Android 应检查 Google
 - [How do I avoid being charged twice if I subscribe to ChatGPT on iOS, Android, and the web?](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)
 - [Billing settings in ChatGPT vs Platform](https://help.openai.com/en/articles/9039756-billing-settings-in-chatgpt-vs-platform)
 - [How do I request a refund for ChatGPT Plus?](https://help.openai.com/en/articles/7232895-how-do-i-request-a-refund-for-chatgpt-plus)
+- [What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
 - [Can I access my ChatGPT subscription from another device?](https://help.openai.com/en/articles/8980438-can-i-access-my-chatgpt-subscription-from-another-device)
 
 [返回全部专题](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/) · [查看付款被拒排查](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-payment-errors/)

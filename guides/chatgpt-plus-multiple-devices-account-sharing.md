@@ -4,7 +4,7 @@ description: "说明 ChatGPT Plus / Pro 是否可在手机和电脑使用、为�
 permalink: /guides/chatgpt-plus-multiple-devices-account-sharing/
 schema_type: Article
 date_published: 2026-08-14
-last_modified_at: 2026-08-14
+last_modified_at: 2026-08-17
 breadcrumbs:
   - name: "首页"
     url: /
@@ -78,8 +78,8 @@ faq:
 ### 第三步：仍显示 Free 时核对购买渠道
 
 - **网页购买：**确认新设备登录的是网页付款时使用的同一个 OpenAI 账号；
-- **Apple 购买：**确认 iPhone 使用原 Apple ID，同时 ChatGPT 登录原购买账号；需要时可在 iOS App 的 `Settings → Account → Restore purchases` 恢复原账号的购买记录；
-- **Google Play 购买：**确认 Play 商店使用原付款 Google 账号，同时 ChatGPT 登录原购买账号；不要套用 iOS 的恢复购买按钮；
+- **Apple 购买：**确认 iPhone 使用原 Apple ID，同时 ChatGPT 登录原购买账号；需要时可在 iOS App 的 `Settings → Restore purchases` 同步原订单；
+- **Google Play 购买：**确认 Play 商店使用原付款 Google 账号，同时 ChatGPT 登录原购买账号；需要时可在 Android App 的 `Settings → Restore purchases` 同步原订单；
 - **ChongGrok 订单：**打开 [卡密核销与状态查询](https://chonggrok.com/verify)，核对卡密、目标账号和处理记录。
 
 如果购买渠道显示订阅有效，但原账号仍显示 Free，请保存收据、账号邮箱、登录方式和实际页面提示，再联系对应支持方。不要通过新建账号或再次付款测试。

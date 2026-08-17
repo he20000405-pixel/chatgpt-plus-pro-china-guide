@@ -5,7 +5,7 @@ permalink: /en/guides/chatgpt-paid-but-still-free/
 lang: en
 schema_type: Article
 date_published: 2026-07-24
-last_modified_at: 2026-08-05
+last_modified_at: 2026-08-17
 breadcrumbs:
   - name: "Home"
     url: /
@@ -19,7 +19,7 @@ faq:
   - question: "Can I transfer a mobile ChatGPT subscription to another account?"
     answer: "No. OpenAI states that a mobile subscription is tied to both the Apple or Google Play account and the ChatGPT account used at purchase. It cannot be transferred to another ChatGPT account."
   - question: "Should Android users use Restore purchases?"
-    answer: "OpenAI documents Restore purchases for Apple App Store subscriptions on iOS. Android users should check the original Google Play account, Play subscription and ChatGPT account instead."
+    answer: "Yes. OpenAI currently documents Restore purchases in both the iOS and Android ChatGPT apps. Android users must still verify the original Google Play account and the ChatGPT account used for the purchase."
   - question: "Should I subscribe again on the web if the app still shows Free?"
     answer: "Not while an App Store, Google Play or web charge is active or pending. Check every billing platform first because a second subscription can create duplicate charges."
 ---
@@ -71,14 +71,14 @@ For a ChatGPT subscription purchased through Apple:
 
 1. verify that the App Store shows the subscription under the original Apple ID;
 2. sign in to the original ChatGPT account;
-3. open `Settings → Account`;
+3. open `Settings`;
 4. select `Restore purchases`.
 
 OpenAI documents this restoration path for Apple App Store subscriptions. It does not transfer the subscription to a different ChatGPT account.
 
 After restoration, reopen the plan screen. If the original account shows Plus or Pro, the check is complete. If Apple shows an active subscription but the original ChatGPT account remains Free, save the Apple receipt and contact Apple or OpenAI according to which page has the mismatch.
 
-## 4. Check Google Play without inventing an iOS restore step
+## 4. Restore a Google Play purchase on Android
 
 For Android:
 
@@ -86,9 +86,10 @@ For Android:
 2. check Payments & subscriptions;
 3. confirm that the ChatGPT subscription is active;
 4. open ChatGPT with the account that was signed in during purchase;
-5. update and restart the app.
+5. update the app, open `Settings`, and select `Restore purchases`;
+6. return to the account or plan screen and check whether Plus or Pro now appears.
 
-Do not claim that Android has the same `Restore purchases` control documented for iOS. If Google Play shows an active subscription but the original ChatGPT account remains Free, keep the receipt and contact the relevant support channel.
+OpenAI currently documents this control for both iOS and Android. It synchronizes the existing purchase; it does not move the subscription to another ChatGPT account. If Google Play shows an active subscription but the original ChatGPT account remains Free after one restore attempt, stop repeating the action. Save the Play receipt, subscription screen and ChatGPT account screen, then contact OpenAI support.
 
 The expected result is an active Play subscription and paid access on the same ChatGPT account. If only one side is active, stop refreshing the app and escalate with both screens as evidence.
 
@@ -153,6 +154,7 @@ Prepare a redacted receipt, transaction date, amount, platform, ChatGPT account 
 - [Avoid duplicate subscriptions across iOS, Android and the web](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)
 - [Billing settings in ChatGPT](https://help.openai.com/en/articles/9039756-billing-settings-in-chatgpt-vs-platform)
 - [Use a ChatGPT subscription on another device](https://help.openai.com/en/articles/8980438-can-i-access-my-chatgpt-subscription-from-another-device)
+- [ChatGPT Plus and charged-but-Free troubleshooting](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
 - [Chinese ChatGPT paid-but-still-Free guide]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }})
 
-**Fact check:** July 24, 2026. Subscription interfaces and policies can change; verify the current official help pages and account settings.
+**Fact check:** August 17, 2026. Subscription interfaces and policies can change; verify the current official help pages and account settings.

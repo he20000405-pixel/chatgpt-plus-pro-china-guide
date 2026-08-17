@@ -5,7 +5,7 @@ permalink: /en/guides/chatgpt-subscription-associated-with-another-account/
 lang: en
 schema_type: Article
 date_published: 2026-07-23
-last_modified_at: 2026-07-23
+last_modified_at: 2026-08-17
 breadcrumbs:
   - name: "Home"
     url: /
@@ -87,20 +87,22 @@ Sign out of the current account and use the original method. Do not create more 
 
 After signing in to the original ChatGPT account, OpenAI documents this iOS path:
 
-`Settings → Account → Restore purchases`
+`Settings → Restore purchases`
 
 Restore Purchases makes the Apple subscription visible again on its original linked ChatGPT account. It does not transfer the subscription to a different account.
 
-### 4. On Android, verify the original Google Play account
+### 4. On Android, verify the Google Play account and restore the purchase
 
-Do not apply the iOS Restore Purchases instruction to Android. Instead:
+OpenAI currently documents Restore purchases in the Android app as well. Verify the accounts first, then restore the existing purchase:
 
 1. confirm which Google Play account paid for ChatGPT;
 2. verify that the Play Store subscription is active;
 3. sign in to the ChatGPT account used at purchase;
-4. check whether a web or Apple subscription also exists.
+4. open `Settings → Restore purchases` in the ChatGPT app;
+5. return to the account screen and check whether the original subscription is recognized;
+6. confirm that no web or Apple subscription also exists.
 
-If the billing record and ChatGPT identity still cannot be matched, contact Google Play or OpenAI support rather than repurchasing.
+If Google Play shows an active subscription but the original ChatGPT account still cannot recognize it after one restore attempt, save the Play receipt, subscription screen and account screen, then contact OpenAI support. Do not repeat the restore loop or repurchase.
 
 ## Why reinstalling does not work
 
@@ -164,6 +166,7 @@ Only after confirming that no active or pending subscription remains should a ne
 - [Restore an Apple App Store purchase](https://help.openai.com/en/articles/8346573)
 - [Avoid duplicate subscriptions across iOS, Android and web](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)
 - [Use a ChatGPT subscription on another device](https://help.openai.com/en/articles/8980438-can-i-access-my-chatgpt-subscription-from-another-device)
+- [ChatGPT Plus and iOS / Android restore troubleshooting](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
 - [Chinese guide]({{ '/guides/chatgpt-subscription-associated-with-another-account/' | relative_url }})
 
-**Fact check:** July 23, 2026. Account, subscription and refund rules can change; verify the current OpenAI, Apple and Google Play documentation.
+**Fact check:** August 17, 2026. Account, subscription and refund rules can change; verify the current OpenAI, Apple and Google Play documentation.

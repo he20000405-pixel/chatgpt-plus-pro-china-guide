@@ -4,7 +4,7 @@ description: "遇到 This subscription is associated with another OpenAI account
 permalink: /guides/chatgpt-subscription-associated-with-another-account/
 schema_type: Article
 date_published: 2026-07-23
-last_modified_at: 2026-07-23
+last_modified_at: 2026-08-17
 breadcrumbs:
   - name: "首页"
     url: /
@@ -87,20 +87,22 @@ OpenAI 官方说明，移动订阅同时关联**应用商店账号**和**购买�
 
 确认已经登录原购买 ChatGPT 账号后，可按 OpenAI 官方路径：
 
-`Settings → Account → Restore purchases`
+`Settings → Restore purchases`
 
 恢复购买用于让 Apple 订阅重新显示在**原绑定账号**中，不会把订阅转移到另一个账号。
 
-### 4. Android 检查原 Google Play 账号
+### 4. Android 检查原 Google Play 账号并恢复购买
 
-Android 不应套用 iOS 的 `Restore purchases` 表述。应检查：
+OpenAI 当前说明 Android App 也可以使用 `Restore purchases`。先完成账号核对，再执行恢复：
 
 1. Google Play 当前登录的是不是原付款账号；
 2. Play 商店订阅列表是否显示 ChatGPT 有效；
 3. ChatGPT App 登录的是不是购买时的原 OpenAI 账号；
-4. 是否在网页或 Apple 端另有订阅。
+4. 在 ChatGPT App 中打开 `Settings → Restore purchases`；
+5. 返回账号页面，检查是否已识别原订阅；
+6. 同时确认网页或 Apple 端没有另一份订阅。
 
-如果商店记录与 ChatGPT 账号无法对应，应通过 Google Play 或 OpenAI 官方支持处理，而不是再次购买。
+如果 Google Play 显示有效订阅，但恢复一次后原 ChatGPT 账号仍无法识别，保存 Play 收据、订阅页和账号页并联系 OpenAI 支持。不要反复恢复，也不要再次购买。
 
 ## 为什么重装应用不能解决
 
@@ -148,6 +150,14 @@ OpenAI 当前明确说明，移动订阅不能在不同 ChatGPT 账号之间转�
 若问题是“已经扣款但仍显示 Free”，可继续使用[ChatGPT 已付款仍显示 Free 排查]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }})。
 
 只有确认当前没有有效订阅、没有待处理交易，也不再需要处理原订单后，才考虑新的订阅入口。ChongGrok 当前 ChatGPT 会员方案见 [chonggrok.com/chatgpt](https://chonggrok.com/chatgpt)。
+
+## 官方来源
+
+- [OpenAI：订阅关联另一个账号](https://help.openai.com/en/articles/20001056)
+- [OpenAI：ChatGPT Plus 与 iOS / Android 恢复购买](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
+- [OpenAI：避免网页、Apple 与 Google Play 重复订阅](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)
+
+官方资料核验日期：2026-08-17。
 
 ## 风险与业务边界
 

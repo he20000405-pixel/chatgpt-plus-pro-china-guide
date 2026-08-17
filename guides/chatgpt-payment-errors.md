@@ -3,7 +3,7 @@ title: "ChatGPT 付款被拒与支付认证失败排查"
 description: "排查 ChatGPT Your card has been declined、unable to authenticate payment method 和 3D Secure 失败，并链接续费失败与已付款仍显示 Free 的独立专题。"
 permalink: /guides/chatgpt-payment-errors/
 date_published: "2026-07-10"
-last_modified_at: "2026-08-05"
+last_modified_at: "2026-08-17"
 breadcrumbs:
   - name: 首页
     url: /
@@ -17,7 +17,7 @@ faq:
   - question: "We were unable to authenticate your payment method 通常是什么问题？"
     answer: "通常与 3D Secure 或 Strong Customer Authentication 流程有关，例如弹窗被拦截、OTP 或银行 App 确认失败、发卡行未启用相关验证。"
   - question: "已扣款但 ChatGPT 仍显示 Free 怎么办？"
-    answer: "不要重复付款。先区分网页、Apple App Store、Google Play 或 ChongGrok 购买入口，再核对原购买账号；Restore purchases 是 OpenAI 提供的 iOS 路径，Android 应检查原 Google Play 账号和订阅状态。"
+    answer: "不要重复付款。先区分网页、Apple App Store、Google Play 或 ChongGrok 购买入口，再核对原购买账号。OpenAI 当前说明 iOS 和 Android App 都可在 Settings 中使用 Restore purchases。"
 ---
 
 # ChatGPT 付款被拒与支付认证失败排查
@@ -94,7 +94,7 @@ OpenAI 通常拿不到银行提供的详细拒付原因，因此原因不明时�
 
 ## 已扣款但仍显示 Free
 
-这类问题与“付款被拒”不是同一层。不要立刻重复付款，应先区分网页、Apple App Store、Google Play 或 ChongGrok 购买入口，再核对原购买账号与订阅状态。`Restore purchases` 是 OpenAI 提供的 iOS 路径；Android 应检查原 Google Play 账号及订阅。
+这类问题与“付款被拒”不是同一层。不要立刻重复付款，应先区分网页、Apple App Store、Google Play 或 ChongGrok 购买入口，再核对原购买账号与订阅状态。OpenAI 当前说明 iOS 和 Android App 都可在 `Settings` 中使用 `Restore purchases`；该操作只能同步原订单，不能把订阅转移到新账号。
 
 完整步骤见：[ChatGPT Plus 已付款但仍显示 Free：账号、订阅入口、App Store / Google Play 与卡密核销排查](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/)。
 
@@ -121,7 +121,7 @@ OpenAI 通常拿不到银行提供的详细拒付原因，因此原因不明时�
 
 ### 已扣款但 ChatGPT 仍显示 Free 怎么办？
 
-不要重复付款。先按[独立专题](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/)区分购买入口和原购买账号。iOS 可按官方路径恢复购买；Android 检查原 Google Play 账号和订阅状态。
+不要重复付款。先按[独立专题](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/)区分购买入口和原购买账号。iOS 与 Android 都可按 OpenAI 当前路径执行一次恢复购买；Android 执行前还要确认 Google Play 使用原付款账号。
 
 需要先判断问题属于银行、应用商店、产品权益还是第三方订单时，可使用[跨产品 AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)。
 
