@@ -258,7 +258,7 @@ ChatGPT 生成了以后需要复用的摘要、决策记录或草稿时，可以
 | Project memory 没有生效 | Memory 设置未开启，或刚修改仍在生效中 | 检查 Personalization 设置，等待后用新聊天重新测试 |
 | 分享对象无法访问 | 邀请账号错误、链接范围受限或工作区管理员关闭共享 | 核对邀请邮箱、Share 设置和工作区权限 |
 | 项目内没有 Deep Research 或其他工具 | 当前计划不含该工具，或工作区管理员禁用 | 先核对计划和工作区设置，不要重复购买 |
-| 项目显示 Free 或付费权益缺失 | 登录了其他账号，或订阅未附着到当前账号 | 先处理[已付款仍显示 Free]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }})问题 |
+| 项目显示 Free 或付费权益缺失 | 登录了其他账号，或会员权益没有显示在当前登录账号上 | 先处理[已付款仍显示 Free]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }})问题 |
 
 ## Free、Plus 和 Pro 应该怎样判断
 
@@ -270,7 +270,7 @@ Projects 本身并不是付费专属功能。Free 用户也可以创建项目、
 2. 已经确认任务超过 Free 的文件或协作者上限，或确实需要某项付费工具；
 3. 已经阅读 OpenAI 当前计划说明，并确认目标功能对该计划开放。
 
-满足上述条件后，可以在 [ChongGrok ChatGPT 页面](https://chonggrok.com/chatgpt)查看当前 Plus、5x Pro 和 20x Pro 方案。已有扣款、交易待处理或有效订阅时，应先排查账号和计费状态，不要再次购买。
+满足上述条件后，可以在 [ChongGrok ChatGPT 页面](https://chonggrok.com/chatgpt?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_projects_guide)查看当前 Plus、5x Pro 和 20x Pro 方案。已有扣款、交易待处理或有效订阅时，应先排查账号和付款状态，不要再次购买。
 
 ## 隐私与安全边界
 

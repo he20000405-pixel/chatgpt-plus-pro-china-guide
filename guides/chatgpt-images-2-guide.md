@@ -274,7 +274,7 @@ OpenAI 当前说明 Images 2.0 面向所有套餐开放，因此缺少单独菜�
 3. 按界面提示等待恢复；
 4. 恢复后先提交一个简单任务验证。
 
-已有有效订阅、成功扣款或待处理交易时，不要再次购买。账号显示 Free 或订阅未附着时，应先阅读[已付款但仍显示 Free 排查]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }})。
+已有有效订阅、成功扣款或待处理交易时，不要再次购买。账号显示 Free，或会员权益没有显示在当前登录账号上时，应先阅读[已付款但仍显示 Free 排查]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }})。
 
 ### 情况四：图片中的文字有错字
 
@@ -296,10 +296,10 @@ OpenAI 当前说明 Images 2.0 面向所有套餐开放，因此缺少单独菜�
 |---|---|---|
 | Free 账号 | 可以使用 Images 2.0，但使用上限更严格 | 先完成基础生成和编辑；达到上限后按界面提示等待 |
 | Plus 或 Pro 账号 | 通常有更高使用上限，并可使用 Images with thinking | 核对当前账号和实际入口，不承诺固定张数或每次结果 |
-| 已付款但账号显示 Free | 这属于订阅或账号归属问题，不是提示词问题 | 停止重复付款，核对原购买账号和计费渠道 |
+| 已付款但账号显示 Free | 这属于订阅或账号归属问题，不是提示词问题 | 停止重复付款，核对原购买账号和最初付款的平台 |
 | 没有有效或待处理订阅，且确实需要更高上限 | 可以比较 OpenAI 当前套餐 | 先确认需求，再决定是否升级 |
 
-如果当前没有有效或待处理订阅，并且你已经确认需要更高图片使用上限或付费套餐的增强能力，可以查看 OpenAI 当前计划。没有海外付款方式时，[ChongGrok ChatGPT 会员页面](https://chonggrok.com/chatgpt)可作为使用支付宝或微信升级自己账号的一种选择；ChongGrok 与 OpenAI 无隶属关系，也不保证某次图片结果或固定生成数量。
+如果当前没有有效或待处理订阅，并且你已经确认需要更高图片使用上限或付费套餐的增强能力，可以查看 OpenAI 当前计划。没有海外付款方式时，[ChongGrok ChatGPT 会员页面](https://chonggrok.com/chatgpt?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_images_2)可作为使用支付宝或微信升级自己账号的一种选择；ChongGrok 与 OpenAI 无隶属关系，也不保证某次图片结果或固定生成数量。
 
 ## 完成一张图片后的验收清单
 
