@@ -87,22 +87,22 @@ OpenAI 官方说明，移动订阅同时关联**应用商店账号**和**购买�
 
 确认已经登录原购买 ChatGPT 账号后，可按 OpenAI 官方路径：
 
-`Settings → Restore purchases`
+`Settings → Account → Restore purchases`
 
 恢复购买用于让 Apple 订阅重新显示在**原绑定账号**中，不会把订阅转移到另一个账号。
 
-### 4. Android 检查原 Google Play 账号并恢复购买
+### 4. Android 核对原 Google Play 账号与原 ChatGPT 账号
 
-OpenAI 当前说明 Android App 也可以使用 `Restore purchases`。先完成账号核对，再执行恢复：
+OpenAI 当前没有在 Android 帮助文档中提供与 iOS 相同的 `Restore purchases` 操作。Android 用户应先核对购买记录和账号归属：
 
-1. Google Play 当前登录的是不是原付款账号；
-2. Play 商店订阅列表是否显示 ChatGPT 有效；
-3. ChatGPT App 登录的是不是购买时的原 OpenAI 账号；
-4. 在 ChatGPT App 中打开 `Settings → Restore purchases`；
-5. 返回账号页面，检查是否已识别原订阅；
+1. 打开 Google Play，确认当前登录的是原付款 Google 账号；
+2. 进入订阅列表，确认 ChatGPT 订阅是否仍然有效；
+3. 退出 ChatGPT App 当前账号；
+4. 使用购买时相同的登录方式进入原 ChatGPT 账号；
+5. 返回账号或套餐页面，检查 Plus / Pro 是否已经显示；
 6. 同时确认网页或 Apple 端没有另一份订阅。
 
-如果 Google Play 显示有效订阅，但恢复一次后原 ChatGPT 账号仍无法识别，保存 Play 收据、订阅页和账号页并联系 OpenAI 支持。不要反复恢复，也不要再次购买。
+如果 Google Play 显示有效订阅，但原 ChatGPT 账号仍无法识别，保存 Play 收据、订阅页和 ChatGPT 账号页并联系 OpenAI 支持。不要反复退出登录，也不要再次购买。
 
 ## 为什么重装应用不能解决
 
@@ -149,15 +149,7 @@ OpenAI 当前明确说明，移动订阅不能在不同 ChatGPT 账号之间转�
 
 若问题是“已经扣款但仍显示 Free”，可继续使用[ChatGPT 已付款仍显示 Free 排查]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }})。
 
-只有确认当前没有有效订阅、没有待处理交易，也不再需要处理原订单后，才考虑新的订阅入口。ChongGrok 当前 ChatGPT 会员方案见 [chonggrok.com/chatgpt](https://chonggrok.com/chatgpt)。
-
-## 官方来源
-
-- [OpenAI：订阅关联另一个账号](https://help.openai.com/en/articles/20001056)
-- [OpenAI：ChatGPT Plus 与 iOS / Android 恢复购买](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
-- [OpenAI：避免网页、Apple 与 Google Play 重复订阅](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)
-
-官方资料核验日期：2026-08-17。
+只有确认当前没有有效订阅、没有待处理交易，也不再需要处理原订单后，才考虑新的订阅入口。ChongGrok 当前 ChatGPT 会员方案见 [chonggrok.com/chatgpt](https://chonggrok.com/chatgpt?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_subscription_account_binding)。
 
 ## 风险与业务边界
 
@@ -168,6 +160,8 @@ OpenAI 当前明确说明，移动订阅不能在不同 ChatGPT 账号之间转�
 - 不保证固定恢复时间、退款结果或所有账号结果；
 - 任何线上订阅与第三方协助都不是零风险。
 
+{% include faq.html %}
+
 ## OpenAI 官方来源
 
 - [订阅关联另一个账号](https://help.openai.com/en/articles/20001056)
@@ -175,4 +169,4 @@ OpenAI 当前明确说明，移动订阅不能在不同 ChatGPT 账号之间转�
 - [避免 iOS、Android 和网页重复订阅](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)
 - [在其他设备使用同一订阅](https://help.openai.com/en/articles/8980438-can-i-access-my-chatgpt-subscription-from-another-device)
 
-**核验日期：2026 年 7 月 23 日。**账号、订阅和退款规则以 OpenAI、Apple 与 Google Play 的实时页面为准。
+**核验日期：2026 年 8 月 17 日。**账号、订阅和退款规则以 OpenAI、Apple 与 Google Play 的实时页面为准。

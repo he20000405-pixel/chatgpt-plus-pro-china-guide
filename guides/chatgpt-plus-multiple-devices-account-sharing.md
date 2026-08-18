@@ -78,9 +78,9 @@ faq:
 ### 第三步：仍显示 Free 时核对购买渠道
 
 - **网页购买：**确认新设备登录的是网页付款时使用的同一个 OpenAI 账号；
-- **Apple 购买：**确认 iPhone 使用原 Apple ID，同时 ChatGPT 登录原购买账号；需要时可在 iOS App 的 `Settings → Restore purchases` 同步原订单；
-- **Google Play 购买：**确认 Play 商店使用原付款 Google 账号，同时 ChatGPT 登录原购买账号；需要时可在 Android App 的 `Settings → Restore purchases` 同步原订单；
-- **ChongGrok 订单：**打开 [卡密核销与状态查询](https://chonggrok.com/verify)，核对卡密、目标账号和处理记录。
+- **Apple 购买：**确认 iPhone 使用原 Apple ID，同时 ChatGPT 登录原购买账号；需要时可在 iOS App 的 `Settings → Account → Restore purchases` 同步原订单；
+- **Google Play 购买：**确认 Play 商店使用原付款 Google 账号，同时 ChatGPT 登录原购买账号。若 Play 显示有效而原 ChatGPT 账号仍为 Free，保存 Play 收据、订阅页和 ChatGPT 账号页，再联系 OpenAI 支持；Android 不照搬 iOS 的恢复购买入口；
+- **ChongGrok 订单：**打开 [卡密核销与状态查询](https://chonggrok.com/verify?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_multiple_devices&utm_content=verify_existing_order)，核对卡密、目标账号和处理记录。
 
 如果购买渠道显示订阅有效，但原账号仍显示 Free，请保存收据、账号邮箱、登录方式和实际页面提示，再联系对应支持方。不要通过新建账号或再次付款测试。
 
@@ -160,7 +160,7 @@ ChongGrok 的 ChatGPT 服务用于升级用户自己的账号，不提供 ChatGP
 - 当前没有已经扣款或仍在处理的交易；
 - 已经确认需要 Plus、5x Pro 或 20x Pro。
 
-满足这些条件后，可以查看 [ChongGrok ChatGPT 实时方案](https://chonggrok.com/chatgpt)。已有卡密的用户应直接进入[卡密核销页面](https://chonggrok.com/verify)，不要再次购买。
+满足这些条件后，可以查看 [ChongGrok ChatGPT 实时方案](https://chonggrok.com/chatgpt?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_multiple_devices&utm_content=service_options)。已有卡密的用户应直接进入[卡密核销页面](https://chonggrok.com/verify?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_multiple_devices&utm_content=verify_existing_order)，不要再次购买。
 
 Plus 自动升级不需要 ChatGPT 密码，但会按核销页面提示使用本次升级所需的 session。session 仍是敏感凭证，只能通过确认后的核销流程提交；完成后建议退出并重新登录 ChatGPT，刷新原 session。
 

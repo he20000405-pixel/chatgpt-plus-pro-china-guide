@@ -19,7 +19,7 @@ faq:
   - question: "Can I transfer a mobile ChatGPT subscription to another account?"
     answer: "No. OpenAI states that a mobile subscription is tied to both the Apple or Google Play account and the ChatGPT account used at purchase. It cannot be transferred to another ChatGPT account."
   - question: "Should Android users use Restore purchases?"
-    answer: "Yes. OpenAI currently documents Restore purchases in both the iOS and Android ChatGPT apps. Android users must still verify the original Google Play account and the ChatGPT account used for the purchase."
+    answer: "Do not follow the iOS Restore purchases path on Android. OpenAI currently documents that control for Apple App Store purchases in the ChatGPT iOS app. Android users should verify the original Google Play account, the Play subscription and the ChatGPT account used at purchase, then contact OpenAI Support with evidence if access is still missing."
   - question: "Should I subscribe again on the web if the app still shows Free?"
     answer: "Not while an App Store, Google Play or web charge is active or pending. Check every billing platform first because a second subscription can create duplicate charges."
 ---
@@ -71,14 +71,14 @@ For a ChatGPT subscription purchased through Apple:
 
 1. verify that the App Store shows the subscription under the original Apple ID;
 2. sign in to the original ChatGPT account;
-3. open `Settings`;
+3. open `Settings → Account`;
 4. select `Restore purchases`.
 
 OpenAI documents this restoration path for Apple App Store subscriptions. It does not transfer the subscription to a different ChatGPT account.
 
 After restoration, reopen the plan screen. If the original account shows Plus or Pro, the check is complete. If Apple shows an active subscription but the original ChatGPT account remains Free, save the Apple receipt and contact Apple or OpenAI according to which page has the mismatch.
 
-## 4. Restore a Google Play purchase on Android
+## 4. Verify a Google Play purchase on Android
 
 For Android:
 
@@ -86,10 +86,10 @@ For Android:
 2. check Payments & subscriptions;
 3. confirm that the ChatGPT subscription is active;
 4. open ChatGPT with the account that was signed in during purchase;
-5. update the app, open `Settings`, and select `Restore purchases`;
-6. return to the account or plan screen and check whether Plus or Pro now appears.
+5. update the app and sign out of the current ChatGPT account;
+6. sign in again with the same method used at purchase, then check whether Plus or Pro appears.
 
-OpenAI currently documents this control for both iOS and Android. It synchronizes the existing purchase; it does not move the subscription to another ChatGPT account. If Google Play shows an active subscription but the original ChatGPT account remains Free after one restore attempt, stop repeating the action. Save the Play receipt, subscription screen and ChatGPT account screen, then contact OpenAI support.
+OpenAI currently documents `Restore purchases` for Apple App Store purchases in the ChatGPT iOS app, not as an equivalent Android path. If Google Play shows an active subscription but the original ChatGPT account remains Free after the account checks above, stop signing in and out or trying to pay again. Save the Play receipt, subscription screen and ChatGPT account screen, then contact OpenAI Support.
 
 The expected result is an active Play subscription and paid access on the same ChatGPT account. If only one side is active, stop refreshing the app and escalate with both screens as evidence.
 
@@ -113,11 +113,11 @@ Cancel or resolve the unwanted billing route through the provider that processed
 
 ## 7. Check an existing ChongGrok order
 
-If you already have a ChongGrok card key or order, use [chonggrok.com/verify](https://chonggrok.com/verify) to check the card key, target account and processing status. Do not submit another order while the first one is pending or while an official charge remains unresolved.
+If you already have a ChongGrok card key or order, use [chonggrok.com/verify](https://chonggrok.com/verify?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_paid_but_still_free&utm_content=en_verify_existing_order) to check the card key, target account and processing status. Do not submit another order while the first one is pending or while an official charge remains unresolved.
 
 The ChatGPT session credential used in this upgrade flow is sensitive. It is not the account password, but it must be submitted only through the verified flow and should be refreshed by signing out and back in after completion.
 
-Only after confirming that there is no active, completed or pending subscription should current membership options at [chonggrok.com/chatgpt](https://chonggrok.com/chatgpt) be considered.
+Only after confirming that there is no active, completed or pending subscription should current membership options at [chonggrok.com/chatgpt](https://chonggrok.com/chatgpt?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_paid_but_still_free&utm_content=en_repurchase_boundary) be considered.
 
 ## Who should handle the issue?
 
@@ -146,6 +146,8 @@ Prepare a redacted receipt, transaction date, amount, platform, ChatGPT account 
 - No online service is risk-free, and no fixed recovery time or account outcome is guaranteed.
 - This guide covers ChatGPT consumer memberships, not API credits or API billing.
 - Ready-made accounts, SMS verification and bulk registration are outside this service.
+
+{% include faq_en.html %}
 
 ## Official references
 

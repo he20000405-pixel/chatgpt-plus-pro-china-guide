@@ -17,7 +17,7 @@ faq:
   - question: "We were unable to authenticate your payment method 通常是什么问题？"
     answer: "通常与 3D Secure 或 Strong Customer Authentication 流程有关，例如弹窗被拦截、OTP 或银行 App 确认失败、发卡行未启用相关验证。"
   - question: "已扣款但 ChatGPT 仍显示 Free 怎么办？"
-    answer: "不要重复付款。先区分网页、Apple App Store、Google Play 或 ChongGrok 购买入口，再核对原购买账号。OpenAI 当前说明 iOS 和 Android App 都可在 Settings 中使用 Restore purchases。"
+    answer: "不要重复付款。先区分网页、Apple App Store、Google Play 或 ChongGrok 购买入口，再核对原购买账号。只有 Apple App Store 购买可按 OpenAI 说明在 ChatGPT iOS App 中使用 Restore purchases；Android 应核对原 Google Play 账号、Play 订阅和原 ChatGPT 账号。"
 ---
 
 # ChatGPT 付款被拒与支付认证失败排查
@@ -94,7 +94,7 @@ OpenAI 通常拿不到银行提供的详细拒付原因，因此原因不明时�
 
 ## 已扣款但仍显示 Free
 
-这类问题与“付款被拒”不是同一层。不要立刻重复付款，应先区分网页、Apple App Store、Google Play 或 ChongGrok 购买入口，再核对原购买账号与订阅状态。OpenAI 当前说明 iOS 和 Android App 都可在 `Settings` 中使用 `Restore purchases`；该操作只能同步原订单，不能把订阅转移到新账号。
+这类问题与“付款被拒”不是同一层。不要立刻重复付款，应先区分网页、Apple App Store、Google Play 或 ChongGrok 购买入口，再核对原购买账号与订阅状态。通过 Apple App Store 购买的用户，可按 OpenAI 说明在 ChatGPT iOS App 中进入 `Settings → Account → Restore purchases`；Android 用户应核对原 Google Play 账号、Play 订阅状态和原 ChatGPT 账号，不要照搬 iOS 操作。
 
 完整步骤见：[ChatGPT Plus 已付款但仍显示 Free：账号、订阅入口、App Store / Google Play 与卡密核销排查](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/)。
 
@@ -121,7 +121,7 @@ OpenAI 通常拿不到银行提供的详细拒付原因，因此原因不明时�
 
 ### 已扣款但 ChatGPT 仍显示 Free 怎么办？
 
-不要重复付款。先按[独立专题](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/)区分购买入口和原购买账号。iOS 与 Android 都可按 OpenAI 当前路径执行一次恢复购买；Android 执行前还要确认 Google Play 使用原付款账号。
+不要重复付款。先按[独立专题](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/)区分购买入口和原购买账号。Apple App Store 购买可在 ChatGPT iOS App 中恢复购买；Google Play 购买应核对原 Google 账号、Play 订阅状态和原 ChatGPT 账号，仍显示 Free 时保存证据并联系 OpenAI 支持。
 
 需要先判断问题属于银行、应用商店、产品权益还是第三方订单时，可使用[跨产品 AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)。
 
@@ -129,6 +129,7 @@ OpenAI 通常拿不到银行提供的详细拒付原因，因此原因不明时�
 
 - [Why was my credit card declined?](https://help.openai.com/en/articles/7232916-why-was-my-credit-card-declined)
 - [Why did my ChatGPT Plus or Pro renewal transaction fail?](https://help.openai.com/en/articles/7242622-why-did-my-chatgpt-plus-or-chatgpt-pro-renewal-transaction-fail)
-- [What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
+- [Restore a ChatGPT subscription purchased in the Apple App Store](https://help.openai.com/en/articles/8346573)
+- [Why is my subscription associated with another account?](https://help.openai.com/en/articles/20001056)
 
-[查看实时 ChatGPT 方案](https://chonggrok.com/chatgpt) · [返回全部专题](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/)
+[查看实时 ChatGPT 方案](https://chonggrok.com/chatgpt?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_payment_errors&utm_content=service_options) · [返回全部专题](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/)

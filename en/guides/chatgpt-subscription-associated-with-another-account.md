@@ -87,22 +87,22 @@ Sign out of the current account and use the original method. Do not create more 
 
 After signing in to the original ChatGPT account, OpenAI documents this iOS path:
 
-`Settings → Restore purchases`
+`Settings → Account → Restore purchases`
 
 Restore Purchases makes the Apple subscription visible again on its original linked ChatGPT account. It does not transfer the subscription to a different account.
 
-### 4. On Android, verify the Google Play account and restore the purchase
+### 4. On Android, verify the original Google Play and ChatGPT accounts
 
-OpenAI currently documents Restore purchases in the Android app as well. Verify the accounts first, then restore the existing purchase:
+OpenAI does not currently document an Android control equivalent to the iOS `Restore purchases` path. Verify the purchase record and account relationship instead:
 
-1. confirm which Google Play account paid for ChatGPT;
+1. open Google Play and confirm which Google account paid for ChatGPT;
 2. verify that the Play Store subscription is active;
-3. sign in to the ChatGPT account used at purchase;
-4. open `Settings → Restore purchases` in the ChatGPT app;
-5. return to the account screen and check whether the original subscription is recognized;
+3. sign out of the current ChatGPT account;
+4. sign in with the same ChatGPT method used at purchase;
+5. return to the account or plan screen and check whether Plus or Pro appears;
 6. confirm that no web or Apple subscription also exists.
 
-If Google Play shows an active subscription but the original ChatGPT account still cannot recognize it after one restore attempt, save the Play receipt, subscription screen and account screen, then contact OpenAI support. Do not repeat the restore loop or repurchase.
+If Google Play shows an active subscription but the original ChatGPT account still cannot recognize it, save the Play receipt, subscription screen and account screen, then contact OpenAI Support. Do not repeat sign-in attempts or repurchase.
 
 ## Why reinstalling does not work
 
@@ -149,7 +149,7 @@ Never publish a password, verification code, recovery code, full payment-card nu
 
 For a completed charge that still leaves the account on Free, use the [paid-but-still-Free guide]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }}).
 
-Only after confirming that no active or pending subscription remains should a new membership path be considered. Current ChongGrok options are listed at [chonggrok.com/chatgpt](https://chonggrok.com/chatgpt).
+Only after confirming that no active or pending subscription remains should a new membership path be considered. Current ChongGrok options are listed at [chonggrok.com/chatgpt](https://chonggrok.com/chatgpt?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_subscription_account_binding&utm_content=en_service_options).
 
 ## Safety and scope
 
@@ -160,13 +160,14 @@ Only after confirming that no active or pending subscription remains should a ne
 - No fixed recovery time, refund result or account outcome is guaranteed.
 - Online subscriptions and third-party assistance are not risk-free.
 
+{% include faq_en.html %}
+
 ## Official OpenAI sources
 
 - [Subscription associated with another account](https://help.openai.com/en/articles/20001056)
 - [Restore an Apple App Store purchase](https://help.openai.com/en/articles/8346573)
 - [Avoid duplicate subscriptions across iOS, Android and web](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)
 - [Use a ChatGPT subscription on another device](https://help.openai.com/en/articles/8980438-can-i-access-my-chatgpt-subscription-from-another-device)
-- [ChatGPT Plus and iOS / Android restore troubleshooting](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
 - [Chinese guide]({{ '/guides/chatgpt-subscription-associated-with-another-account/' | relative_url }})
 
 **Fact check:** August 17, 2026. Account, subscription and refund rules can change; verify the current OpenAI, Apple and Google Play documentation.
