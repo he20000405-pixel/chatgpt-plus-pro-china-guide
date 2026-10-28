@@ -14,15 +14,15 @@ breadcrumbs:
     url: /guides/chatgpt-work-guide/
 faq:
   - question: "ChatGPT Work 和普通 Chat 有什么区别？"
-    answer: "Chat 适合快速问答、搜索和讨论；Work 适合需要多个步骤、持续检查进度并最终交付文档、表格、演示文稿、报告或其他成品的任务。"
+    answer: "Chat 适合快速问答、搜索、讨论和短内容；Work 适合需要多个步骤、持续检查进度并最终交付文档、表格、演示文稿、报告或其他成品的任务。"
   - question: "ChatGPT Work 和 Codex 应该选哪个？"
-    answer: "制作报告、分析资料或交付办公文件时选 Work；编写代码、运行测试、处理仓库或使用开发工具时选 Codex。Codex 的历史记录与 Chat 和 Work 分开。"
+    answer: "制作报告、分析资料或交付办公文件时选 Work；编写代码、运行测试、处理仓库或使用开发工具时选 Codex。Codex 的历史记录与 Chat 和 Work 分开，也不能在网页或移动端直接作为可选模式使用。"
   - question: "为什么我的 ChatGPT 里没有 Work？"
-    answer: "先确认登录的是正确账号，并检查当前计划和工作区权限。OpenAI 当前说明，网页和移动端 Work 面向符合条件的付费计划，桌面端还取决于计划和工作区设置；是否可用以账号实时界面为准。"
+    answer: "先确认登录的是正确账号，再检查当前计划、应用版本和工作区权限。OpenAI 当前说明，网页和移动端 Work 面向符合条件的付费计划；桌面端还取决于计划和工作区设置。是否可用以账号实时界面为准。"
   - question: "ChatGPT Work 可以直接读取电脑里的文件吗？"
-    answer: "网页和移动端 Work 不能直接读取电脑本地文件。符合条件的桌面端账号可以在获得授权后打开本地文件夹；只应授权当前任务需要的目录。"
+    answer: "网页和移动端 Work 不能直接读取电脑本地文件。符合条件的桌面端账号可以在获得授权后打开本地文件夹；只应授权当前任务需要的目录。本地对话及输出通常不会自动同步到网页或手机。"
   - question: "Scheduled Tasks 可以读取 Project 里上传的文件吗？"
-    answer: "不能依赖这种方式。OpenAI 当前说明，在含有文件的 Project 中创建 Scheduled Task 时，该任务不能访问这些 Project 文件。需要定时处理的信息应在任务指令中单独提供，或在任务运行后由用户回到 Project 继续处理。"
+    answer: "不能依赖这种方式。OpenAI 当前说明，在含有文件的 Project 中创建 Scheduled Task 时，该任务不能访问这些 Project 文件。可以把任务改成定时提醒，收到提醒后再进入 Project 启动 Work。"
   - question: "Work 创建的文件为什么没有出现在 Library？"
     answer: "云端 Work 创建的文件可能在支持时保存到 Library；本地桌面输出通常留在本地文件夹，Temporary Chat 中创建的文件也不会保存到 Library。先确认任务是在云端、本地还是 Temporary Chat 中完成。"
 ---

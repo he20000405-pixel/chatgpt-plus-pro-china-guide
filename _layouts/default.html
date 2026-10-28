@@ -11,95 +11,13 @@
     <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
     <meta property="og:image:alt" content="{{ page.image_alt | default: page.title | default: site.title | escape }}">
     <meta name="twitter:image:alt" content="{{ page.image_alt | default: page.title | default: site.title | escape }}">
-    {% if page.url == '/' or page.url == '/en/' %}
-    <link rel="alternate" hreflang="zh-CN" href="{{ '/' | absolute_url }}">
-    <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
-    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
-    {% endif %}
+    {% include seo-language-links.html %}
     <link rel="icon" href="{{ site.portal_url }}assets/images/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="{{ '/assets/css/knowledge-ui.css' | relative_url }}?v={{ site.asset_version }}">
     {% if page.canonical %}
       <link rel="canonical" href="{{ page.canonical }}">
     {% endif %}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "ChongGrok",
-      "url": "https://chonggrok.com/",
-      "description": "面向中文用户的 AI 会员订阅充值服务平台。"
-    }
-    </script>
-    {% if page.schema_type == 'Article' %}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": {{ page.title | jsonify }},
-      "description": {{ page.description | jsonify }},
-      "inLanguage": {{ page.lang | default: site.lang | jsonify }},
-      "datePublished": {{ page.date_published | jsonify }},
-      "dateModified": {{ page.last_modified_at | default: page.date_modified | jsonify }},
-      "author": {"@type": "Organization", "name": "ChongGrok", "url": "https://chonggrok.com/"},
-      "publisher": {"@type": "Organization", "name": "ChongGrok", "url": "https://chonggrok.com/"},
-      "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}
-    }
-    </script>
-    {% endif %}
-    {% if page.faq %}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {% for item in page.faq %}
-        {
-          "@type": "Question",
-          "name": {{ item.question | jsonify }},
-          "acceptedAnswer": {"@type": "Answer", "text": {{ item.answer | jsonify }}}
-        }{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-      ]
-    }
-    </script>
-    {% endif %}
-    {% if page.breadcrumbs %}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {% for item in page.breadcrumbs %}
-        {
-          "@type": "ListItem",
-          "position": {{ forloop.index }},
-          "name": {{ item.name | jsonify }},
-          "item": {{ item.url | absolute_url | jsonify }}
-        }{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-      ]
-    }
-    </script>
-    {% endif %}
-    {% if page.schema_type == 'CollectionPage' and page.item_list %}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      "name": {{ page.title | jsonify }},
-      "description": {{ page.description | jsonify }},
-      "url": {{ page.url | absolute_url | jsonify }},
-      "mainEntity": {
-        "@type": "ItemList",
-        "itemListElement": [
-          {% for item in page.item_list %}
-          {"@type":"ListItem","position":{{ forloop.index }},"name":{{ item.name | jsonify }},"url":{{ item.url | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}
-          {% endfor %}
-        ]
-      }
-    }
-    </script>
-    {% endif %}
+    {% include seo-structured-data.html %}
     <script src="{{ '/assets/js/knowledge-ui.js' | relative_url }}?v={{ site.asset_version }}" defer></script>
   </head>
   {% assign page_kind = 'article' %}
@@ -111,19 +29,13 @@
     {% assign page_kind = 'catalog' %}
   {% endif %}
   <body class="{{ page_kind }} {% if page_kind == 'landing' %}home-page{% elsif page_kind == 'catalog' %}collection-page{% else %}article-page{% endif %}" data-site="chatgpt" data-page-kind="{{ page_kind }}">
+    <script>document.body.classList.add("js-ready");</script>
     <a class="skip-link" href="#main-content">{% if page.lang == 'en' %}Skip to content{% else %}跳到正文{% endif %}</a>
     {% include header.html %}
     <main id="main-content" class="page-shell preview-main" tabindex="-1">
       {% include breadcrumbs.html %}
-      <div class="source-content">
-        <div class="preview-hero" data-page-hero hidden></div>
-        <div class="content-layout">
-          <article class="content preview-body" data-article-content>
-            {{ content }}
-          </article>
-          {% include reading-rail.html %}
-        </div>
-      </div>
+      {% capture presentation_source %}{{ content }}{% endcapture %}
+      {% include presentation.html source=presentation_source site_key="chatgpt" %}
     </main>
     {% include footer.html %}
   </body>

@@ -2,6 +2,8 @@
 title: "ChatGPT 订阅关联其他账号：原因与处理"
 description: "遇到 This subscription is associated with another OpenAI account 时，核对原 ChatGPT 账号、Apple 或 Google Play 购买账号，避免重复订阅。"
 permalink: /guides/chatgpt-subscription-associated-with-another-account/
+alternate_zh: /guides/chatgpt-subscription-associated-with-another-account/
+alternate_en: /en/guides/chatgpt-subscription-associated-with-another-account/
 schema_type: Article
 date_published: 2026-07-23
 last_modified_at: 2026-08-17

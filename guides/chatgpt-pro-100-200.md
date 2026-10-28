@@ -11,13 +11,14 @@ breadcrumbs:
     url: /guides/
   - name: Pro 100 / Pro 200
     url: /guides/chatgpt-pro-100-200/
+faq_markdown: true
 faq:
   - question: "ChatGPT Pro 100 美元是不是 OpenAI 官方套餐？"
-    answer: "是。OpenAI 当前官方帮助中心明确列出 100 美元的 5x Pro 和 200 美元的 20x Pro。两档包含相同的核心 Pro 能力，主要区别是相对 Plus 的使用额度。"
-  - question: "5x Pro 与 20x Pro 的主要区别是什么？"
-    answer: "OpenAI 当前说明中，两档的核心 Pro 能力相同；100 美元档提供相对 Plus 5x 的使用量，200 美元档提供相对 Plus 20x 的使用量。实际限制仍以账号页面和官方实时说明为准。"
-  - question: "Pro 100 美元和 Pro 200 美元能否像 Plus 一样自动核销？"
-    answer: "不能。chonggrok.com 的两个 Pro 方案都需要先联系客服确认账号、档位、当前价格和验收规则，再由客服使用海外信用卡协助官方订阅付款。"
+    answer: "是。OpenAI 当前官方帮助中心明确列出 100 美元的 5x Pro 和 200 美元的 20x Pro。"
+  - question: "5x Pro 与 20x Pro 的核心能力不同吗？"
+    answer: "OpenAI 当前说明中，两档包含相同的核心 Pro 能力，主要区别是相对 Plus 的使用额度。具体模型仍可能有单独限制。"
+  - question: "两档 Pro 能否像 Plus 一样自动核销？"
+    answer: "不能。chonggrok.com 的两个 Pro 方案都需要先联系客服确认，再由客服使用海外信用卡协助官方订阅付款。"
   - question: "Pro 充值需要提供密码吗？"
     answer: "不需要，也不应提交 ChatGPT 密码、邮箱密码、验证码或恢复码。具体履约资料应在付款前通过页面客服确认。"
 ---
@@ -155,21 +156,7 @@ OpenAI 当前说明允许在 `Settings → My Plan` 中切换 Pro 档位：升�
 
 ## 常见问题
 
-### ChatGPT Pro 100 美元是不是 OpenAI 官方套餐？
-
-是。OpenAI 当前官方帮助中心明确列出 100 美元的 5x Pro 和 200 美元的 20x Pro。
-
-### 5x Pro 与 20x Pro 的核心能力不同吗？
-
-OpenAI 当前说明中，两档包含相同的核心 Pro 能力，主要区别是相对 Plus 的使用额度。具体模型仍可能有单独限制。
-
-### 两档 Pro 能否像 Plus 一样自动核销？
-
-不能。chonggrok.com 的两个 Pro 方案都需要先联系客服确认，再由客服使用海外信用卡协助官方订阅付款。
-
-### Pro 充值需要提供密码吗？
-
-不需要，也不应提交 ChatGPT 密码、邮箱密码、验证码或恢复码。具体履约资料应在付款前通过页面客服确认。
+{% include faq-prose.html %}
 
 ## 官方来源与相关入口
 

@@ -12,17 +12,18 @@ breadcrumbs:
     url: /guides/
   - name: "登录失败与验证循环"
     url: /guides/chatgpt-login-verification-loop/
+faq_markdown: true
 faq:
-  - question: "ChatGPT 一直显示 Checking your browser 怎么办？"
-    answer: "先确认 OpenAI 服务状态，再临时停用广告拦截、隐私保护和脚本拦截扩展，允许 chatgpt.com、openai.com 与 auth.openai.com 使用 Cookie 和 JavaScript，然后使用无痕窗口或干净的浏览器配置重试。仍然循环时，应关闭 VPN 或代理并更换网络；公司网络需要联系管理员检查 Cloudflare 验证是否被拦截。"
-  - question: "ChatGPT 验证码收不到怎么办？"
-    answer: "检查垃圾邮件和隔离区，确认当前登录邮箱正确，并只使用最后一次申请的验证码。推送通知收不到时可在登录页面选择 Try with email。无法访问账号邮箱时，短信不能代替邮箱验证，应联系 OpenAI 支持处理。"
-  - question: "为什么相同邮箱会提示 Wrong authentication method？"
-    answer: "因为账号最初可能通过 Google、Microsoft 或 Apple 创建，而现在改用了邮箱密码登录。应继续使用注册时的原登录按钮；使用 Apple 隐藏邮箱时，账号还可能绑定到 privaterelay.appleid.com 地址。"
-  - question: "升级 ChatGPT Plus 能解决登录验证或账号停用吗？"
-    answer: "不能把会员升级当作登录修复方法。登录验证、异常活动和账号停用由 OpenAI 的身份与安全系统处理；应先恢复正常登录并确认账号状态，再考虑订阅。"
-  - question: "收到不是自己发起的 ChatGPT 登录请求怎么办？"
-    answer: "不要批准该请求。选择拒绝访问，立即修改相关账号密码，检查安全设置并启用多因素认证；如果使用 Google 或 Microsoft 登录，还应修改对应账号的密码。"
+  - question: "清理 Cookie 会删除聊天记录吗？"
+    answer: "不会删除服务器上的聊天记录，但会退出当前浏览器登录。重新使用正确账号登录后，正常保存在该账号中的对话会重新显示。"
+  - question: "相同邮箱能不能在不同登录方式之间切换？"
+    answer: "不能假设可以。OpenAI 提醒，不同登录方式可能形成不同账号和不同订阅，账号也不会自动合并。应继续使用注册时的原登录方式。"
+  - question: "升级 Plus 能不能取消验证码或解除安全限制？"
+    answer: "不能。OpenAI 官方登录资料没有把购买会员列为登录验证的解决办法。先解决身份验证和账号状态，避免在错误账号上购买订阅。"
+  - question: "为什么重新安装 App 仍然无法登录？"
+    answer: "重新安装只能替换本地应用，不能改变账号的原登录方式、邮箱访问权限或 OpenAI 服务器上的安全状态。应根据实际报错处理对应环节。"
+  - question: "可以把验证码或 session 发给客服帮忙登录吗？"
+    answer: "不可以。验证码、密码、恢复码和 session 都是敏感凭证。登录问题应通过 OpenAI 官方流程处理，不要向公开页面或非必要人员提供这些信息。"
 ---
 
 # ChatGPT 无法登录、验证码收不到或一直“Checking your browser”怎么办？
@@ -212,25 +213,7 @@ ChongGrok 不索要密码、邮箱验证码或恢复码，也不能代替 OpenAI
 
 ## 常见问题
 
-### 清理 Cookie 会删除聊天记录吗？
-
-不会删除服务器上的聊天记录，但会退出当前浏览器登录。重新使用正确账号登录后，正常保存在该账号中的对话会重新显示。
-
-### 相同邮箱能不能在不同登录方式之间切换？
-
-不能假设可以。OpenAI 提醒，不同登录方式可能形成不同账号和不同订阅，账号也不会自动合并。应继续使用注册时的原登录方式。
-
-### 升级 Plus 能不能取消验证码或解除安全限制？
-
-不能。OpenAI 官方登录资料没有把购买会员列为登录验证的解决办法。先解决身份验证和账号状态，避免在错误账号上购买订阅。
-
-### 为什么重新安装 App 仍然无法登录？
-
-重新安装只能替换本地应用，不能改变账号的原登录方式、邮箱访问权限或 OpenAI 服务器上的安全状态。应根据实际报错处理对应环节。
-
-### 可以把验证码或 session 发给客服帮忙登录吗？
-
-不可以。验证码、密码、恢复码和 session 都是敏感凭证。登录问题应通过 OpenAI 官方流程处理，不要向公开页面或非必要人员提供这些信息。
+{% include faq-prose.html %}
 
 ## OpenAI 官方来源
 

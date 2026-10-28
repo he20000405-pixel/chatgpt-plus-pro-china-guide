@@ -12,19 +12,20 @@ breadcrumbs:
     url: /guides/
   - name: "重复扣款排查"
     url: /guides/chatgpt-charged-twice/
+faq_markdown: true
 faq:
   - question: "ChatGPT 出现两笔交易，是否一定是重复扣款？"
     answer: "不一定。先查看两笔交易是否都已最终入账。如果一笔仍显示待处理，它还没有成为最终扣款；应等待银行或付款平台更新状态，不要立即申请两次退款或建立第三份订阅。"
   - question: "怎样确认自己有几份 ChatGPT 订阅？"
-    answer: "分别检查 iPhone 的 Apple 订阅、Google Play 的订阅，以及 ChatGPT 网页 Settings 中的 Billing。每一处都要记录所用平台账号、订阅状态和下次续费日期。"
+    answer: "分别检查 iPhone 的 Apple 订阅、Google Play 的订阅，以及 ChatGPT 网页 `Settings → Billing`。每一处都要记录所用平台账号、订阅状态和下次续费日期。"
   - question: "删除 ChatGPT App 能取消订阅吗？"
     answer: "不能。通过 Apple 或 Google Play 购买的订阅必须在原商店的订阅管理中取消；网页订阅必须在 ChatGPT 网页 Billing 中取消。"
   - question: "Apple 续费失败后，为什么后来又产生了一笔扣款？"
     answer: "Apple 续费失败时，订阅不一定已经取消。Apple 可能在付款方式恢复后再次尝试续费。如果用户此前又在网页或 Google Play 建立了新订阅，就可能同时存在两份订阅。"
   - question: "ChatGPT 重复扣款应该向谁申请退款？"
     answer: "Apple 订单向 Apple 申请。网页订单按 OpenAI 帮助中心流程申请。OpenAI 当前退款说明也将 Google Play 的 ChatGPT 退款引导至登录正确账号后的 OpenAI 帮助中心；提交前应再次查看官方页面的实时说明。"
-  - question: "ChongGrok 订单和官方平台订单重复了怎么办？"
-    answer: "不要再次购买。先保存两笔订单资料，通过 ChongGrok 核销页面检查卡密和处理状态，再分别确认官方订阅与 ChongGrok 订单是否已经完成；ChongGrok 订单问题由 ChongGrok 售后核对。"
+  - question: "已经取消订阅，为什么没有自动退款？"
+    answer: "取消订阅只停止未来续费，不等于退款申请。已经支付的订单仍需按原收款平台的退款流程单独提交，是否符合退款条件由该平台判断。"
 ---
 
 # ChatGPT 被重复扣款怎么办？检查网页、Apple 与 Google Play 多份订阅
@@ -256,29 +257,7 @@ OpenAI 当前两份帮助文档对 Google Play 退款入口的描述并不完全
 
 ## 常见问题
 
-### ChatGPT 出现两笔交易，是否一定是重复扣款？
-
-不一定。先查看两笔交易是否都已最终入账。如果一笔仍显示待处理，它还没有成为最终扣款；应等待银行或付款平台更新状态，不要立即申请两次退款或建立第三份订阅。
-
-### 怎样确认自己有几份 ChatGPT 订阅？
-
-分别检查 iPhone 的 Apple 订阅、Google Play 的订阅，以及 ChatGPT 网页 `Settings → Billing`。每一处都要记录所用平台账号、订阅状态和下次续费日期。
-
-### 删除 ChatGPT App 能取消订阅吗？
-
-不能。通过 Apple 或 Google Play 购买的订阅必须在原商店的订阅管理中取消；网页订阅必须在 ChatGPT 网页 Billing 中取消。
-
-### Apple 续费失败后，为什么后来又产生了一笔扣款？
-
-Apple 续费失败时，订阅不一定已经取消。Apple 可能在付款方式恢复后再次尝试续费。如果用户此前又在网页或 Google Play 建立了新订阅，就可能同时存在两份订阅。
-
-### ChatGPT 重复扣款应该向谁申请退款？
-
-Apple 订单向 Apple 申请。网页订单按 OpenAI 帮助中心流程申请。OpenAI 当前退款说明也将 Google Play 的 ChatGPT 退款引导至登录正确账号后的 OpenAI 帮助中心；提交前应再次查看官方页面的实时说明。
-
-### 已经取消订阅，为什么没有自动退款？
-
-取消订阅只停止未来续费，不等于退款申请。已经支付的订单仍需按原收款平台的退款流程单独提交，是否符合退款条件由该平台判断。
+{% include faq-prose.html %}
 
 ## 官方来源
 

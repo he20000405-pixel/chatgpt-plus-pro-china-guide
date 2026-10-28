@@ -12,19 +12,20 @@ breadcrumbs:
     url: /guides/
   - name: "ChatGPT 云端浏览器使用指南"
     url: /guides/chatgpt-cloud-browser/
+faq_markdown: true
 faq:
-  - question: "ChatGPT 云端浏览器应该从哪里打开？"
-    answer: "先进入 ChatGPT Work，再说明要访问的网站、任务目标、限制条件和期望结果。ChatGPT 会在适合的公开网页任务中使用 cloud browser；它不一定显示为一个独立的浏览器按钮。"
-  - question: "为什么我的 ChatGPT 中没有 cloud browser？"
-    answer: "先确认当前账号不是 Free 或 Go，所在地区受支持，并且工作区没有禁用相关权限。OpenAI 仍可能分批开放该功能，所以即使套餐符合条件，入口也可能暂时没有出现。"
-  - question: "cloud browser 可以登录网站或完成付款吗？"
-    answer: "不能。OpenAI 当前说明，cloud browser 首发阶段只处理公开页面，不能接收登录凭据、使用自动填充或密码管理器、登录网站或完成付款。遇到这些步骤时任务会停止。"
-  - question: "cloud browser 和 ChatGPT 桌面端内置浏览器有什么区别？"
-    answer: "cloud browser 在远程环境中执行公开网页任务，可以在后台继续；桌面端内置浏览器运行在 ChatGPT 桌面应用中，用户可以看到并批注页面，也可以在浏览器界面中自行登录和下载文件。"
-  - question: "什么时候应该使用 Codex Chrome 扩展？"
-    answer: "任务必须使用你现有的 Chrome 配置文件、已登录会话、打开的标签页或 Chrome 扩展时，才考虑 Codex Chrome 扩展。授权前应确认当前标签页和账号，密码只能输入浏览器，不能发到聊天中。"
-  - question: "cloud browser 为什么停在验证码或登录页面？"
-    answer: "这通常不是订阅故障。登录、验证码和部分反自动化检查不在当前 cloud browser 的支持范围内；应停止任务，改为自己打开页面，或在适合时改用桌面端内置浏览器。"
+  - question: "cloud browser 是一个单独的按钮吗？"
+    answer: "不一定。当前官方流程是先打开 ChatGPT Work，再描述需要完成的公开网页任务。ChatGPT 会在合适时使用 cloud browser；如果 App 可以直接完成任务，也可能改用 App。"
+  - question: "cloud browser 可以在我关闭页面后继续吗？"
+    answer: "可以在后台继续。需要补充信息或确认时会暂停；网站要求登录时会停止。稍后应回到原对话查看状态，不要另建相同任务。"
+  - question: "可以让 cloud browser 帮我登录账号吗？"
+    answer: "不能。当前版本不接收登录凭据，也不使用自动填充或密码管理器。需要登录时，应改用桌面端内置浏览器并由本人输入，或在确有需要时使用现有 Chrome 会话。"
+  - question: "cloud browser 可以帮我付款吗？"
+    answer: "不能。它不能完成付款。涉及价格、预订、订单或现实承诺时，还应检查确认页面，并由本人完成最终步骤。"
+  - question: "任务失败是否说明 ChatGPT 会员有问题？"
+    answer: "不一定。常见原因还包括网站阻止自动化访问、任务进入登录或 CAPTCHA、Work 权限未开放、网址错误或指令不清。应先按本文顺序定位问题，再决定联系网站、工作区管理员或 OpenAI。"
+  - question: "使用公开网页还需要注意隐私吗？"
+    answer: "需要。网页可能包含诱导工具偏离任务的内容。应限定网站和目标、关闭不需要的 Apps、检查每次确认，并在发现错误网站或错误信息时立即停止。"
 ---
 
 # ChatGPT 云端浏览器怎么用？入口、公开网页限制与常见故障排查
@@ -240,29 +241,7 @@ OpenAI 当前说明，cloud browser 面向受支持地区的付费计划开放�
 
 ## FAQ
 
-### cloud browser 是一个单独的按钮吗？
-
-不一定。当前官方流程是先打开 ChatGPT Work，再描述需要完成的公开网页任务。ChatGPT 会在合适时使用 cloud browser；如果 App 可以直接完成任务，也可能改用 App。
-
-### cloud browser 可以在我关闭页面后继续吗？
-
-可以在后台继续。需要补充信息或确认时会暂停；网站要求登录时会停止。稍后应回到原对话查看状态，不要另建相同任务。
-
-### 可以让 cloud browser 帮我登录账号吗？
-
-不能。当前版本不接收登录凭据，也不使用自动填充或密码管理器。需要登录时，应改用桌面端内置浏览器并由本人输入，或在确有需要时使用现有 Chrome 会话。
-
-### cloud browser 可以帮我付款吗？
-
-不能。它不能完成付款。涉及价格、预订、订单或现实承诺时，还应检查确认页面，并由本人完成最终步骤。
-
-### 任务失败是否说明 ChatGPT 会员有问题？
-
-不一定。常见原因还包括网站阻止自动化访问、任务进入登录或 CAPTCHA、Work 权限未开放、网址错误或指令不清。应先按本文顺序定位问题，再决定联系网站、工作区管理员或 OpenAI。
-
-### 使用公开网页还需要注意隐私吗？
-
-需要。网页可能包含诱导工具偏离任务的内容。应限定网站和目标、关闭不需要的 Apps、检查每次确认，并在发现错误网站或错误信息时立即停止。
+{% include faq-prose.html %}
 
 ## 官方来源与核验日期
 

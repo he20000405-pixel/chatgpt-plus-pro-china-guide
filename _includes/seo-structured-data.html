@@ -1,0 +1,80 @@
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ChongGrok",
+      "url": "https://chonggrok.com/",
+      "description": "面向中文用户的 AI 会员订阅充值服务平台。"
+    }
+    </script>
+    {% if page.schema_type == 'Article' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "inLanguage": {{ page.lang | default: site.lang | jsonify }},
+      {% if page.date_published %}"datePublished": {{ page.date_published | jsonify }},{% endif %}
+      {% if page.last_modified_at or page.date_modified %}"dateModified": {{ page.last_modified_at | default: page.date_modified | jsonify }},{% endif %}
+      {% if page.image %}{% unless page.image contains "/assets/images/social-preview." %}"image": {{ page.image | absolute_url | jsonify }},{% endunless %}{% endif %}
+      "author": {"@type": "Organization", "name": "ChongGrok", "url": "https://chonggrok.com/"},
+      "publisher": {"@type": "Organization", "name": "ChongGrok", "url": "https://chonggrok.com/"},
+      "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}
+    }
+    </script>
+    {% endif %}
+    {% if page.faq %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {% for item in page.faq %}
+        {
+          "@type": "Question",
+          "name": {% if page.faq_markdown %}{{ item.question | markdownify | strip_html | strip | jsonify }}{% else %}{{ item.question | strip_html | strip | jsonify }}{% endif %},
+          "acceptedAnswer": {"@type": "Answer", "text": {% if page.faq_markdown %}{{ item.answer | markdownify | strip_html | strip | jsonify }}{% else %}{{ item.answer | strip_html | strip | jsonify }}{% endif %}}
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+    </script>
+    {% endif %}
+    {% if page.breadcrumbs %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for item in page.breadcrumbs %}
+        {
+          "@type": "ListItem",
+          "position": {{ forloop.index }},
+          "name": {{ item.name | jsonify }},
+          "item": {{ item.url | absolute_url | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+    </script>
+    {% endif %}
+    {% if page.schema_type == 'CollectionPage' and page.item_list %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {% for item in page.item_list %}
+          {"@type":"ListItem","position":{{ forloop.index }},"name":{{ item.name | jsonify }},"url":{{ item.url | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ]
+      }
+    }
+    </script>
+    {% endif %}

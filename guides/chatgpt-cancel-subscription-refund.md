@@ -12,19 +12,20 @@ breadcrumbs:
     url: /guides/
   - name: "取消订阅与退款"
     url: /guides/chatgpt-cancel-subscription-refund/
+faq_markdown: true
 faq:
   - question: "ChatGPT 取消订阅后会自动退款吗？"
-    answer: "不会。取消订阅用于停止未来自动续费，申请退款是另一项操作。已经支付的订单必须按原购买渠道单独提交退款申请，是否符合退款条件由实际收款平台判断。"
+    answer: "不会。取消订阅用于停止未来自动续费，退款需要按原订单的收款平台另行申请。"
   - question: "删除 ChatGPT App 能取消订阅吗？"
-    answer: "不能。通过 Apple 或 Google Play 购买的订阅必须在对应商店的订阅管理中取消；通过 chatgpt.com 购买的订阅必须在 ChatGPT 网页 Billing 中取消。"
+    answer: "不能。Apple、Google Play 和网页订阅都必须在各自的订阅管理入口取消。"
   - question: "怎样确认 ChatGPT 是从哪里购买的？"
-    answer: "先查付款收据的发送方，再分别检查 Apple 订阅、Google Play 订阅和 ChatGPT 网页 Billing。收据与订阅页面能够确定由谁收款和管理续费。"
+    answer: "先查看收据发送方，再检查 Apple 订阅、Google Play 订阅和 ChatGPT 网页 `Billing`。三处结果能够确定由谁收款和管理续费。"
   - question: "ChatGPT 已经扣款但仍显示 Free，应该先取消吗？"
-    answer: "不要先重复购买。先核对收据、原购买账号和订阅状态；如果属于已付款但权益未生效，应进入对应排障流程。取消订阅不能修复账号权益，也不会自动退款。"
+    answer: "先核对订单、原购买账号和权益归属，不要再次购买。取消订阅不能修复权益同步，也不会自动退回已付款项。"
   - question: "无法登录原 ChatGPT 账号，还能取消网页订阅吗？"
-    answer: "可以联系 OpenAI 支持协助查找并取消，但需要提供订阅账号邮箱、付款卡末四位和最近一次付款日期等核验资料。不要公开完整卡号、验证码或密码。"
-  - question: "ChongGrok 订单应该在哪里查询？"
-    answer: "已有卡密或订单时，先在 chonggrok.com/verify 查看核销与处理状态，再通过主站售后核对订单。不要把 ChongGrok 订单提交到 Apple、Google Play 或 OpenAI 的退款入口。"
+    answer: "可以联系 OpenAI 支持协助查找并取消。准备订阅邮箱、付款卡末四位和最近一次付款日期，不要公开完整卡号或密码。"
+  - question: "已有 ChongGrok 卡密，应该去哪里处理？"
+    answer: "先在 [chonggrok.com/verify](https://chonggrok.com/verify) 检查核销与订单状态，再通过主站售后核对。不要再次购买。"
 ---
 
 # ChatGPT Plus / Pro 怎么取消订阅和申请退款？按原购买渠道操作
@@ -189,29 +190,7 @@ ChongGrok 只能核对自己的订单，不能替 Apple、Google Play 或 OpenAI
 
 ## 常见问题
 
-### ChatGPT 取消订阅后会自动退款吗？
-
-不会。取消订阅用于停止未来自动续费，退款需要按原订单的收款平台另行申请。
-
-### 删除 ChatGPT App 能取消订阅吗？
-
-不能。Apple、Google Play 和网页订阅都必须在各自的订阅管理入口取消。
-
-### 怎样确认 ChatGPT 是从哪里购买的？
-
-先查看收据发送方，再检查 Apple 订阅、Google Play 订阅和 ChatGPT 网页 `Billing`。三处结果能够确定由谁收款和管理续费。
-
-### ChatGPT 已经扣款但仍显示 Free，应该先取消吗？
-
-先核对订单、原购买账号和权益归属，不要再次购买。取消订阅不能修复权益同步，也不会自动退回已付款项。
-
-### 无法登录原 ChatGPT 账号，还能取消网页订阅吗？
-
-可以联系 OpenAI 支持协助查找并取消。准备订阅邮箱、付款卡末四位和最近一次付款日期，不要公开完整卡号或密码。
-
-### 已有 ChongGrok 卡密，应该去哪里处理？
-
-先在 [chonggrok.com/verify](https://chonggrok.com/verify) 检查核销与订单状态，再通过主站售后核对。不要再次购买。
+{% include faq-prose.html %}
 
 ## 官方来源
 

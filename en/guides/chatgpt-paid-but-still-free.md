@@ -2,6 +2,8 @@
 title: "ChatGPT Paid but Still Free: Account and Billing Checks"
 description: "If ChatGPT Plus or Pro was charged but the account still shows Free, check the original web, Apple or Google Play purchase, ChatGPT account association and duplicate subscriptions before paying again."
 permalink: /en/guides/chatgpt-paid-but-still-free/
+alternate_zh: /guides/chatgpt-paid-but-still-free/
+alternate_en: /en/guides/chatgpt-paid-but-still-free/
 lang: en
 schema_type: Article
 date_published: 2026-07-24

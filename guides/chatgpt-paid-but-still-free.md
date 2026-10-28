@@ -2,6 +2,8 @@
 title: "ChatGPT Plus 已付款仍显示 Free：账号与订阅排查"
 description: "排查 ChatGPT Plus 已扣款仍显示 Free、App Store 订阅未同步、Google Play 原购买账号不一致、订阅关联其他 OpenAI 账号和 ChongGrok 卡密核销状态。"
 permalink: /guides/chatgpt-paid-but-still-free/
+alternate_zh: /guides/chatgpt-paid-but-still-free/
+alternate_en: /en/guides/chatgpt-paid-but-still-free/
 date_published: "2026-07-12"
 last_modified_at: "2026-08-17"
 breadcrumbs:
@@ -11,19 +13,20 @@ breadcrumbs:
     url: /guides/
   - name: 已付款仍显示 Free
     url: /guides/chatgpt-paid-but-still-free/
+faq_markdown: true
 faq:
   - question: "ChatGPT Plus 已经扣款但仍显示 Free，第一步该做什么？"
     answer: "先不要重复付款。确认购买发生在 chatgpt.com、Apple App Store、Google Play 还是 ChongGrok，再核对当前登录账号是否就是原购买时绑定的 OpenAI 账号。"
   - question: "收到付款收据是否代表 ChatGPT Plus 已经在当前账号生效？"
     answer: "不一定。收据能证明某个渠道产生了交易，但还要在网页 Billing、Apple 订阅或 Google Play 订阅中确认状态，并核对订阅绑定的原 ChatGPT 账号。"
   - question: "iPhone 上怎样恢复 ChatGPT Plus 购买？"
-    answer: "使用原购买时的 Apple ID 和 ChatGPT 账号登录，在 ChatGPT iOS App 中进入 Settings → Account → Restore purchases。界面层级变化时以 App 实时显示为准。"
+    answer: "使用原购买时的 Apple ID 和 ChatGPT 账号登录，在 ChatGPT iOS App 中进入 `Settings → Account → Restore purchases`。界面层级变化时以 App 实时显示为准。"
   - question: "Android 版 ChatGPT 应该使用 Restore purchases 吗？"
-    answer: "不要按 iOS 教程在 Android 中寻找 Restore purchases。OpenAI 当前只明确说明 Apple App Store 购买可在 ChatGPT iOS App 中恢复。Android 用户应核对原 Google Play 账号、Play 订阅状态和购买时登录的 ChatGPT 账号；仍显示 Free 时保存证据并联系 OpenAI 支持。"
-  - question: "提示订阅关联另一个 OpenAI 账号是什么意思？"
-    answer: "移动端订阅会同时关联购买时的 Apple ID 或 Google Play 账号，以及当时登录的 ChatGPT 账号。订阅不能转移到另一个 ChatGPT 账号，应登录原购买账号使用。"
+    answer: "不要按 iOS 教程在 Android 中寻找 `Restore purchases`。OpenAI 当前只明确说明 Apple App Store 购买可在 ChatGPT iOS App 中恢复。Android 用户应核对原 Google Play 账号、Play 订阅状态和购买时登录的 ChatGPT 账号；仍显示 Free 时保存证据并联系 OpenAI 支持。"
+  - question: "提示订阅关联另一个 OpenAI 账号怎么办？"
+    answer: "停止再次购买，退出当前账号并登录原购买时绑定的 ChatGPT 账号。移动订阅不能转移到另一个 ChatGPT 账号，重新安装 App 也不会改变绑定。"
   - question: "ChongGrok 卡密核销后仍显示 Free 怎么办？"
-    answer: "不要再次购买。保留卡密、订单和核销状态，通过 chonggrok.com/verify 核对目标账号及处理记录；确认账号无误后再按页面或售后指引处理。"
+    answer: "不要再次购买。通过 [卡密核销页面](https://chonggrok.com/verify?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_paid_but_still_free&utm_content=verify_existing_order)核对卡密、目标账号和处理状态，并保留订单及核销记录供售后查询。\n\n如果还不能确定应该联系银行、Apple、Google Play、OpenAI 还是 ChongGrok，可先走[跨产品 AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)。"
 ---
 
 # ChatGPT Plus 已付款但仍显示 Free
@@ -206,31 +209,7 @@ OpenAI 网页和 Google Play 订单的退款入口与 Apple 订单不同。Apple
 
 ## 常见问题
 
-### ChatGPT Plus 已经扣款但仍显示 Free，第一步该做什么？
-
-先不要重复付款。确认购买发生在 chatgpt.com、Apple App Store、Google Play 还是 ChongGrok，再核对当前登录账号是否就是原购买时绑定的 OpenAI 账号。
-
-### 收到付款收据是否代表 ChatGPT Plus 已经在当前账号生效？
-
-不一定。收据能证明某个渠道产生了交易，但还要在网页 Billing、Apple 订阅或 Google Play 订阅中确认状态，并核对订阅绑定的原 ChatGPT 账号。
-
-### iPhone 上怎样恢复 ChatGPT Plus 购买？
-
-使用原购买时的 Apple ID 和 ChatGPT 账号登录，在 ChatGPT iOS App 中进入 `Settings → Account → Restore purchases`。界面层级变化时以 App 实时显示为准。
-
-### Android 版 ChatGPT 应该使用 Restore purchases 吗？
-
-不要按 iOS 教程在 Android 中寻找 `Restore purchases`。OpenAI 当前只明确说明 Apple App Store 购买可在 ChatGPT iOS App 中恢复。Android 用户应核对原 Google Play 账号、Play 订阅状态和购买时登录的 ChatGPT 账号；仍显示 Free 时保存证据并联系 OpenAI 支持。
-
-### 提示订阅关联另一个 OpenAI 账号怎么办？
-
-停止再次购买，退出当前账号并登录原购买时绑定的 ChatGPT 账号。移动订阅不能转移到另一个 ChatGPT 账号，重新安装 App 也不会改变绑定。
-
-### ChongGrok 卡密核销后仍显示 Free 怎么办？
-
-不要再次购买。通过 [卡密核销页面](https://chonggrok.com/verify?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_paid_but_still_free&utm_content=verify_existing_order)核对卡密、目标账号和处理状态，并保留订单及核销记录供售后查询。
-
-如果还不能确定应该联系银行、Apple、Google Play、OpenAI 还是 ChongGrok，可先走[跨产品 AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)。
+{% include faq-prose.html %}
 
 ## OpenAI 官方来源
 

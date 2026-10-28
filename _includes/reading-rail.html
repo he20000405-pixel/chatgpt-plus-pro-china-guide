@@ -1,7 +1,7 @@
-<aside class="reading-rail" data-reading-rail hidden aria-label="{% if page.lang == 'en' %}Page navigation{% else %}页面导航{% endif %}">
+<aside class="reading-rail" data-reading-rail aria-label="{% if page.lang == 'en' %}Page navigation{% else %}页面导航{% endif %}">
   <details class="toc-panel" data-page-toc open>
     <summary class="toc-title">{% if page.lang == 'en' %}On this page{% else %}本页目录{% endif %}</summary>
-    <ol class="toc-list" data-toc-list></ol>
+    <ol class="toc-list" data-toc-list>{{ presentation_toc }}</ol>
   </details>
   <section class="rail-discovery">
     <p class="toc-title">{% if page.lang == 'en' %}Find another answer{% else %}继续查找答案{% endif %}</p>
@@ -9,4 +9,5 @@
     <a href="{{ '/guides/' | relative_url }}">{% if page.lang == 'en' %}Browse all topics{% else %}浏览全部专题{% endif %} <span aria-hidden="true">→</span></a>
     <a href="{{ site.portal_url }}resources/">{% if page.lang == 'en' %}Practical resources{% else %}实用资源{% endif %} <span aria-hidden="true">→</span></a>
   </section>
+  {{ presentation_preview }}
 </aside>

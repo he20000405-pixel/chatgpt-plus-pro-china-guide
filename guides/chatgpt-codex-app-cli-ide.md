@@ -12,17 +12,18 @@ breadcrumbs:
     url: /guides/
   - name: "Codex App、CLI 与 IDE"
     url: /guides/chatgpt-codex-app-cli-ide/
+faq_markdown: true
 faq:
   - question: "ChatGPT Plus 或 Pro 可以直接登录 Codex 吗？"
-    answer: "可以。选择 Sign in with ChatGPT，并登录拥有有效 Plus 或 Pro 订阅的同一 ChatGPT 账号。OpenAI 当前也在其他部分 ChatGPT 套餐中提供 Codex；本文只说明 Plus 和 Pro 的使用流程，实际入口与用量以账号实时页面为准。"
+    answer: "可以。启动桌面端、CLI 或 IDE 集成后选择 **Sign in with ChatGPT**，并使用拥有有效订阅的原 ChatGPT 账号完成授权。OpenAI 当前也在其他部分计划中提供 Codex，具体可用性和用量以官方实时页面为准。"
   - question: "使用 Codex CLI 或 IDE 扩展必须准备 API Key 吗？"
-    answer: "不必须。使用 Sign in with ChatGPT 时走 ChatGPT 账号登录；只有主动选择 API Key 工作流时才涉及独立 API 账号和 API 计费。"
+    answer: "不必须。选择 **Sign in with ChatGPT** 时使用 ChatGPT 账号和计划内用量；只有主动选择 API Key 登录时，才进入独立的 OpenAI Platform 计费流程。"
   - question: "Codex 桌面端、CLI 和 IDE 扩展需要全部安装吗？"
-    answer: "不需要。希望用图形界面管理任务可先用 ChatGPT 桌面端；习惯终端可用 CLI；希望在编辑器中查看代码和差异可用 IDE 扩展。"
-  - question: "CLI 登录后为什么没有显示我的 Plus 或 Pro 权益？"
-    answer: "先运行 codex login status 确认当前认证方式。若怀疑登录了错误账号，运行 codex logout 清除当前凭据，再运行 codex login，并在浏览器中使用原订阅账号完成授权。/status 用于查看当前会话和剩余用量，不等于账号身份凭证。"
-  - question: "Codex 提示达到使用上限，是否代表订阅失效？"
-    answer: "不一定。Plus 和 Pro 包含计划内 Codex 用量，达到当前限额不等于会员失效。应先打开官方 Usage Dashboard，确认计划状态和剩余用量，再按账号页面的实时提示处理。"
+    answer: "不需要。图形界面用户可先用桌面端；终端用户可用 CLI；主要在编辑器中工作的用户可安装 IDE 扩展。确认一个入口可以正常工作后，再按需要增加其他入口。"
+  - question: "CLI 登录了错误账号应该怎样重来？"
+    answer: "先在普通终端运行 `codex login status` 查看认证方式。若需要清除当前凭据，运行 `codex logout`，再运行 `codex login`，并在浏览器中使用原订阅账号完成授权。不要因为登录错账号再次购买会员。"
+  - question: "Codex 达到使用上限是否代表 Plus 或 Pro 已失效？"
+    answer: "不一定。先检查 ChatGPT 计划是否仍有效，再打开 [Codex Usage Dashboard](https://chatgpt.com/codex/settings/usage) 查看剩余用量。计划有效但用量达到当前上限，与订阅失效是两种不同状态。"
 ---
 
 # ChatGPT Plus / Pro 开通后，如何使用 Codex App、CLI 和 IDE？
@@ -301,25 +302,7 @@ ChongGrok 只提供 ChatGPT 会员订阅协助，不提供 API 额度或 API 充
 
 ## 常见问题
 
-### ChatGPT Plus 或 Pro 可以直接登录 Codex 吗？
-
-可以。启动桌面端、CLI 或 IDE 集成后选择 **Sign in with ChatGPT**，并使用拥有有效订阅的原 ChatGPT 账号完成授权。OpenAI 当前也在其他部分计划中提供 Codex，具体可用性和用量以官方实时页面为准。
-
-### 使用 Codex CLI 或 IDE 扩展必须准备 API Key 吗？
-
-不必须。选择 **Sign in with ChatGPT** 时使用 ChatGPT 账号和计划内用量；只有主动选择 API Key 登录时，才进入独立的 OpenAI Platform 计费流程。
-
-### Codex 桌面端、CLI 和 IDE 扩展需要全部安装吗？
-
-不需要。图形界面用户可先用桌面端；终端用户可用 CLI；主要在编辑器中工作的用户可安装 IDE 扩展。确认一个入口可以正常工作后，再按需要增加其他入口。
-
-### CLI 登录了错误账号应该怎样重来？
-
-先在普通终端运行 `codex login status` 查看认证方式。若需要清除当前凭据，运行 `codex logout`，再运行 `codex login`，并在浏览器中使用原订阅账号完成授权。不要因为登录错账号再次购买会员。
-
-### Codex 达到使用上限是否代表 Plus 或 Pro 已失效？
-
-不一定。先检查 ChatGPT 计划是否仍有效，再打开 [Codex Usage Dashboard](https://chatgpt.com/codex/settings/usage) 查看剩余用量。计划有效但用量达到当前上限，与订阅失效是两种不同状态。
+{% include faq-prose.html %}
 
 ## OpenAI 官方来源
 

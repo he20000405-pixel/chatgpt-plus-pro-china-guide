@@ -12,21 +12,22 @@ breadcrumbs:
     url: /guides/
   - name: "ChatGPT Images 2.0 使用指南"
     url: /guides/chatgpt-images-2-guide/
+faq_markdown: true
 faq:
   - question: "ChatGPT Free 可以使用 Images 2.0 吗？"
-    answer: "可以。OpenAI 当前说明 ChatGPT Images 2.0 面向所有套餐提供，但 Free 的图片生成上限低于付费套餐。达到上限后，应按界面提示等待，不要为了测试功能重复购买。"
+    answer: "可以。OpenAI 当前说明 Images 2.0 面向所有套餐开放。Free 的图片生成上限更严格，达到上限后应按界面提示等待。"
   - question: "ChatGPT Images 应该从哪里打开？"
-    answer: "可以在普通对话中直接描述要生成的图片，也可以选择 More，再选择 Images。已经生成的图片会自动保存在 Images 页面。"
+    answer: "可以在普通对话中直接描述图片，也可以选择 **More → Images**。已经生成的图片会自动保存在 Images 页面。"
   - question: "可以上传自己的图片再修改吗？"
-    answer: "可以。上传图片后直接描述要修改的内容，或者打开编辑器，用 Select 标出需要修改的区域，再说明希望发生的变化。上传前应先确认图片不包含不必要的敏感信息。"
-  - question: "为什么局部编辑影响了选区以外的内容？"
-    answer: "OpenAI 明确说明选区并不总是精确，修改可能延伸到选区之外。应缩小选区、明确哪些元素必须保持不变，并保留原图后再分步骤修改。"
-  - question: "怎样让 ChatGPT 生成带文字或透明背景的图片？"
-    answer: "在提示中写出必须出现的准确文字，并明确要求透明背景。生成后仍要逐字检查文字，并用能显示棋盘格透明背景的图片工具确认导出文件是否真的透明。"
-  - question: "怎样从 ChatGPT 的 Images 中删除图片？"
-    answer: "OpenAI 当前说明，需要删除生成该图片的对话。网页端在对话标题的更多菜单中选择 Delete；iOS 或 Android 长按对话标题后选择 Delete。"
-  - question: "官方 DALL·E GPT 停用后还能在 ChatGPT 生成图片吗？"
-    answer: "可以。OpenAI 计划在 2026 年 8 月 30 日停用官方 DALL·E GPT，但 ChatGPT Images 继续用于图片创建和编辑。需要保留的旧图片应在该日期前下载。"
+    answer: "可以。上传后直接描述修改要求，或者使用 Select 标出需要修改的区域。上传前先清理与任务无关的个人或账号信息。"
+  - question: "为什么选区以外也发生了变化？"
+    answer: "OpenAI 明确说明选区不一定精确，编辑可能扩展到选区之外。返回原图、缩小选区，并明确选区外保持不变。"
+  - question: "如何删除 Images 中的图片？"
+    answer: "删除生成该图片的对话。网页端使用对话标题的更多菜单；iOS 或 Android 长按对话标题后选择 Delete。"
+  - question: "官方 DALL·E GPT 停用后还能生成图片吗？"
+    answer: "可以。OpenAI 计划在 **2026 年 8 月 30 日**停用官方 DALL·E GPT，ChatGPT Images 仍继续用于图片创建和编辑。需要保留的旧图片应在该日期前下载。"
+  - question: "ChatGPT Images 可以在 Codex 中使用吗？"
+    answer: "可以。OpenAI 当前帮助文档说明，Codex 也支持图片生成和编辑。需要使用 Codex 完成本地项目时，可先阅读[ChatGPT Plus / Pro 使用 Codex](/chatgpt-plus-pro-china-guide/guides/chatgpt-codex-app-cli-ide/)，并在操作前确认文件范围和权限。"
 ---
 
 # ChatGPT Images 2.0 怎么用？图片生成、局部编辑、文字与透明背景完整指南
@@ -316,33 +317,7 @@ OpenAI 当前说明 Images 2.0 面向所有套餐开放，因此缺少单独菜�
 
 ## FAQ
 
-### ChatGPT Free 可以使用 Images 2.0 吗？
-
-可以。OpenAI 当前说明 Images 2.0 面向所有套餐开放。Free 的图片生成上限更严格，达到上限后应按界面提示等待。
-
-### ChatGPT Images 应该从哪里打开？
-
-可以在普通对话中直接描述图片，也可以选择 **More → Images**。已经生成的图片会自动保存在 Images 页面。
-
-### 可以上传自己的图片再修改吗？
-
-可以。上传后直接描述修改要求，或者使用 Select 标出需要修改的区域。上传前先清理与任务无关的个人或账号信息。
-
-### 为什么选区以外也发生了变化？
-
-OpenAI 明确说明选区不一定精确，编辑可能扩展到选区之外。返回原图、缩小选区，并明确选区外保持不变。
-
-### 如何删除 Images 中的图片？
-
-删除生成该图片的对话。网页端使用对话标题的更多菜单；iOS 或 Android 长按对话标题后选择 Delete。
-
-### 官方 DALL·E GPT 停用后还能生成图片吗？
-
-可以。OpenAI 计划在 **2026 年 8 月 30 日**停用官方 DALL·E GPT，ChatGPT Images 仍继续用于图片创建和编辑。需要保留的旧图片应在该日期前下载。
-
-### ChatGPT Images 可以在 Codex 中使用吗？
-
-可以。OpenAI 当前帮助文档说明，Codex 也支持图片生成和编辑。需要使用 Codex 完成本地项目时，可先阅读[ChatGPT Plus / Pro 使用 Codex]({{ '/guides/chatgpt-codex-app-cli-ide/' | relative_url }})，并在操作前确认文件范围和权限。
+{% include faq-prose.html %}
 
 ## 官方来源与核验日期
 
