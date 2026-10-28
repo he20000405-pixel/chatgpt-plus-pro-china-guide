@@ -17,7 +17,7 @@
     <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
     {% endif %}
     <link rel="icon" href="{{ site.portal_url }}assets/images/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.asset_version }}">
+    <link rel="stylesheet" href="{{ '/assets/css/knowledge-ui.css' | relative_url }}?v={{ site.asset_version }}">
     {% if page.canonical %}
       <link rel="canonical" href="{{ page.canonical }}">
     {% endif %}
@@ -100,14 +100,30 @@
     }
     </script>
     {% endif %}
+    <script src="{{ '/assets/js/knowledge-ui.js' | relative_url }}?v={{ site.asset_version }}" defer></script>
   </head>
-  <body class="{% if page.url == '/' %}home-page{% elsif page.schema_type == 'CollectionPage' %}collection-page{% else %}article-page{% endif %}">
+  {% assign page_kind = 'article' %}
+  {% if page.url == '/' %}
+    {% assign page_kind = 'landing' %}
+  {% elsif page.url == '/404.html' %}
+    {% assign page_kind = 'error' %}
+  {% elsif page.schema_type == 'CollectionPage' or page.url == '/guides/' or page.url == '/en/' %}
+    {% assign page_kind = 'catalog' %}
+  {% endif %}
+  <body class="{{ page_kind }} {% if page_kind == 'landing' %}home-page{% elsif page_kind == 'catalog' %}collection-page{% else %}article-page{% endif %}" data-site="chatgpt" data-page-kind="{{ page_kind }}">
+    <a class="skip-link" href="#main-content">{% if page.lang == 'en' %}Skip to content{% else %}跳到正文{% endif %}</a>
     {% include header.html %}
-    <main class="page-shell">
+    <main id="main-content" class="page-shell preview-main" tabindex="-1">
       {% include breadcrumbs.html %}
-      <article class="content">
-        {{ content }}
-      </article>
+      <div class="source-content">
+        <div class="preview-hero" data-page-hero hidden></div>
+        <div class="content-layout">
+          <article class="content preview-body" data-article-content>
+            {{ content }}
+          </article>
+          {% include reading-rail.html %}
+        </div>
+      </div>
     </main>
     {% include footer.html %}
   </body>

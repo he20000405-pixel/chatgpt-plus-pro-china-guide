@@ -4,41 +4,21 @@
       <span class="brand-mark" aria-hidden="true">CG</span>
       <span class="brand-copy"><strong>ChongGrok</strong><small>AI 会员指南</small></span>
     </a>
-    <nav class="site-nav desktop-nav" aria-label="主导航">
-      <a href="{{ site.portal_url }}">总首页</a>
-      <a href="{{ site.guide_portal_url }}">指南门户</a>
-      <a class="is-current" href="{{ '/' | relative_url }}" aria-current="page">ChatGPT</a>
+    <button class="nav-toggle" type="button" aria-label="{% if page.lang == 'en' %}Open navigation{% else %}打开主导航{% endif %}" aria-expanded="false" aria-controls="site-nav">
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      <span class="sr-only">{% if page.lang == 'en' %}Menu{% else %}菜单{% endif %}</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="{% if page.lang == 'en' %}Main navigation{% else %}主导航{% endif %}">
+      <a href="{{ site.portal_url }}">首页</a>
+      <a href="{{ '/' | relative_url }}"{% unless page.lang == 'en' %} aria-current="page"{% endunless %}>ChatGPT</a>
       <a href="{{ site.grok_guide_url }}">Grok</a>
       <a href="{{ site.claude_guide_url }}">Claude</a>
       <a href="{{ site.gemini_guide_url }}">Gemini</a>
-      <a href="{{ '/guides/' | relative_url }}">专题</a>
-      <a class="search-link" href="{{ site.portal_url }}search/" aria-label="搜索全部知识库">
-        <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
-        <span>搜索</span>
-      </a>
-      <a class="nav-cta" href="https://chonggrok.com/chatgpt?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=chatgpt_knowledge&amp;utm_content=header">查看方案</a>
+      <a href="{{ site.portal_url }}resources/">实用资源</a>
+      <a href="{{ site.portal_url }}search/">搜索指南</a>
+      <a href="{{ site.portal_url }}about/">关于</a>
+      <a href="{{ '/en/' | relative_url }}" lang="en"{% if page.lang == 'en' %} aria-current="page"{% endif %}>English</a>
+      <a class="nav-cta" href="https://chonggrok.com/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=chatgpt_knowledge&amp;utm_content=header_main_site">前往 ChongGrok <span aria-hidden="true">↗</span></a>
     </nav>
-    <details class="mobile-nav">
-      <summary aria-label="打开导航菜单">
-        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
-      </summary>
-      <div class="mobile-panel">
-        <nav aria-label="移动端主导航">
-          <a href="{{ site.portal_url }}">知识库总首页</a>
-          <a href="{{ site.guide_portal_url }}">指南门户</a>
-          <a class="is-current" href="{{ '/' | relative_url }}" aria-current="page">ChatGPT</a>
-          <a href="{{ site.grok_guide_url }}">Grok</a>
-          <a href="{{ site.claude_guide_url }}">Claude</a>
-          <a href="{{ site.gemini_guide_url }}">Gemini</a>
-          <a href="{{ '/guides/' | relative_url }}">全部专题</a>
-          <a href="{{ '/en/' | relative_url }}" lang="en">English</a>
-        </nav>
-        <form class="nav-search" action="{{ site.portal_url }}search/" method="get" role="search">
-          <label for="mobile-search">搜索四个产品知识库</label>
-          <div><input id="mobile-search" name="q" type="search" placeholder="付款失败、Free、session"><button type="submit">搜索</button></div>
-        </form>
-        <a class="mobile-cta" href="https://chonggrok.com/chatgpt?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=chatgpt_knowledge&amp;utm_content=mobile_menu">查看 ChatGPT 实时方案</a>
-      </div>
-    </details>
   </div>
 </header>
