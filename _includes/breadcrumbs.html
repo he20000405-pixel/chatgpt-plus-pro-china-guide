@@ -1,3 +1,11 @@
+{% if page.lang == 'en' %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="{{ site.portal_url }}en/">Home</a><span aria-hidden="true">/</span>
+  {% if page.url == '/en/' %}<span aria-current="page">ChatGPT guides</span>{% else %}
+  <a href="{{ '/en/' | relative_url }}">ChatGPT guides</a><span aria-hidden="true">/</span>
+  <span aria-current="page">{{ page.title }}</span>{% endif %}
+</nav>
+{% else %}
 {% if page.breadcrumbs %}
 <nav class="breadcrumbs" aria-label="面包屑导航">
   {% for item in page.breadcrumbs %}
@@ -8,4 +16,5 @@
     {% endif %}
   {% endfor %}
 </nav>
+{% endif %}
 {% endif %}

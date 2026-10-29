@@ -5,9 +5,9 @@
   </details>
   <section class="rail-discovery">
     <p class="toc-title">{% if page.lang == 'en' %}Find another answer{% else %}继续查找答案{% endif %}</p>
-    <a href="{{ site.portal_url }}search/">{% if page.lang == 'en' %}Search all guides{% else %}搜索全部指南{% endif %} <span aria-hidden="true">→</span></a>
-    <a href="{{ '/guides/' | relative_url }}">{% if page.lang == 'en' %}Browse all topics{% else %}浏览全部专题{% endif %} <span aria-hidden="true">→</span></a>
-    <a href="{{ site.portal_url }}resources/">{% if page.lang == 'en' %}Practical resources{% else %}实用资源{% endif %} <span aria-hidden="true">→</span></a>
+    <a href="{{ site.portal_url }}search/">{% if page.lang == 'en' %}Search all guides (Chinese interface){% else %}搜索全部指南{% endif %} <span aria-hidden="true">→</span></a>
+    <a href="{% if page.lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/guides/' | relative_url }}{% endif %}">{% if page.lang == 'en' %}Browse English guides{% else %}浏览全部专题{% endif %} <span aria-hidden="true">→</span></a>
+    <a href="{{ site.portal_url }}resources/">{% if page.lang == 'en' %}Practical resources (Chinese){% else %}实用资源{% endif %} <span aria-hidden="true">→</span></a>
   </section>
   {{ presentation_preview }}
 </aside>
