@@ -7,7 +7,7 @@ alternate_en: /en/guides/chatgpt-subscription-associated-with-another-account/
 lang: en
 schema_type: Article
 date_published: 2026-07-23
-last_modified_at: 2026-08-17
+last_modified_at: 2026-10-30
 breadcrumbs:
   - name: "Home"
     url: /
@@ -149,7 +149,7 @@ Never publish a password, verification code, recovery code, full payment-card nu
 | ChongGrok card-key or redemption order | ChongGrok support |
 | Bank authorization or decline | Card issuer |
 
-For a completed charge that still leaves the account on Free, use the [paid-but-still-Free guide]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }}).
+For a completed charge that still leaves the account on Free, use the [paid-but-still-Free guide]({{ '/en/guides/chatgpt-paid-but-still-free/' | relative_url }}).
 
 Only after confirming that no active or pending subscription remains should a new membership path be considered. Current ChongGrok options are listed at [chonggrok.com/chatgpt](https://chonggrok.com/chatgpt?utm_source=github_guides&utm_medium=referral&utm_campaign=chatgpt_subscription_account_binding&utm_content=en_service_options).
 
