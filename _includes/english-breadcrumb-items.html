@@ -1,0 +1,14 @@
+{%- comment -%}Shared English breadcrumb items for the visible navigation and JSON-LD.{%- endcomment -%}
+{%- assign english_breadcrumb_format = include.format -%}
+{%- assign english_home_url = site.portal_url | append: 'en/' -%}
+{%- assign english_guides_url = '/en/' | absolute_url -%}
+{%- assign english_page_url = page.url | absolute_url -%}
+{%- assign english_guides_current = false -%}
+{%- if page.url == '/en/' -%}
+  {%- assign english_guides_current = true -%}
+{%- endif -%}
+{%- include breadcrumb-item.html format=english_breadcrumb_format position=1 name="Home" url=english_home_url current=false -%}
+{%- include breadcrumb-item.html format=english_breadcrumb_format position=2 name="ChatGPT guides" url=english_guides_url current=english_guides_current -%}
+{%- unless english_guides_current -%}
+  {%- include breadcrumb-item.html format=english_breadcrumb_format position=3 name=page.title url=english_page_url current=true -%}
+{%- endunless -%}

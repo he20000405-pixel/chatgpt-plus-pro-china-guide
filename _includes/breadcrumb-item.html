@@ -1,0 +1,11 @@
+{%- if include.format == 'json' -%}
+  {%- unless include.position == 1 -%},{%- endunless -%}
+  {"@type":"ListItem","position":{{ include.position }},"name":{{ include.name | jsonify }},"item":{{ include.url | jsonify }}}
+{%- else -%}
+  {%- unless include.position == 1 -%}<span aria-hidden="true">/</span>{%- endunless -%}
+  {%- if include.current -%}
+    <span aria-current="page">{{ include.name | escape }}</span>
+  {%- else -%}
+    <a href="{{ include.url | escape }}">{{ include.name | escape }}</a>
+  {%- endif -%}
+{%- endif -%}
