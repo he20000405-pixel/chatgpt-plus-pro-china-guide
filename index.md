@@ -3,11 +3,19 @@ title: "ChatGPT Plus / Pro 国内充值指南"
 description: "ChatGPT Plus 全自动充值、5x/20x Pro 客服协助、卡密核销、session 安全与付款报错知识库。"
 permalink: /
 schema_type: CollectionPage
-last_modified_at: 2026-07-20
+last_modified_at: 2026-10-30
 breadcrumbs:
   - name: 首页
     url: /
 item_list:
+  - name: "GPT-6.1、GPT-6 Astra 与 Codex 额度"
+    url: /guides/gpt-6-1-codex-work-limits-guide/
+  - name: "AuthSession 凭证与充后验收"
+    url: /guides/chatgpt-session-security-verification-guide/
+  - name: "手机内购转网页端"
+    url: /guides/chatgpt-apple-google-to-web-migration/
+  - name: "ChatGPT 与 Grok 会员选型"
+    url: /guides/chatgpt-vs-grok-2026-comparison/
   - name: ChatGPT Plus 全自动充值
     url: /guides/chatgpt-plus-auto-recharge/
   - name: ChatGPT 5x Pro 与 20x Pro
@@ -57,6 +65,15 @@ faq:
 </section>
 
 > ChongGrok 是独立的会员订阅充值服务网站，与 OpenAI 不存在隶属、授权或官方合作关系。套餐、模型、额度和官方价格以 OpenAI 实时页面为准。
+
+## 2026 年 10 月新增专题
+
+<div class="guide-grid">
+  <section class="guide-card"><h3><a href="{{ '/guides/gpt-6-1-codex-work-limits-guide/' | relative_url }}">GPT-6.1、GPT-6 Astra 与 Codex 额度</a></h3><p>比较模型入口、Codex 与 ChatGPT Work 用量，以及 Plus / Pro 的选择。</p></section>
+  <section class="guide-card"><h3><a href="{{ '/guides/chatgpt-session-security-verification-guide/' | relative_url }}">AuthSession 凭证与充后验收</a></h3><p>说明 Plus 自助兑换的凭证要求、安全边界与充值后验收。</p></section>
+  <section class="guide-card"><h3><a href="{{ '/guides/chatgpt-apple-google-to-web-migration/' | relative_url }}">手机内购转网页端</a></h3><p>区分 Apple、Google Play 与网页订阅，避免重复扣费和充错账号。</p></section>
+  <section class="guide-card"><h3><a href="{{ '/guides/chatgpt-vs-grok-2026-comparison/' | relative_url }}">ChatGPT 与 Grok 会员选型</a></h3><p>对比两套订阅体系、编程工具、自动化能力与国内办理方式。</p></section>
+</div>
 
 ## 先选择适合的充值路径
 
@@ -117,4 +134,4 @@ Plus 自动充值不需要 ChatGPT 密码，但 session 仍属于敏感登录凭
   <div class="hero-actions"><a class="primary-link" href="https://chonggrok.com/chatgpt">查看实时方案</a><a class="secondary-link" href="https://chonggrok.com/verify">核销已有卡密</a></div>
 </section>
 
-<p class="meta">最后更新：2026-07-20</p>
+<p class="meta">最后更新：2026-10-30</p>

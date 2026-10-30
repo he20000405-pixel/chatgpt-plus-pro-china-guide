@@ -50,6 +50,52 @@ defaults:
     values:
       locale: "en_US"
 
+  - scope:
+      path: "guides/gpt-6-1-codex-work-limits-guide.md"
+    values:
+      date_published: "2026-10-28"
+      breadcrumbs:
+        - name: "首页"
+          url: /
+        - name: "专题"
+          url: /guides/
+        - name: "GPT-6.1、GPT-6 Astra 与 Codex 额度"
+          url: /guides/gpt-6-1-codex-work-limits-guide/
+  - scope:
+      path: "guides/chatgpt-session-security-verification-guide.md"
+    values:
+      date_published: "2026-10-28"
+      breadcrumbs:
+        - name: "首页"
+          url: /
+        - name: "专题"
+          url: /guides/
+        - name: "AuthSession 凭证与充后验收"
+          url: /guides/chatgpt-session-security-verification-guide/
+  - scope:
+      path: "guides/chatgpt-apple-google-to-web-migration.md"
+    values:
+      render_inline_arrows: true
+      date_published: "2026-10-28"
+      breadcrumbs:
+        - name: "首页"
+          url: /
+        - name: "专题"
+          url: /guides/
+        - name: "手机内购转网页端"
+          url: /guides/chatgpt-apple-google-to-web-migration/
+  - scope:
+      path: "guides/chatgpt-vs-grok-2026-comparison.md"
+    values:
+      date_published: "2026-10-28"
+      breadcrumbs:
+        - name: "首页"
+          url: /
+        - name: "专题"
+          url: /guides/
+        - name: "ChatGPT 与 Grok 会员选型"
+          url: /guides/chatgpt-vs-grok-2026-comparison/
+
 exclude:
   - README.md
   - PUBLISHING.md

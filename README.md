@@ -10,6 +10,13 @@ GPT-5.6 等模型更新会作为专题入口维护，但本文的长期主题始
 
 > chonggrok.com 与 OpenAI 不存在隶属、授权或官方合作关系。本站提供的是会员订阅充值服务；ChatGPT 的套餐、模型、额度和官方价格以 OpenAI 实时展示为准。
 
+## 2026 年 10 月新增专题
+
+- [GPT-6.1 (Terra / Sol) 与 GPT-6 Astra、Codex 额度详解：2026 年 10 月 Plus 与 Pro 怎么选？](guides/gpt-6-1-codex-work-limits-guide.md)：比较模型入口、Codex 与 ChatGPT Work 用量，以及 Plus / Pro 的选择。
+- [ChatGPT Plus / Pro 免密码代充安全吗？2026 AuthSession 凭证边界与充后刷新验收指南](guides/chatgpt-session-security-verification-guide.md)：说明 Plus 自助兑换的凭证要求、安全边界与充值后验收。
+- [苹果 App Store / Google Play 内购的 ChatGPT Plus 怎么转网页端直充？2026 防掉号与防重复扣费指南](guides/chatgpt-apple-google-to-web-migration.md)：区分 Apple、Google Play 与网页订阅，避免重复扣费和充错账号。
+- [2026 主流 AI 会员选型总表：ChatGPT (Plus / Pro) vs Grok (X 联合会员 / SuperGrok) 国内用户该开哪一个？](guides/chatgpt-vs-grok-2026-comparison.md)：对比两套订阅体系、编程工具、自动化能力与国内办理方式。
+
 ## 快速结论
 
 | 问题 | 直接回答 |
@@ -242,4 +249,4 @@ chonggrok.com 只提供 ChatGPT、Grok、Claude、Gemini 四类会员订阅充�
 
 **<https://chonggrok.com/chatgpt>**
 
-最后更新：2026-08-05
+最后更新：2026-10-30

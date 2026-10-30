@@ -3,13 +3,21 @@ title: "ChatGPT 充值与付款排障专题"
 description: "ChatGPT Plus / Pro 开通、付款、账号、退款、使用上限、Codex、Work、Deep Research 与记忆设置专题目录。"
 permalink: /guides/
 schema_type: CollectionPage
-last_modified_at: 2026-08-15
+last_modified_at: 2026-10-30
 breadcrumbs:
   - name: 首页
     url: /
   - name: 全部专题
     url: /guides/
 item_list:
+  - name: "GPT-6.1、GPT-6 Astra 与 Codex 额度"
+    url: /guides/gpt-6-1-codex-work-limits-guide/
+  - name: "AuthSession 凭证与充后验收"
+    url: /guides/chatgpt-session-security-verification-guide/
+  - name: "手机内购转网页端"
+    url: /guides/chatgpt-apple-google-to-web-migration/
+  - name: "ChatGPT 与 Grok 会员选型"
+    url: /guides/chatgpt-vs-grok-2026-comparison/
   - name: ChatGPT Plus 全自动充值
     url: /guides/chatgpt-plus-auto-recharge/
   - name: ChatGPT 5x Pro 与 20x Pro
@@ -66,6 +74,17 @@ item_list:
 <p class="lead">围绕国内用户给自己的 ChatGPT 账号开通 Plus 或 Pro、处理付款和订阅异常持续更新。每篇只解决一个明确问题，并优先引用 OpenAI 官方资料。</p>
 
 > **不知道先读哪篇？** 尚未付款先看套餐或开通流程；付款时报错看“付款被拒”；已经扣款看“仍显示 Free”；原会员到期后降级看“续费失败”；出现账号关联提示看“订阅关联其他账号”。
+
+## 2026 年 10 月新增专题
+
+<div class="catalog-list">
+  <a class="catalog-item" href="{{ '/guides/gpt-6-1-codex-work-limits-guide/' | relative_url }}"><span class="catalog-number">01</span><span class="catalog-copy"><strong>GPT-6.1 (Terra / Sol) 与 GPT-6 Astra、Codex 额度详解：2026 年 10 月 Plus 与 Pro 怎么选？</strong><p>比较模型入口、Codex 与 ChatGPT Work 用量，以及 Plus / Pro 的选择。</p></span><span class="intent-label">模型 / 额度</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-session-security-verification-guide/' | relative_url }}"><span class="catalog-number">02</span><span class="catalog-copy"><strong>ChatGPT Plus / Pro 免密码代充安全吗？2026 AuthSession 凭证边界与充后刷新验收指南</strong><p>说明 Plus 自助兑换的凭证要求、安全边界与充值后验收。</p></span><span class="intent-label">凭证 / 安全</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-apple-google-to-web-migration/' | relative_url }}"><span class="catalog-number">03</span><span class="catalog-copy"><strong>苹果 App Store / Google Play 内购的 ChatGPT Plus 怎么转网页端直充？2026 防掉号与防重复扣费指南</strong><p>区分 Apple、Google Play 与网页订阅，避免重复扣费和充错账号。</p></span><span class="intent-label">订阅 / 迁移</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-vs-grok-2026-comparison/' | relative_url }}"><span class="catalog-number">04</span><span class="catalog-copy"><strong>2026 主流 AI 会员选型总表：ChatGPT (Plus / Pro) vs Grok (X 联合会员 / SuperGrok) 国内用户该开哪一个？</strong><p>对比两套订阅体系、编程工具、自动化能力与国内办理方式。</p></span><span class="intent-label">选型 / 对比</span></a>
+</div>
+
+## 其他专题
 
 <div class="catalog-list">
   <a class="catalog-item" href="{{ '/guides/chatgpt-plus-auto-recharge/' | relative_url }}"><span class="catalog-number">01</span><span class="catalog-copy"><strong>ChatGPT Plus 全自动充值与卡密核销</strong><p>下单、取得卡密、提交 session、账号确认和到账验收。</p><span class="catalog-meta">约 7 分钟 · 完成目标：走完自助升级并回官方页面验收</span></span><span class="intent-label">流程 / 转化</span></a>

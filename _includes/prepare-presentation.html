@@ -3,6 +3,9 @@ Build the reading layout before first paint. Only presentation wrappers move;
 article wording, links and original heading IDs remain unchanged.
 {%- endcomment -%}
 {%- assign presentation_body = include.source | strip -%}
+{%- if page.render_inline_arrows -%}
+  {%- assign presentation_body = presentation_body | replace: '$\rightarrow$', '&#8594;' -%}
+{%- endif -%}
 {%- assign presentation_hero = '' -%}
 {%- assign presentation_preview = '' -%}
 {%- assign presentation_toc = '' -%}
