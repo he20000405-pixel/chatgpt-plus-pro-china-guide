@@ -41,7 +41,13 @@
     }
     </script>
     {% endif %}
+    {% assign emit_breadcrumb_schema = false %}
     {% if page.breadcrumbs %}
+    {% if page.lang == 'en' or page.breadcrumbs.size > 1 %}
+    {% assign emit_breadcrumb_schema = true %}
+    {% endif %}
+    {% endif %}
+    {% if emit_breadcrumb_schema %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
