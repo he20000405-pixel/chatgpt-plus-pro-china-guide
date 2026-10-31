@@ -25,7 +25,7 @@ C:\Users\37132\Desktop\总chonggrok\chatgpt\chatgpt-plus-pro-china-guide
    ChatGPT Plus / Pro 国内充值、卡密核销、支付宝微信付款与常见报错指南 | chonggrok.com
    ```
 
-6. 选择 `Public`。GitHub Free 使用分支发布 Pages 时，公开仓库最直接。
+6. 选择 `Public`。GitHub Free 支持公开仓库使用 GitHub Pages。
 7. 不勾选 `Add a README file`。
 8. `.gitignore` 和 License 都保持 `None`，因为本地已有文件。
 9. 点击 `Create repository`。
@@ -131,16 +131,15 @@ git push -u origin main
 1. 进入仓库 `Settings`。
 2. 左侧找到 `Pages`。
 3. 在 `Build and deployment` 下：
-   - `Source` 选择 `Deploy from a branch`；
-   - `Branch` 选择 `main`；
-   - Folder 选择 `/(root)`；
-   - 点击 `Save`。
-4. 等待 GitHub 完成首次构建。通常需要几分钟，偶尔可能更久。
-5. 刷新 Pages 设置页，看到站点地址后打开：
+   - `Source` 选择 `GitHub Actions`；
+   - 使用仓库内的发布前检查工作流；
+   - 按 [发布前检查说明](.github/PUBLISHING-CHECKS.md) 确认 `github-pages` 部署环境仅允许 `main`，不要切回分支直接发布。
+4. 在 `Actions` 中等待本次 `main` 的正常运行依次通过 `verify` → `release-ready` → `deploy`。`release-ready` 是无权限哨兵任务，依赖 `verify` 成功。
+5. 确认 `deploy` 成功后，刷新 Pages 设置页并打开：
 
    <https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/>
 
-如构建失败，进入仓库 `Actions`，打开最新的 Pages build 记录查看错误。不要反复修改无关文件。
+PR 和 `ci-check` 测试分支只验收，不发布；只有 `main` 的正常检查通过后才部署同一次运行已检查的产物。检查失败时不执行发布，线上保留上一次成功版本。进入仓库 `Actions` 查看失败的检查记录，不要切回分支发布来绕过检查，也不要反复修改无关文件。
 
 ## 第五阶段：逐页验收
 
@@ -246,4 +245,4 @@ git commit -m "Update ChatGPT guide"
 git push
 ```
 
-推送后等待 GitHub Pages 重新构建，再检查实际网页。
+推送后在 `Actions` 确认本次 `main` 的 `verify`、`release-ready` 和 `deploy` 均成功，再检查实际网页；仅检查通过或仅推送成功不代表已经上线。
