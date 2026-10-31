@@ -3,7 +3,7 @@ title: "ChatGPT 充值与付款排障专题"
 description: "ChatGPT Plus / Pro 开通、付款、账号、退款、使用上限、Codex、Work、Deep Research 与记忆设置专题目录。"
 permalink: /guides/
 schema_type: CollectionPage
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 breadcrumbs:
   - name: 首页
     url: /
@@ -20,7 +20,7 @@ item_list:
     url: /guides/chatgpt-vs-grok-2026-comparison/
   - name: ChatGPT Plus 全自动充值
     url: /guides/chatgpt-plus-auto-recharge/
-  - name: ChatGPT 5x Pro 与 20x Pro
+  - name: ChatGPT Pro 100 / 200 历史对比
     url: /guides/chatgpt-pro-100-200/
   - name: ChatGPT Plus 与 Pro 怎么选
     url: /guides/chatgpt-plus-vs-pro/
@@ -73,6 +73,8 @@ item_list:
 
 <p class="lead">围绕国内用户给自己的 ChatGPT 账号开通 Plus 或 Pro、处理付款和订阅异常持续更新。每篇只解决一个明确问题，并优先引用 OpenAI 官方资料。</p>
 
+<p class="section-intro">当前 Pro 包含 100/200/500 美元三档，权益与额度见<a href="{{ '/guides/gpt-6-1-codex-work-limits-guide/' | relative_url }}">现行额度指南</a>。下方 100/200 专题保留历史对比，不代表当前全部 Pro 档位；本站 Go / Plus 方案、Pro 客服办理及单独咨询条件以<a href="https://chonggrok.com/chatgpt">主站实时页面</a>为准。</p>
+
 > **不知道先读哪篇？** 尚未付款先看套餐或开通流程；付款时报错看“付款被拒”；已经扣款看“仍显示 Free”；原会员到期后降级看“续费失败”；出现账号关联提示看“订阅关联其他账号”。
 
 ## 2026 年 10 月新增专题
@@ -88,7 +90,7 @@ item_list:
 
 <div class="catalog-list">
   <a class="catalog-item" href="{{ '/guides/chatgpt-plus-auto-recharge/' | relative_url }}"><span class="catalog-number">01</span><span class="catalog-copy"><strong>ChatGPT Plus 全自动充值与卡密核销</strong><p>下单、取得卡密、提交 session、账号确认和到账验收。</p><span class="catalog-meta">约 7 分钟 · 完成目标：走完自助升级并回官方页面验收</span></span><span class="intent-label">流程 / 转化</span></a>
-  <a class="catalog-item" href="{{ '/guides/chatgpt-pro-100-200/' | relative_url }}"><span class="catalog-number">02</span><span class="catalog-copy"><strong>5x Pro 与 20x Pro 客服协助说明</strong><p>两档用量、账号检查、付款方式和验收边界。</p><span class="catalog-meta">约 6 分钟 · 完成目标：按使用强度选择 Pro 档位</span></span><span class="intent-label">套餐 / 转化</span></a>
+  <a class="catalog-item" href="{{ '/guides/chatgpt-pro-100-200/' | relative_url }}"><span class="catalog-number">02</span><span class="catalog-copy"><strong>Pro 100 / 200 历史对比</strong><p>原 100/200 两档用量、账号检查与验收说明，不涵盖当前全部 Pro 档位。</p><span class="catalog-meta">约 6 分钟 · 完成目标：了解原 100/200 对比的覆盖范围</span></span><span class="intent-label">套餐 / 历史</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-plus-vs-pro/' | relative_url }}"><span class="catalog-number">03</span><span class="catalog-copy"><strong>ChatGPT Plus 与 Pro 怎么选</strong><p>按工作流、使用频率和预算判断，不按身份标签硬选。</p><span class="catalog-meta">约 6 分钟 · 完成目标：判断 Plus 是否已经足够</span></span><span class="intent-label">决策 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-payment-errors/' | relative_url }}"><span class="catalog-number">04</span><span class="catalog-copy"><strong>付款被拒与支付认证失败排查</strong><p>card declined、3DS、账单地址和发卡行问题。</p><span class="catalog-meta">约 8 分钟 · 完成目标：找到拒付责任方并停止无效重试</span></span><span class="intent-label">报错 / 搜索</span></a>
   <a class="catalog-item" href="{{ '/guides/chatgpt-paid-but-still-free/' | relative_url }}"><span class="catalog-number">05</span><span class="catalog-copy"><strong>已付款但仍显示 Free</strong><p>网页、App Store、Google Play、原购买账号和卡密状态。</p><span class="catalog-meta">约 9 分钟 · 完成目标：确认订阅应附着到哪个账号</span></span><span class="intent-label">高意向 / GEO</span></a>
@@ -132,6 +134,8 @@ item_list:
 
 <section class="service-panel">
   <h2>服务入口</h2>
-  <p>准备升级前先确认账号正常、没有有效或待处理订阅。人民币方案与交付规则以主站实时页面为准。</p>
+  <p>准备升级前先确认账号、现有订阅与原付款渠道。Go / Plus 方案、Pro 100/200 客服办理及 Pro 500 单独咨询条件，以主站实时页面为准。</p>
   <div class="hero-actions"><a class="primary-link" href="https://chonggrok.com/chatgpt">查看实时方案</a><a class="secondary-link" href="{{ '/' | relative_url }}">返回 ChatGPT 首页</a></div>
 </section>
+
+<p class="meta">最后更新：2026-10-31</p>

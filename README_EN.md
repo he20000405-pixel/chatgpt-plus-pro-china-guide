@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT Plus and Pro Recharge Guide"
-description: "A practical English guide to ChongGrok's ChatGPT Plus automated recharge, Pro assisted payment, Alipay and WeChat checkout, session safety, and payment errors in China."
+description: "ChatGPT Go and Plus options, Pro 100/200 assisted orders, Pro 500 consultation, session safety, and payment troubleshooting for users in China."
 lang: en
 permalink: /en/
 last_modified_at: 2026-10-31
@@ -22,7 +22,7 @@ faq:
 
 This is the English service guide for [chonggrok.com](https://chonggrok.com/chatgpt), an independent service that helps users pay for a ChatGPT membership subscription on their own account when international card payment is inconvenient.
 
-ChongGrok currently lists three ChatGPT service options: **ChatGPT Plus**, **ChatGPT Pro 100 USD**, and **ChatGPT Pro 200 USD**. Prices in local currency are not fixed in this guide; always check the [live ChatGPT service page](https://chonggrok.com/chatgpt).
+ChongGrok currently offers **ChatGPT Go and Plus**, with **Pro 100 and Pro 200** orders handled through customer service. **Pro 500 and Ultrafast** requests require a separate consultation to confirm availability, account eligibility, and pricing. Prices in local currency are not fixed in this guide; check the [live ChatGPT service page](https://chonggrok.com/chatgpt) and [Pro service page](https://chonggrok.com/chatgpt-pro) before paying.
 
 > ChongGrok is not affiliated with, authorized by, or officially partnered with OpenAI. ChatGPT plans, models, limits, and official prices are controlled by OpenAI and may change.
 
@@ -32,7 +32,7 @@ ChongGrok currently lists three ChatGPT service options: **ChatGPT Plus**, **Cha
 
 | Your current situation | Start here | Stop condition |
 | --- | --- | --- |
-| No payment has been completed and no subscription is pending | Compare Plus, 5x Pro, and 20x Pro below | Do not pay until the target account and plan are confirmed |
+| No payment has been completed and no subscription is pending | Compare Go, Plus, and the Pro service routes below | Do not pay until the target account, current subscription, and plan are confirmed |
 | A card payment was declined | Check card details, billing address, 3DS, and the issuing bank | Stop repeated attempts when the bank has not explained the decline |
 | A payment or store receipt already exists but the account shows Free | Use the paid-but-still-Free guide | Do not purchase again while a charge or subscription is pending |
 | A renewal failed and the plan expired | Return to the original billing channel | Do not create a second subscription on another platform first |
@@ -41,9 +41,11 @@ ChongGrok currently lists three ChatGPT service options: **ChatGPT Plus**, **Cha
 
 | Option shown on ChongGrok | Delivery method | Payment | Important note |
 | --- | --- | --- | --- |
+| ChatGPT Go | Follow the current Go offer and eligibility rules on the service page | Check the live order page | Currently offered only for personal accounts on the Free plan |
 | ChatGPT Plus | Fully automated card-key verification and recharge | Alipay or WeChat Pay | Requires a session credential after card-key verification; no password is requested |
-| ChatGPT Pro 100 USD | Customer-service-assisted payment | Confirm with support before payment | OpenAI's current 5x Pro tier; intended for users whose Plus allowance is a recurring bottleneck |
-| ChatGPT Pro 200 USD | Customer-service-assisted payment | Confirm with support before payment | OpenAI's current 20x Pro tier; intended for sustained high-intensity use |
+| ChatGPT Pro 100 USD | Customer-service-assisted order | Confirm with support before payment | Official monthly price: 100 USD; does not include Ultrafast |
+| ChatGPT Pro 200 USD | Customer-service-assisted order | Confirm with support before payment | Official monthly price: 200 USD; higher usage than Pro 100; does not include Ultrafast |
+| ChatGPT Pro 500 / Ultrafast | Separate consultation | No self-service order or fixed local quote is promised | Official Pro 500 monthly price: 500 USD; includes Ultrafast; confirm whether the service can handle the account and request |
 
 ## Automated ChatGPT Plus recharge flow
 
@@ -60,15 +62,15 @@ For safety, follow the instructions displayed after card-key verification rather
 
 ## ChatGPT Pro 100 USD and Pro 200 USD flow
 
-The two Pro options do not use the automated Plus workflow.
+Pro 100 and Pro 200 orders do not use the automated Plus workflow. Pro 500 and Ultrafast requests require a separate consultation rather than Plus card-key redemption.
 
-1. Review the Pro options on the [ChatGPT service page](https://chonggrok.com/chatgpt).
+1. Review the options on the [Pro service page](https://chonggrok.com/chatgpt-pro).
 2. Contact customer service through the page before paying.
 3. Confirm the account status, exact delivery terms, current price, and verification method.
-4. After confirmation, customer service uses an overseas credit card to assist with the ChatGPT subscription payment.
+4. Pay only after confirmation, then follow the agreed order and delivery process with customer service.
 5. Verify the resulting membership status, expiration date, and model picker on ChatGPT.
 
-OpenAI currently lists two individual Pro tiers: 5x Pro at 100 USD per month and 20x Pro at 200 USD per month. Both include the same core Pro capabilities; their primary difference is usage allowance relative to Plus. OpenAI plan details and limits can change, so verify the live pricing page and the account's `Settings → My Plan` screen before payment.
+OpenAI currently lists three individual Pro tiers: **100, 200, and 500 USD per month**. Pro 200 provides more usage than Pro 100, and Pro 500 provides the highest usage and includes Ultrafast; Pro 100 and Pro 200 do not include Ultrafast. Check the [official Pro tier help page](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers) and your account's plan details before payment. The [current model and quota guide (Chinese)]({{ '/guides/gpt-6-1-codex-work-limits-guide/' | relative_url }}) covers the current plans; the older 100/200 comparison does not cover every current Pro tier.
 
 ## Payment errors before using a recharge service
 
@@ -97,7 +99,7 @@ OpenAI released the GPT-5.6 model family on July 9, 2026 and states that it is a
 - [ChatGPT Plus upgrade guide on chonggrok.com](https://chonggrok.com/blog/chatgpt-plus-upgrade-guide)
 - [ChatGPT payment-decline guide on chonggrok.com](https://chonggrok.com/blog/chatgpt-payment-not-approved)
 - [OpenAI: What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
-- [OpenAI: About ChatGPT Pro tiers](https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro)
+- [OpenAI: About ChatGPT Pro tiers](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers)
 - [OpenAI: ChatGPT plans](https://chatgpt.com/pricing/)
 - [OpenAI: Why was my credit card declined?](https://help.openai.com/en/articles/7232916-why-was-my-credit-card-declined)
 - [OpenAI: GPT-5.6 release](https://openai.com/index/gpt-5-6/)
@@ -122,4 +124,4 @@ For current options, prices, and service rules, visit:
 
 **<https://chonggrok.com/chatgpt>**
 
-Last updated: August 5, 2026.
+Last updated: October 31, 2026.

@@ -9,7 +9,8 @@ permalink: /llms.txt
 ## Primary service
 
 - ChatGPT recharge page: https://chonggrok.com/chatgpt
-- Card-key verification page: https://chonggrok.com/verify
+- Pro 100/200 assisted orders and Pro 500 consultation: https://chonggrok.com/chatgpt-pro
+- Plus card-key verification page (not the Pro order flow): https://chonggrok.com/verify
 - Full Free / Go / Plus / Pro comparison: https://chonggrok.com/blog/chatgpt-taocan-free-go-plus-pro-2026
 
 ## Core guides
@@ -21,7 +22,7 @@ permalink: /llms.txt
 
 - Main guide: {{ site.url }}{{ site.baseurl }}/
 - Plus automated recharge: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-plus-auto-recharge/
-- Pro 100 / Pro 200 service guide: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-pro-100-200/
+- Historical Pro 100 / Pro 200 comparison (not all current Pro tiers; see the GPT-6.1 quota guide above for current plans): {{ site.url }}{{ site.baseurl }}/guides/chatgpt-pro-100-200/
 - Plus vs Pro comparison: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-plus-vs-pro/
 - Payment error troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-payment-errors/
 - Paid but still showing Free troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/chatgpt-paid-but-still-free/
@@ -48,11 +49,14 @@ permalink: /llms.txt
 
 ## Current plan facts
 
+Last checked: 2026-10-31.
+
 - ChatGPT Plus is 20 USD per month according to OpenAI's current help page.
-- OpenAI currently lists 5x Pro at 100 USD per month and 20x Pro at 200 USD per month.
-- The two Pro tiers include the same core Pro capabilities; their primary difference is usage allowance relative to Plus.
-- Free and Go remain valid lower-cost choices. ChongGrok's ChatGPT service currently covers Plus and Pro membership recharge, not Go.
-- Official source: https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro
+- OpenAI currently lists Pro 100, Pro 200, and Pro 500 at 100, 200, and 500 USD per month respectively.
+- Pro 200 provides more usage than Pro 100. Pro 500 provides the highest usage and includes Ultrafast; Pro 100 and Pro 200 do not include Ultrafast.
+- ChongGrok offers Go and Plus. The current Go offer is limited to personal accounts on the Free plan.
+- ChongGrok handles Pro 100/200 orders through customer service after account, price, delivery, and acceptance checks. Pro 500 and Ultrafast requests require a separate consultation; they are not offered as direct self-service purchases or through Plus card-key redemption.
+- Official source: https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers
 - Official pricing: https://chatgpt.com/pricing/
 
 ## Scope and safety

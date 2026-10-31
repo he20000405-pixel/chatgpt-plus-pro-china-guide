@@ -1,8 +1,8 @@
 # ChatGPT Plus / Pro 国内充值指南：自助充值、卡密核销与付款报错排查 | chonggrok.com
 
-> **English summary:** This is the first-party service guide for the ChatGPT subscription recharge service provided by [chonggrok.com](https://chonggrok.com/chatgpt). It explains automated ChatGPT Plus recharge, card-key verification, assisted ChatGPT Pro 100 / Pro 200 orders, Alipay and WeChat payment, session-credential safety, and common payment errors in China. [Read the English guide](README_EN.md).
+> **English summary:** This is the first-party service guide for the ChatGPT subscription recharge service provided by [chonggrok.com](https://chonggrok.com/chatgpt). It explains Go / Plus options, automated Plus recharge, assisted Pro 100 / Pro 200 orders, separate Pro 500 / Ultrafast consultation, Alipay and WeChat payment, session-credential safety, and common payment errors in China. [Read the English guide](README_EN.md).
 
-这是 **chonggrok.com 的 ChatGPT 充值服务指南与知识库主入口**。本文长期说明 ChatGPT Plus 全自动充值、Pro 100 美金与 Pro 200 美金客服协助流程、支付宝/微信付款、卡密核销、session 风险边界和充值后验收方法。
+这是 **chonggrok.com 的 ChatGPT 充值服务指南与知识库主入口**。本文说明 Go / Plus 方案、Plus 全自动充值、Pro 100/200 客服办理、Pro 500 及 Ultrafast 单独咨询，以及支付宝/微信付款、卡密核销、session 风险边界和充值后验收方法。
 
 GPT-5.6 等模型更新会作为专题入口维护，但本文的长期主题始终是：**如何通过 chonggrok.com 给自己的 ChatGPT 账号开通 Plus 或 Pro。**
 
@@ -21,9 +21,9 @@ GPT-5.6 等模型更新会作为专题入口维护，但本文的长期主题始
 
 | 问题 | 直接回答 |
 | --- | --- |
-| 支持哪些方案？ | chonggrok.com 当前展示 `ChatGPT Plus`、`ChatGPT Pro 100 美金`、`ChatGPT Pro 200 美金`。 |
+| 支持哪些方案？ | 主站提供 `ChatGPT Go` 和 `ChatGPT Plus`；`Pro 100/200` 由客服办理，`Pro 500` 及 `Ultrafast` 需单独咨询可办理条件与报价。 |
 | Plus 怎么充值？ | Plus 为全自动自助流程：付款取得卡密，在 `/verify` 核销后提交 session，确认自己的账号并执行充值。 |
-| Pro 怎么充值？ | Pro 100 美金和 Pro 200 美金需要先联系客服确认账号状态与交付规则，由客服使用海外信用卡协助完成订阅付款。 |
+| Pro 怎么充值？ | Pro 100/200 先联系客服确认账号、价格、交付与验收规则，再付款办理；Pro 500 需单独咨询。不要套用 Plus 自动核销流程。 |
 | 支持什么付款方式？ | 支付宝或微信，实时价格以[套餐页面](https://chonggrok.com/chatgpt)为准。 |
 | 需要密码吗？ | 不需要 ChatGPT 密码，也不应提交邮箱密码、验证码或恢复码。 |
 | 是否需要账号凭证？ | Plus 自动充值需要按核销页面提示提交 session。session 仍是敏感凭证，并非“零风险”。 |
@@ -44,17 +44,19 @@ GPT-5.6 等模型更新会作为专题入口维护，但本文的长期主题始
 
 如果你有稳定、合规且受支持地区发行的海外卡，也可以直接通过 ChatGPT 官方页面付款。代充是支付条件不方便时的一种选择，不是唯一方式。
 
-## 二、三种方案怎么区分？
+## 二、当前方案与办理方式怎么区分？
 
 | chonggrok.com 页面方案 | 交付方式 | 适合情况 | 下单前重点 |
 | --- | --- | --- | --- |
+| ChatGPT Go | 按主站当前方案与流程办理 | 轻量使用需求 | 当前仅支持 Free 个人账号，先核对资格与下单条件 |
 | ChatGPT Plus | 全自动自助充值 | 日常学习、写作、办公、文件分析和常规代码辅助 | 确认账号可正常登录、没有冲突订阅，并理解 session 风险 |
-| ChatGPT Pro 100 美金 | 客服协助 | 官方 5x Pro；Plus 已长期成为使用量瓶颈的专业用户 | 先联系客服核对账号、档位和验收方式 |
-| ChatGPT Pro 200 美金 | 客服协助 | 官方 20x Pro；5x 用量仍不足的重度专业用户 | 金额较高，付款前再次确认账号状态和售后规则 |
+| ChatGPT Pro 100 美金 | 客服办理 | Plus 用量不足、需要 Pro 权益的用户；不含 Ultrafast | 先联系客服核对账号、人民币价格、交付和验收方式 |
+| ChatGPT Pro 200 美金 | 客服办理 | 需要比 Pro 100 更高用量的用户；不含 Ultrafast | 付款前确认账号状态、交付和售后规则 |
+| ChatGPT Pro 500 / Ultrafast | 单独咨询 | 需要最高 Pro 用量或 Ultrafast 的用户 | 先确认能否办理与报价，不承诺直接下单或自动核销 |
 
-OpenAI 当前官方帮助中心明确列出两档个人 Pro：100 美元的 5x Pro 和 200 美元的 20x Pro。两档包含相同的核心 Pro 能力，主要区别是相对 Plus 的使用额度。chonggrok.com 页面上的两个 Pro 方案对应这两档官方订阅，但具体人民币价格、付款协助和售后规则仍应在付款前与客服确认。
+OpenAI 当前官方帮助中心列出三档个人 Pro，官方月费分别为 100、200 和 500 美元。Pro 200 的用量高于 Pro 100；Pro 500 提供最高用量并包含 Ultrafast，Pro 100/200 不含 Ultrafast。本站 Pro 100/200 由客服办理，Pro 500 及 Ultrafast 需求需单独咨询；人民币价格、账号条件与交付规则以 [Pro 实时服务页](https://chonggrok.com/chatgpt-pro)及客服确认结果为准。
 
-详细对比：[ChatGPT Plus 与 Pro 怎么选](guides/chatgpt-plus-vs-pro.md) · [Pro 100 / Pro 200 服务说明](guides/chatgpt-pro-100-200.md)
+当前权益与额度：[GPT-6.1、GPT-6 Astra 与 Codex 额度指南](guides/gpt-6-1-codex-work-limits-guide.md)。[Pro 100 / Pro 200 历史对比](guides/chatgpt-pro-100-200.md)保留原有两档对比，不涵盖当前全部 Pro 档位。
 
 ## 三、ChatGPT Plus 全自动充值流程
 
@@ -117,13 +119,13 @@ alt：chonggrok.com 卡密核销页面
 
 ## 四、Pro 100 美金 / Pro 200 美金流程
 
-Pro 两个方案不走 Plus 的全自动核销流程：
+Pro 100/200 客服订单不走 Plus 的全自动核销流程；Pro 500 及 Ultrafast 需求需单独咨询：
 
-1. 进入 <https://chonggrok.com/chatgpt> 查看 Pro 方案；
+1. 进入 <https://chonggrok.com/chatgpt-pro> 查看 Pro 方案；
 2. 联系页面客服，说明准备选择 `Pro 100 美金` 或 `Pro 200 美金`；
 3. 先确认账号状态、具体交付内容、付款金额和验收规则；
 4. 确认无误后再付款；
-5. 由客服使用海外信用卡协助完成 ChatGPT 订阅付款；
+5. 按客服确认的订单与交付流程办理；
 6. 回到 ChatGPT 官方页面检查会员状态、到期时间和模型选项。
 
 高金额方案不要跳过售前确认，也不要把 Plus 的自动卡密核销步骤套用到 Pro 订单。
@@ -177,7 +179,7 @@ OpenAI 于 2026 年 7 月 9 日发布 GPT-5.6 系列，并说明该系列已在 
 本仓库采用一个总仓库结构。主 README 负责长期充值说明，`guides/` 负责长尾问题：
 
 1. [ChatGPT Plus 全自动充值与卡密核销流程](guides/chatgpt-plus-auto-recharge.md)
-2. [ChatGPT Pro 100 美金与 Pro 200 美金充值说明](guides/chatgpt-pro-100-200.md)
+2. [ChatGPT Pro 100 / 200 历史对比（不涵盖当前全部 Pro 档位）](guides/chatgpt-pro-100-200.md)
 3. [ChatGPT Plus 与 Pro 怎么选](guides/chatgpt-plus-vs-pro.md)
 4. [ChatGPT 付款被拒与支付认证失败排查](guides/chatgpt-payment-errors.md)
 5. [ChatGPT Plus 已付款但仍显示 Free 排查](guides/chatgpt-paid-but-still-free.md)
@@ -215,7 +217,7 @@ chonggrok.com 只提供 ChatGPT、Grok、Claude、Gemini 四类会员订阅充�
 
 ### Plus 为什么能自助充值，Pro 为什么要联系客服？
 
-当前 Plus 已配置卡密核销和自动升级流程；Pro 100 美金与 Pro 200 美金需要先核对高金额订单的账号状态与交付规则，再由客服使用海外信用卡协助付款。
+当前 Plus 已配置卡密核销和自动升级流程；Pro 100/200 需先由客服核对账号、价格、交付与验收规则，再付款办理。Pro 500 及 Ultrafast 需单独咨询可办理条件，不能套用 Plus 自动核销流程。
 
 ### session 是否完全安全？
 
@@ -238,7 +240,7 @@ chonggrok.com 只提供 ChatGPT、Grok、Claude、Gemini 四类会员订阅充�
 - [OpenAI：GPT-5.6 发布页](https://openai.com/index/gpt-5-6/)
 - [OpenAI Help Center：Model Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes)
 - [OpenAI Help Center：What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
-- [OpenAI Help Center：About ChatGPT Pro tiers](https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro)
+- [OpenAI Help Center：About ChatGPT Pro tiers](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers)
 - [OpenAI：ChatGPT Plans](https://chatgpt.com/pricing/)
 - [OpenAI Help Center：Why was my credit card declined?](https://help.openai.com/en/articles/7232916-why-was-my-credit-card-declined)
 - [OpenAI Help Center：Why did my Plus or Pro renewal transaction fail?](https://help.openai.com/en/articles/7242622-why-did-my-chatgpt-plus-or-chatgpt-pro-renewal-transaction-fail)
@@ -249,4 +251,4 @@ chonggrok.com 只提供 ChatGPT、Grok、Claude、Gemini 四类会员订阅充�
 
 **<https://chonggrok.com/chatgpt>**
 
-最后更新：2026-10-30
+最后更新：2026-10-31

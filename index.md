@@ -1,9 +1,9 @@
 ---
 title: "ChatGPT Plus / Pro 国内充值指南"
-description: "ChatGPT Plus 全自动充值、5x/20x Pro 客服协助、卡密核销、session 安全与付款报错知识库。"
+description: "ChatGPT Go / Plus 方案、Pro 100/200 客服办理、Pro 500 咨询入口，以及卡密核销、session 安全与付款报错知识库。"
 permalink: /
 schema_type: CollectionPage
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 breadcrumbs:
   - name: 首页
     url: /
@@ -18,7 +18,7 @@ item_list:
     url: /guides/chatgpt-vs-grok-2026-comparison/
   - name: ChatGPT Plus 全自动充值
     url: /guides/chatgpt-plus-auto-recharge/
-  - name: ChatGPT 5x Pro 与 20x Pro
+  - name: ChatGPT Pro 100 / 200 历史对比
     url: /guides/chatgpt-pro-100-200/
   - name: ChatGPT Plus 与 Pro 怎么选
     url: /guides/chatgpt-plus-vs-pro/
@@ -33,8 +33,8 @@ item_list:
 faq:
   - question: "ChatGPT Plus 在 chonggrok.com 是否为全自动充值？"
     answer: "是。用户付款取得卡密后，在 chonggrok.com/verify 验证卡密、提交本次升级所需 session、确认自己的账号并执行自动充值。"
-  - question: "Pro 100 美金和 Pro 200 美金是否也能自动核销？"
-    answer: "不能按 Plus 流程处理。这两个 Pro 方案需要先联系客服确认账号状态、具体交付内容和验收规则，再由客服使用海外信用卡协助付款。"
+  - question: "Pro 100、Pro 200 和 Pro 500 是否也能自动核销？"
+    answer: "不能按 Plus 流程处理。Pro 100/200 需先联系客服确认账号状态、价格、交付内容和验收规则；Pro 500 及 Ultrafast 需求需单独咨询，确认可办理条件后再付款。"
   - question: "充值是否需要 ChatGPT 密码？"
     answer: "不需要 ChatGPT 密码、邮箱密码、验证码或恢复码。Plus 自动流程会按核销页提示使用 session；session 仍是敏感凭证，完成后应重新登录刷新。"
 ---
@@ -43,7 +43,7 @@ faq:
   <div>
     <p class="eyebrow">ChongGrok · ChatGPT Knowledge Base</p>
     <h1>ChatGPT Plus / Pro 国内充值与付款排障指南</h1>
-    <p class="lead">面向使用自己账号的国内用户，集中说明 Plus 全自动充值、5x/20x Pro 客服协助、支付宝/微信付款、卡密核销、session 安全和订阅异常排查。</p>
+    <p class="lead">面向使用自己账号的国内用户，集中说明 Go / Plus 方案、Pro 100/200 客服办理、Pro 500 咨询入口，以及支付宝/微信付款、卡密核销、session 安全和订阅异常排查。</p>
     <div class="hero-actions">
       <a class="primary-link" href="https://chonggrok.com/chatgpt">查看 ChatGPT 实时方案</a>
       <a class="secondary-link" href="{{ '/guides/' | relative_url }}">浏览全部专题</a>
@@ -57,7 +57,7 @@ faq:
     <strong>先确认账号，再选择流程</strong>
     <ul>
       <li>Plus：卡密核销后自动完成升级。</li>
-      <li>5x/20x Pro：先联系客服确认账号和交付规则。</li>
+      <li>Pro 100/200：客服办理；Pro 500 及 Ultrafast：单独咨询。</li>
       <li>不需要密码；session 仍是敏感凭证。</li>
       <li>已扣款或交易待处理时不要重复购买。</li>
     </ul>
@@ -77,21 +77,21 @@ faq:
 
 ## 先选择适合的充值路径
 
-<p class="section-intro">三条路径对应不同的交付方式。人民币价格可能变化，请以主站实时页面为准，不要使用搜索快照中的旧价格。</p>
+<p class="section-intro">以下区分 Plus 自助、Pro 客服办理与单独咨询。主站也提供 Go，当前仅支持 Free 个人账号，具体条件请查看<a href="https://chonggrok.com/chatgpt">实时方案页</a>。人民币价格与交付规则以主站为准。</p>
 
 <div class="route-grid">
   <section class="route-card"><span class="card-label">全自动</span><h3>ChatGPT Plus</h3><p>付款取得卡密，在核销页验证并提交 session，系统自动完成升级。</p><a class="link-arrow" href="{{ '/guides/chatgpt-plus-auto-recharge/' | relative_url }}">查看完整流程</a></section>
-  <section class="route-card"><span class="card-label">客服协助</span><h3>5x Pro · 100 美元</h3><p>先确认账号状态和交付规则，再由客服使用海外信用卡协助官方付款。</p><a class="link-arrow" href="{{ '/guides/chatgpt-pro-100-200/' | relative_url }}">查看 Pro 说明</a></section>
-  <section class="route-card"><span class="card-label">高频使用</span><h3>20x Pro · 200 美元</h3><p>适合确认需要更高用量的用户，同样必须先联系客服核对账号。</p><a class="link-arrow" href="{{ '/guides/chatgpt-pro-100-200/' | relative_url }}">比较两档 Pro</a></section>
+  <section class="route-card"><span class="card-label">客服办理</span><h3>Pro 100 / 200</h3><p>官方月费分别为 100 / 200 美元。先由客服确认账号、人民币价格、交付与验收规则，再付款办理。</p><a class="link-arrow" href="https://chonggrok.com/chatgpt-pro">查看 Pro 办理条件</a></section>
+  <section class="route-card"><span class="card-label">单独咨询</span><h3>Pro 500 / Ultrafast</h3><p>官方 Pro 500 月费为 500 美元，包含 Ultrafast。本站需单独确认可办理条件与报价，不走 Plus 自动核销。</p><a class="link-arrow" href="https://chonggrok.com/chatgpt-pro">查看咨询说明</a></section>
 </div>
 
 ## 七个核心专题
 
-<p class="section-intro">每个专题只回答一个明确问题，便于搜索引擎和 AI 摘要准确引用。</p>
+<p class="section-intro">每个专题只回答一个明确问题。100/200 对比保留历史覆盖范围；当前 Pro 100/200/500 权益与额度请查看<a href="{{ '/guides/gpt-6-1-codex-work-limits-guide/' | relative_url }}">现行额度指南</a>。</p>
 
 <div class="guide-grid">
   <section class="guide-card"><h3><a href="{{ '/guides/chatgpt-plus-auto-recharge/' | relative_url }}">Plus 全自动充值</a></h3><p>从套餐下单、取得卡密、核销、提交 session 到充值后验收。</p></section>
-  <section class="guide-card"><h3><a href="{{ '/guides/chatgpt-pro-100-200/' | relative_url }}">5x Pro / 20x Pro</a></h3><p>官方两档 Pro 的用量区别、客服协助流程和付款前确认清单。</p></section>
+  <section class="guide-card"><h3><a href="{{ '/guides/chatgpt-pro-100-200/' | relative_url }}">Pro 100 / 200 历史对比</a></h3><p>保留原 100/200 两档对比与付款前确认清单，不涵盖当前全部 Pro 档位。</p></section>
   <section class="guide-card"><h3><a href="{{ '/guides/chatgpt-plus-vs-pro/' | relative_url }}">Plus 与 Pro 怎么选</a></h3><p>按任务频率、复杂度、预算和官方实时权益进行判断。</p></section>
   <section class="guide-card"><h3><a href="{{ '/guides/chatgpt-payment-errors/' | relative_url }}">付款被拒排查</a></h3><p>处理 card declined、支付认证失败和 3DS 验证问题。</p></section>
   <section class="guide-card"><h3><a href="{{ '/guides/chatgpt-paid-but-still-free/' | relative_url }}">已付款仍显示 Free</a></h3><p>按网页、App Store、Google Play 或卡密核销入口检查账号状态。</p></section>
@@ -130,8 +130,8 @@ Plus 自动充值不需要 ChatGPT 密码，但 session 仍属于敏感登录凭
 
 <section class="service-panel">
   <h2>准备升级自己的 ChatGPT 账号？</h2>
-  <p>先确认账号能够正常登录、没有有效或待处理订阅，再从主站实时页面选择 Plus、5x Pro 或 20x Pro。已有卡密请直接进入核销流程，不要重复购买。</p>
-  <div class="hero-actions"><a class="primary-link" href="https://chonggrok.com/chatgpt">查看实时方案</a><a class="secondary-link" href="https://chonggrok.com/verify">核销已有卡密</a></div>
+  <p>先核对账号、现有订阅与原付款渠道，再查看 Go / Plus 实时方案。Pro 100/200 由客服办理，Pro 500 及 Ultrafast 需单独咨询；已有 Plus 卡密请按核销流程处理，不要重复购买。</p>
+  <div class="hero-actions"><a class="primary-link" href="https://chonggrok.com/chatgpt">查看实时方案</a><a class="secondary-link" href="https://chonggrok.com/verify">核销已有 Plus 卡密</a></div>
 </section>
 
-<p class="meta">最后更新：2026-10-30</p>
+<p class="meta">最后更新：2026-10-31</p>
