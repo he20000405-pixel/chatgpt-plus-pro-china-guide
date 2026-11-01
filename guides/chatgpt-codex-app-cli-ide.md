@@ -4,7 +4,7 @@ description: "已有 ChatGPT Plus 或 Pro 后，如何用同一账号登录 Code
 permalink: /guides/chatgpt-codex-app-cli-ide/
 schema_type: Article
 date_published: 2026-08-14
-last_modified_at: 2026-08-14
+last_modified_at: 2026-11-01
 breadcrumbs:
   - name: "首页"
     url: /
@@ -23,7 +23,7 @@ faq:
   - question: "CLI 登录了错误账号应该怎样重来？"
     answer: "先在普通终端运行 `codex login status` 查看认证方式。若需要清除当前凭据，运行 `codex logout`，再运行 `codex login`，并在浏览器中使用原订阅账号完成授权。不要因为登录错账号再次购买会员。"
   - question: "Codex 达到使用上限是否代表 Plus 或 Pro 已失效？"
-    answer: "不一定。先检查 ChatGPT 计划是否仍有效，再打开 [Codex Usage Dashboard](https://chatgpt.com/codex/settings/usage) 查看剩余用量。计划有效但用量达到当前上限，与订阅失效是两种不同状态。"
+    answer: "不一定。先检查 ChatGPT 计划是否仍有效，再打开 [Codex Usage Dashboard](https://chatgpt.com/settings/usage) 查看剩余用量。计划有效但用量达到当前上限，与订阅失效是两种不同状态。"
 ---
 
 # ChatGPT Plus / Pro 开通后，如何使用 Codex App、CLI 和 IDE？
@@ -263,7 +263,7 @@ Xcode 用户在 coding assistant 中新建对话并选择 Codex；JetBrains 用�
 | CLI 提示找不到 `codex` | 安装是否完成，终端是否在安装后重新打开 | 按官方安装页检查 PATH 或重新执行同一种官方安装方式 |
 | IDE 中没有 Codex 图标 | 扩展是否启用，当前编辑器是否受支持 | 使用命令面板运行 `Codex: Open Codex Sidebar` |
 | Codex 打开了错误项目 | 当前工作目录或编辑器工作区是否正确 | 停止任务，关闭错误目录，再打开目标项目 |
-| 提示达到使用上限 | 账号计划是否仍有效，[Usage Dashboard](https://chatgpt.com/codex/settings/usage) 显示什么 | 区分“计划有效但用量已到上限”和“会员没有附着到该账号” |
+| 提示达到使用上限 | 账号计划是否仍有效，[Usage Dashboard](https://chatgpt.com/settings/usage) 显示什么 | 区分“计划有效但用量已到上限”和“会员没有附着到该账号” |
 | 出现 API Key 输入或 API 账单提示 | 是否选择了 API Key 登录方式 | 若准备使用 ChatGPT 订阅，退出并改选 Sign in with ChatGPT |
 | 桌面端没有 Codex 入口 | 应用是否为当前版本，账号和地区是否具备当前可用性 | 更新应用、重新登录，并以 OpenAI 实时页面为准 |
 
@@ -279,7 +279,7 @@ Plus / Pro 用户需要区分三件事：
 2. **Codex 账号内的可选 credits**：达到计划内用量后，符合条件的账号可能看到官方追加选项；
 3. **OpenAI API 计费**：属于独立的开发者平台账单，不等于 ChatGPT 会员。
 
-OpenAI 当前说明，Plus 和 Pro 包含计划内 Codex 用量；具体上限会受到模型、任务复杂度以及本地或云端执行方式影响。请在 [Codex Usage Dashboard](https://chatgpt.com/codex/settings/usage) 查看账号当前的剩余用量。达到计划内上限后，账号是否提供 ChatGPT credits 选项，以及实际消耗规则，都以该页面和官方实时价格说明为准。
+OpenAI 当前说明，Plus 和 Pro 包含计划内 Codex 用量；具体上限会受到模型、任务复杂度以及本地或云端执行方式影响。请在 [Codex Usage Dashboard](https://chatgpt.com/settings/usage) 查看账号当前的剩余用量。达到计划内上限后，账号是否提供 ChatGPT credits 选项，以及实际消耗规则，都以该页面和官方实时价格说明为准。
 
 ChongGrok 只提供 ChatGPT 会员订阅协助，不提供 API 额度或 API 充值，也不代购 Codex credits。
 

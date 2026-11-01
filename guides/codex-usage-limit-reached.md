@@ -4,7 +4,7 @@ description: "Codex 提示达到使用上限时，按 ChatGPT 计划、正确账
 permalink: /guides/codex-usage-limit-reached/
 schema_type: Article
 date_published: 2026-08-14
-last_modified_at: 2026-08-14
+last_modified_at: 2026-11-01
 breadcrumbs:
   - name: "首页"
     url: /
@@ -29,7 +29,7 @@ faq:
 
 # Codex 提示达到使用上限怎么办？先确认 ChatGPT 计划、共享用量和账户状态
 
-**先不要重新购买 ChatGPT 会员。**打开 [Codex Usage Dashboard](https://chatgpt.com/codex/settings/usage)，确认当前账号的套餐、剩余用量和页面显示的恢复时间；如果你正在使用 Codex CLI，还可以在会话中输入 `/status` 查看剩余限制。
+**先不要重新购买 ChatGPT 会员。**打开 [Codex Usage Dashboard](https://chatgpt.com/settings/usage)，确认当前账号的套餐、剩余用量和页面显示的恢复时间；如果你正在使用 Codex CLI，还可以在会话中输入 `/status` 查看剩余限制。
 
 Codex 的“使用上限”是指当前 ChatGPT 套餐允许使用 Codex 的量已经接近或达到限制，并不自动表示 Plus 或 Pro 已失效。只有账号显示 `Free`、订阅到期或续费失败时，才需要转入订阅状态排查。
 
@@ -92,7 +92,7 @@ codex login
 
 ## 第二步：查看 Usage Dashboard 和 CLI `/status`
 
-打开 [Codex Usage Dashboard](https://chatgpt.com/codex/settings/usage)，依次记录：
+打开 [Codex Usage Dashboard](https://chatgpt.com/settings/usage)，依次记录：
 
 1. 当前浏览器登录的账号是否正确；
 2. 计划内用量是否已经用完；
@@ -201,7 +201,7 @@ OpenAI 当前说明，Pro 5x 和 Pro 20x 提供比 Plus 更高的 Codex 用量�
 
 ### 在哪里查看 Codex 还可以使用多少？
 
-打开 [Codex Usage Dashboard](https://chatgpt.com/codex/settings/usage) 查看当前账号的用量。使用 Codex CLI 时，还可以在正在运行的 Codex 会话中输入 `/status` 查看剩余限制。
+打开 [Codex Usage Dashboard](https://chatgpt.com/settings/usage) 查看当前账号的用量。使用 Codex CLI 时，还可以在正在运行的 Codex 会话中输入 `/status` 查看剩余限制。
 
 ### Codex 桌面端、CLI、IDE 和云端任务的用量彼此独立吗？
 
