@@ -1,11 +1,13 @@
 # chatgpt-plus-pro-china-guide 发布与收录操作指南
 
-本文件用于把已经完成的本地仓库发布到：
+本文件保留首次建站的发布步骤。仓库目前已上线；日常维护使用文末“常用更新命令”，不要重复创建仓库或初始化远程。当前专题范围以 `/guides/` 和 `sitemap.xml` 为准。
+
+发布地址：
 
 - GitHub 仓库：`https://github.com/he20000405-pixel/chatgpt-plus-pro-china-guide`
 - GitHub Pages：`https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/`
 
-当前本地目录：
+首次建站时的本地目录（后续维护以实际工作目录为准）：
 
 ```text
 C:\Users\37132\Desktop\总chonggrok\chatgpt\chatgpt-plus-pro-china-guide
@@ -116,7 +118,7 @@ git push -u origin main
 
 - 首页是否正常显示中文主 README；
 - `README_EN.md` 能否打开；
-- `guides/` 下是否有 5 篇专题和目录页；
+- `guides/` 下的专题和目录页是否齐全，并与当前 `sitemap.xml` 一致；
 - `_layouts/`、`_includes/`、`assets/` 是否存在；
 - README 中的 chonggrok.com 链接是否正确；
 - 仓库中是否不存在任何真实卡密、session 和用户数据。
@@ -143,7 +145,7 @@ PR 和 `ci-check` 测试分支只验收，不发布；只有 `main` 的正常检
 
 ## 第五阶段：逐页验收
 
-依次打开：
+以下是首次发布时的验收入口示例；当前还需覆盖 `/guides/` 和 `sitemap.xml` 中的全部页面：
 
 1. <https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/>
 2. <https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/>
@@ -190,7 +192,7 @@ PR 和 `ci-check` 测试分支只验收，不发布；只有 `main` 的正常检
    sitemap.xml
    ```
 
-8. 使用 URL 检查，依次请求首页和 7 篇核心专题编入索引。不要同一天无意义重复提交同一 URL。
+8. 使用 URL 检查，核对首页和本次新增或明显修改的专题是否需要请求编入索引。不要同一天无意义重复提交同一 URL。
 
 ## 第七阶段：提交 Bing Webmaster Tools
 
@@ -209,7 +211,7 @@ PR 和 `ci-check` 测试分支只验收，不发布；只有 `main` 的正常检
    https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/sitemap.xml
    ```
 
-6. 使用 URL Submission 提交首页和 7 篇核心专题。
+6. 使用 URL Submission 按需提交首页和本次新增或明显修改的专题，不重复请求已处理的 URL。
 
 ## 第八阶段：让主站与 GitHub 形成合理关联
 

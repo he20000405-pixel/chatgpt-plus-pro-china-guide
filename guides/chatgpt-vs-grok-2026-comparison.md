@@ -3,7 +3,7 @@ title: "2026 主流 AI 会员选型总表：ChatGPT (Plus / Pro) vs Grok (X 联�
 description: "2026年10月横向对比：详解 OpenAI ChatGPT (Go / Plus / Pro 100 & 200 & 500) 与 xAI Grok (新版 The X Subscription 联合会员 / 旧版 SuperGrok) 的可用模型 (Work/Codex 中的 GPT-6.1 Terra/Sol 与 GPT-6 Astra；Cursor/Grok Build 中的 Grok 4.7 等)、编程工具 (Codex vs Cursor)、自动化智能体 (ChatGPT Work vs Grok Bot) 及通过 chonggrok.com 开通订阅的方式与注意事项。"
 permalink: /guides/chatgpt-vs-grok-2026-comparison/
 date: 2026-10-28
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-01
 ---
 
 # 2026 主流 AI 会员选型总表：ChatGPT (Plus / Pro) vs Grok (X 联合会员 / SuperGrok) 国内用户该开哪一个？
@@ -18,17 +18,17 @@ last_modified_at: 2026-10-30
 
 | 对比维度                              | OpenAI：ChatGPT 订阅体系（Plus / Pro）                       | xAI：Grok 订阅体系（新版 X 联合会员 / 旧版 SuperGrok）       |
 | :------------------------------------ | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| **官方付费档位与月费** | • **Go：** 美国官方价 $8/月（主要扩展工具、图像、文件及数据分析等用量）<br>• **Plus：** **$20/月（个人主力首选）**<br>• **Pro 100：** $100/月<br>• **Pro 200：** $200/月<br>• **Pro 500：** $500/月（含 Astra 与 6.1 Sol 超高速模式，仍受用量和消耗规则约束） | • **新版 X 联合会员（The X Subscription）：**<br>Plus $8/月 ｜ **Premium $30/月** ｜ Super $100/月 ｜ Ultra $200/月<br>• **旧版 SuperGrok：** 现有用户可按适用规则保留原计划；ChongGrok 当前展示的 1 个月、3 个月充值商品另见下方办理说明，不作为官方标准订阅周期列示 |
+| **官方付费档位与月费** | • **Go：** 美国官方价 $8/月（主要扩展工具、图像、文件及数据分析等用量）<br>• **Plus：** **$20/月（个人主力首选）**<br>• **Pro 100：** $100/月<br>• **Pro 200：** $200/月<br>• **Pro 500：** $500/月（含 Astra 与 6.1 Sol 超高速模式，仍受用量和消耗规则约束） | • **新版 X 联合会员（The X Subscription）：**<br>Plus $8/月 ｜ **Premium $30/月** ｜ Super $100/月 ｜ Ultra $200/月<br>• **旧版 SuperGrok：** 现有用户可按适用规则保留原计划；ChongGrok 已停售旧版月度、季度商品，历史卡密兑换与新购联合会员分别处理 |
 | **2026.10 主要模型** | **GPT-6.1 Terra、GPT-6.1 Sol、GPT-6 Astra。** Terra 侧重日常办公、图片理解与计算机操作；Sol、Astra 可用于复杂编程与研究。这些模型可在 **ChatGPT Work 和 Codex** 中使用；其中 Terra、Sol 不在 ChatGPT 的“聊天（Chat）”功能中提供。[官方模型说明](https://learn.chatgpt.com/docs/models)、[使用范围](https://learn.chatgpt.com/docs/pricing) | **Grok 4.7：** 面向编程、智能体任务与知识工作，已在 **Cursor 和 Grok Build** 中提供。[官方公告](https://x.ai/news/grok-4-7) |
 | **编程工具与模型计费** | **编程工具：Codex。** ChatGPT Plus、Pro 订阅包含 Codex，可使用 GPT-6.1 Terra、GPT-6.1 Sol、GPT-6 Astra 等 OpenAI 模型完成编程任务。**Codex 与 ChatGPT Work 共用订阅提供的用量**，具体限额见下方“额度计算与重置周期”。[官方说明](https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex) | **编程工具：Cursor。** 新版 X 联合会员包含 Cursor。<br><br>**套餐内用量：** Grok 和 Cursor 共用同一份每周额度；在 Cursor 中使用 Grok 4.7、4.6、4.5 或 Composer 2.5，会从这份额度中扣除。[共享额度说明](https://cursor.com/help/the-x-subscription/overview)<br><br>**另外付费：** 如果要在 Cursor 中选择 Claude、GPT 等其他厂商的模型，需要 Premium（$30/月）或更高档位，并另行充值。费用从第一次调用起，按对应模型的 API 标价扣除，不包含在订阅的每周额度内；Plus（$8/月）不支持使用这些模型。[模型与收费说明](https://cursor.com/docs/models-and-pricing)<br><br>**旧版套餐：** 仍保留旧版 Cursor Pro 等套餐的用户，继续按旧套餐的月度额度和收费规则使用。[旧版套餐说明](https://cursor.com/docs/account/pricing/legacy-cursor-plans) |
 | **智能体与办公自动化** | **ChatGPT Work（ChatGPT 工作）**：可用于提案起草、资料分析及多步骤办公任务；图纸处理、表单填写、发票录入与视频编辑等能力还取决于可用工具、权限和具体任务 | **Grok Bot**：提供可协同完成工作的 AI 队友与自动化任务能力；**在新版联合会员中，Premium $30/月及以上包含，Plus 不包含**。部分旧版 SuperGrok 用户也可通过符合条件的 Cursor 关联获得 Bot 用量，不必一概切换联合会员 |
 | **额度计算与重置周期** | **ChatGPT Work 与 Codex 共用套餐额度，聊天功能的模型消息次数另行计算。**<br>• **Plus：** 同时有 **5 小时内的用量上限和每周总额度**，两项都还有剩余额度时，才能继续使用套餐内用量。<br>• **Pro 100 / 200 / 500：** 当前没有 5 小时用量限制，但仍有每周总额度。剩余额度和下次恢复时间可在账号用量页面查看。[官方额度说明](https://help.openai.com/en/articles/20001498-how-resets-work-in-codex)<br><br>**2026 年 10 月 29 日调整：**<br>• **Pro 100、Pro 500：** Work/Codex 的可用额度增加到原来的两倍。<br>• **Pro 200：** 原先额度较少的用户，现在也翻倍；原先额度较多的用户保持不变。现在所有 Pro 200 用户享有相同的 Work/Codex 额度。<br>• **此前计划削减部分老用户额度的安排已取消。** | 联合会员采用 **Grok 与 Cursor 共享每周包含额度池（Weekly Pool）**（Premium 为 4x Plus、Super 为 15x、Ultra 为 50x）。本周额度可能提前用完，届时需等待下一次刷新或选择额外付费用量；具体重置时间以账号页面为准 |
-| **国内在 `chonggrok.com` 的核销方式** | • **Plus：** 卡密 + **完整 `AuthSession`（官方 session JSON）** 在 `/verify` 自助兑换（无需另交密码；完成后核对权益，未更新时再尝试重新登录）<br>• **Pro 100 / 200：** 先联系客服确认，不走 Plus 自动核销 | • **旧版 SuperGrok：** 先核对旧版账号资格和商品条件；ChongGrok 当前展示 **1 个月、3 个月**商品，兑换使用**卡密 + `Grok User ID`**，入口为 [https://chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)<br>• **新版 X 联合会员：** 在 [X 联合会员专区](https://chonggrok.com/x-subscription) 核对方案和账号条件，使用 **卡密 + `Grok SSO`** 在 [X 联合会员核销页](https://chonggrok.com/verify-x) 按页面提示办理；本站不办理旧会员转联合会员 |
+| **国内在 `chonggrok.com` 的核销方式** | • **Plus：** 卡密 + **完整 `AuthSession`（官方 session JSON）** 在 `/verify` 自助兑换（无需另交密码；完成后核对权益，未更新时再尝试重新登录）<br>• **Pro 100 / 200：** 先联系客服确认，不走 Plus 自动核销 | • **旧版 SuperGrok 历史卡密：** ChongGrok 已停售旧版月度、季度商品；已有旧卡兑换使用**卡密 + `Grok User ID`**，入口为 [https://chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)<br>• **新版 X 联合会员：** 在 [X 联合会员专区](https://chonggrok.com/x-subscription) 核对方案和账号条件，使用 **卡密 + `Grok SSO`** 在 [X 联合会员核销页](https://chonggrok.com/verify-x) 按页面提示办理；本站不办理旧会员转联合会员 |
 
 > **主站实时方案直达：**
 >
 > * **ChatGPT Plus / Pro 充值专区：** **[https://chonggrok.com/chatgpt](https://chonggrok.com/chatgpt)**（配套教程：[ChatGPT Plus 全自动充值流程](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-plus-auto-recharge/)）
-> * **新版 X 联合会员专区：** **[https://chonggrok.com/x-subscription](https://chonggrok.com/x-subscription)**；**旧版 SuperGrok 专区：** **[https://chonggrok.com/supergrok](https://chonggrok.com/supergrok)**（配套教程：[SuperGrok 国内充值与排障指南](https://he20000405-pixel.github.io/supergrok-china-guide/)）
+> * **新版 X 联合会员专区：** **[https://chonggrok.com/x-subscription](https://chonggrok.com/x-subscription)**；**Grok 选购与迁移说明：** **[https://chonggrok.com/supergrok](https://chonggrok.com/supergrok)**（配套教程：[SuperGrok 国内充值与排障指南](https://he20000405-pixel.github.io/supergrok-china-guide/)）
 
 ---
 
@@ -44,7 +44,7 @@ last_modified_at: 2026-10-30
 ### 2. 优先选择「Grok 联合会员 Premium ($30) 或旧版 SuperGrok」的典型场景
 
 * **同时需要 Grok + Grok Bot + Cursor + X 权益的用户：** 以前单独购买 SuperGrok、Cursor Pro 和 X Premium+ 每月合计需 $90；新版 **The X Subscription — Premium（$30/月）** 将三者连同 Grok Bot 打包整合。如果你既要用 Grok 对话、生图，又要用 Cursor 编程、Grok Bot 处理自动化任务，还希望获得 X Premium+ 权益，可以优先考虑这一档。Grok 和 Cursor 共用的每周额度为 Plus 档的 4 倍；在 Cursor 中使用 Claude、GPT 等第三方模型仍需另外付费。
-* **习惯仅凭 User ID 免密续期的纯 Grok 老用户：** 官方允许现有 SuperGrok 用户保留原计划不切换（注意：一旦完成 Unify 合并至联合会员则永久不可逆，不可退回旧版）。若你只想单用 `grok.com`，直接在 `chonggrok.com` 选择旧版 SuperGrok，仅需提交 **卡密 + Grok User ID** 即可完成充值。
+* **习惯仅凭 User ID 免密续期的纯 Grok 老用户：** 官方允许现有 SuperGrok 用户保留原计划不切换（注意：一旦完成 Unify 合并至联合会员则永久不可逆，不可退回旧版）。若你只想单用 `grok.com` 并保留旧计划，请回原购买渠道确认续费条件。ChongGrok 已停售旧版月度、季度商品；已有历史卡密仍可在 [旧版 Grok 核销页](https://chonggrok.com/verify-grok) 按提示提交 **卡密 + Grok User ID**，这不代表仍可购买旧套餐。
 
 ### 3. 全栈开发者的进阶配置：多模型个人原号组合
 
@@ -66,9 +66,9 @@ last_modified_at: 2026-10-30
 ## 四、 国内如何通过支付宝/微信完成个人原账号升级与验收？
 
 1. **查看实时方案并付款：**
-   打开 **[https://chonggrok.com](https://chonggrok.com)**（ChatGPT 专区：**[chonggrok.com/chatgpt](https://chonggrok.com/chatgpt)**；新版 X 联合会员专区：**[chonggrok.com/x-subscription](https://chonggrok.com/x-subscription)**；旧版 SuperGrok 专区：**[chonggrok.com/supergrok](https://chonggrok.com/supergrok)**），查看页面当时展示的方案、价格和办理条件（本文不固定写死人民币价格，实际以服务页实时展示为准）。使用支付宝或微信付款后，保存好订单号与卡密。
+   打开 **[https://chonggrok.com](https://chonggrok.com)**（ChatGPT 专区：**[chonggrok.com/chatgpt](https://chonggrok.com/chatgpt)**；新版 X 联合会员专区：**[chonggrok.com/x-subscription](https://chonggrok.com/x-subscription)**；Grok 选购与迁移说明：**[chonggrok.com/supergrok](https://chonggrok.com/supergrok)**，该页不再销售旧版月度、季度商品），查看页面当时展示的方案、价格和办理条件（本文不固定写死人民币价格，实际以服务页实时展示为准）。使用支付宝或微信付款后，保存好订单号与卡密。
 2. **在 ChongGrok 对应产品的核销页提交资料并核对账号：**
-   按所购产品进入对应的 ChongGrok 核销页：**ChatGPT Plus：[https://chonggrok.com/verify](https://chonggrok.com/verify)**；**旧版 SuperGrok：[https://chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)**；**新版 X 联合会员：[https://chonggrok.com/verify-x](https://chonggrok.com/verify-x)**。验证卡密后按页面提示填写该产品所需的最小必要资料（ChatGPT Plus 为完整 `AuthSession`，旧版 SuperGrok 为 `Grok User ID`，新版 X 联合会员为 `Grok SSO`）。**务必核对目标账号无误，再按对应页面提示确认提交。** ChatGPT Pro 100 / 200 先联系客服确认，不走 Plus 自动核销流程。
+   按已有卡密的产品类型进入对应的 ChongGrok 核销页：**ChatGPT Plus：[https://chonggrok.com/verify](https://chonggrok.com/verify)**；**旧版 SuperGrok 历史卡密：[https://chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)**；**新版 X 联合会员：[https://chonggrok.com/verify-x](https://chonggrok.com/verify-x)**。验证卡密后按页面提示填写该产品所需的最小必要资料（ChatGPT Plus 为完整 `AuthSession`，旧版 SuperGrok 为 `Grok User ID`，新版 X 联合会员为 `Grok SSO`）。**务必核对目标账号无误，再按对应页面提示确认提交。** ChatGPT Pro 100 / 200 先联系客服确认，不走 Plus 自动核销流程。
 3. **返回官方页面验收并重新登录：**
    处理完成后，回到 `chatgpt.com` 或 `grok.com` 官方页面验收订阅状态，并**退出账号后重新登录一次**以刷新页面显示的订阅状态。若已付款核销但页面仍显示 `Free`，请停止重复购买，直接按 [ChatGPT 已付款但仍显示 Free](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-paid-but-still-free/) 或 [SuperGrok 排障专题目录](https://he20000405-pixel.github.io/supergrok-china-guide/guides/) 逐项核对。
 
@@ -76,7 +76,7 @@ last_modified_at: 2026-10-30
 
 ## 五、 风险与业务边界说明
 
-* **本文介绍的服务范围：** 本文介绍 ChatGPT、Grok（X 联合会员 / 旧版 SuperGrok）的自有账号订阅办理方式，不包含 OpenAI / xAI API 余额充值。ChongGrok 其他产品的账号归属、交付形式与办理条件，以对应商品说明为准，不将本篇的自有账号流程泛化到全站。
+* **本文介绍的服务范围：** 本文介绍 ChatGPT、Grok X 联合会员的自有账号订阅办理，以及旧版 SuperGrok 历史卡密处理方式，不包含 OpenAI / xAI API 余额充值。ChongGrok 其他产品的账号归属、交付形式与办理条件，以对应商品说明为准，不将本篇的自有账号流程泛化到全站。
 * **凭证安全与风险提示：** 不需要另交密码或验证码，不等于不涉及敏感登录凭据。`AuthSession` 与 `Grok SSO` 均需谨慎处理，第三方充值仍有会话泄露与账号限制风险。请只在核对域名、产品和用途后向对应核销页提交必要资料，并在完成后回官方页面验收，按需管理或退出相关会话。
 * **厂商销售政策与地区限制：** xAI 当前明确表示不授权第三方销售 The X Subscription，并提示从其他来源购买的账号可能被暂停或终止。付款成功不会改变厂商的地区、账号或使用资格；选择第三方协助前，应先了解这些限制。
 * **独立第三方声明：** `chonggrok.com` 是独立的第三方会员订阅充值服务网站，与 OpenAI、xAI（SpaceXSI）、X、Cursor、Anthropic、Google 或 Apple 不存在隶属、授权或官方合作关系。
@@ -121,7 +121,7 @@ last_modified_at: 2026-10-30
 * **ChongGrok 主站与全局资源入口：**
   * [ChongGrok 主站首页 (https://chonggrok.com)](https://chonggrok.com/)
   * [ChongGrok ChatGPT 充值专区 (https://chonggrok.com/chatgpt)](https://chonggrok.com/chatgpt)
-  * [ChongGrok 旧版 SuperGrok 充值专区 (https://chonggrok.com/supergrok)](https://chonggrok.com/supergrok)
+  * [ChongGrok Grok 选购与迁移说明 (https://chonggrok.com/supergrok)](https://chonggrok.com/supergrok)
   * [ChongGrok 新版 X 联合会员专区 (https://chonggrok.com/x-subscription)](https://chonggrok.com/x-subscription)
   * [ChongGrok ChatGPT 卡密自助核销页 (https://chonggrok.com/verify)](https://chonggrok.com/verify)
   * [ChongGrok 旧版 Grok / SuperGrok 卡密核销页 (https://chonggrok.com/verify-grok)](https://chonggrok.com/verify-grok)
@@ -153,3 +153,5 @@ last_modified_at: 2026-10-30
 
 *事实与流程核验日期：2026-10-30。产品规则依据官方公开资料；ChongGrok 办理条件依据当前服务页及已确认业务范围，未进行实际充值履约测试。ChongGrok is not affiliated with OpenAI, xAI, X, Cursor, Anthropic, Google, or Apple.*
 *Keywords: ChatGPT Plus 和 SuperGrok 哪个好 · ChatGPT vs Grok 2026 对比 · The X Subscription 联合会员 · GPT-6.1 Terra / Sol / Astra · Grok 4.7 与产品入口 · Codex vs Cursor 怎么选 · AuthSession 核销 · Grok User ID · Grok SSO · chonggrok.com*
+
+入口与办理说明更新：2026-11-01。

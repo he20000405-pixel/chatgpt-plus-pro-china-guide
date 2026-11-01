@@ -3,7 +3,7 @@ title: "ChatGPT Plus and Pro Recharge Guide"
 description: "ChatGPT Go and Plus options, Pro 100/200 assisted orders, Pro 500 consultation, session safety, and payment troubleshooting for users in China."
 lang: en
 permalink: /en/
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-01
 breadcrumbs:
   - name: Home
     url: /
@@ -70,7 +70,7 @@ Pro 100 and Pro 200 orders do not use the automated Plus workflow. Pro 500 and U
 4. Pay only after confirmation, then follow the agreed order and delivery process with customer service.
 5. Verify the resulting membership status, expiration date, and model picker on ChatGPT.
 
-OpenAI currently lists three individual Pro tiers: **100, 200, and 500 USD per month**. Pro 200 provides more usage than Pro 100, and Pro 500 provides the highest usage and includes Ultrafast; Pro 100 and Pro 200 do not include Ultrafast. Check the [official Pro tier help page](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers) and your account's plan details before payment. The [current model and quota guide (Chinese)]({{ '/guides/gpt-6-1-codex-work-limits-guide/' | relative_url }}) covers the current plans; the older 100/200 comparison does not cover every current Pro tier.
+OpenAI currently lists three individual Pro tiers: **100, 200, and 500 USD per month**. Pro 200 provides more usage than Pro 100, and Pro 500 provides the highest usage and includes Ultrafast; Pro 100 and Pro 200 do not include Ultrafast. Check the [official Pro tier help page](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers) and your account's plan details before payment. The [current model and quota guide (Chinese)](https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/gpt-6-1-codex-work-limits-guide/) covers the current plans; the older 100/200 comparison does not cover every current Pro tier.
 
 ## Payment errors before using a recharge service
 
@@ -124,4 +124,4 @@ For current options, prices, and service rules, visit:
 
 **<https://chonggrok.com/chatgpt>**
 
-Last updated: October 31, 2026.
+Last updated: November 1, 2026.
