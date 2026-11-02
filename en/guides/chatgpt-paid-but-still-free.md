@@ -7,7 +7,7 @@ alternate_en: /en/guides/chatgpt-paid-but-still-free/
 lang: en
 schema_type: Article
 date_published: 2026-07-24
-last_modified_at: 2026-08-17
+last_modified_at: 2026-10-28
 breadcrumbs:
   - name: "Home"
     url: /

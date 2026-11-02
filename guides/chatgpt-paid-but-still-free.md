@@ -5,7 +5,7 @@ permalink: /guides/chatgpt-paid-but-still-free/
 alternate_zh: /guides/chatgpt-paid-but-still-free/
 alternate_en: /en/guides/chatgpt-paid-but-still-free/
 date_published: "2026-07-12"
-last_modified_at: "2026-08-17"
+last_modified_at: "2026-10-28"
 breadcrumbs:
   - name: 首页
     url: /
