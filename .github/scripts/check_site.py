@@ -601,7 +601,9 @@ class Auditor:
             for obj in objects(value):
                 if isinstance(obj.get("@id"), str):
                     ident = urljoin(page.base_url, obj["@id"])
-                    author_nodes.setdefault(ident, {}).update(obj)
+                    # JSON-LD merges statements for one entity; later scripts
+                    # must not erase an earlier conflicting type or URL.
+                    author_nodes.setdefault(ident, []).append(obj)
         for script, value in parsed_scripts:
             for obj in objects(value):
                 types = obj.get("@type", [])
@@ -674,20 +676,25 @@ class Auditor:
         """
         for author in value if isinstance(value, list) else [value]:
             if isinstance(author, str):
-                author = author_nodes.get(urljoin(page.base_url, author), {"name": author})
-            if not isinstance(author, dict):
+                declarations = author_nodes.get(urljoin(page.base_url, author), [{"name": author}])
+            elif isinstance(author, dict):
+                declarations = [author]
+                if isinstance(author.get("@id"), str):
+                    declarations += author_nodes.get(urljoin(page.base_url, author["@id"]), [])
+            else:
                 continue
-            if isinstance(author.get("@id"), str):
-                author = {**author_nodes.get(urljoin(page.base_url, author["@id"]), {}), **author}
-            if norm(author.get("name")).casefold() != "chonggrok":
+            if not any(norm(part.get("name")).casefold() == "chonggrok" for part in declarations):
                 continue
             self.stats["projectAuthorFieldsChecked"] += 1
-            types = author.get("@type", [])
-            types = [types] if isinstance(types, str) else types if isinstance(types, list) else []
+            types, urls = [], []
+            for part in declarations:
+                kind = part.get("@type", [])
+                types.extend([kind] if isinstance(kind, str) else kind if isinstance(kind, list) else [])
+                url = part.get("url")
+                urls.extend(url if isinstance(url, list) else [url] if url is not None else [])
             if "Organization" not in types or "Person" in types:
                 self.issue("JSONLD_PROJECT_AUTHOR", "ChongGrok is the organization author; declare @type=Organization, not Person", page, line)
-            url = author.get("url")
-            if not isinstance(url, str) or url not in {"https://chonggrok.com/", "https://chonggrok.com"}:
+            if not urls or any(not isinstance(url, str) or url not in {"https://chonggrok.com/", "https://chonggrok.com"} for url in urls):
                 self.issue("JSONLD_PROJECT_AUTHOR_URL", "ChongGrok author.url must consistently identify https://chonggrok.com/", page, line)
 
     def record_page_date(self, page, field, value, line, code):
