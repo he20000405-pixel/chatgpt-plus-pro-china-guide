@@ -14,8 +14,9 @@ asset_version: "20261101-audit-fixes"
 lang: "zh-CN"
 timezone: "Asia/Shanghai"
 author:
+  type: Organization
   name: "ChongGrok"
-  url: "https://chonggrok.com/chatgpt"
+  url: "https://chonggrok.com/"
 
 # 收到站长平台验证码后再取消注释并填写；不要提前填写示例值。
 google_site_verification: "V4hVuMBqc3EQvKOc9sySCkXlwwFM9lSNGu4-XknGF7A"

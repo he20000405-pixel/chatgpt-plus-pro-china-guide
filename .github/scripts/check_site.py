@@ -596,6 +596,12 @@ class Auditor:
             parsed_scripts.append((script, value))
         # References may point to an entity defined in another script on this page.
         current_entities = page_entities([value for _, value in parsed_scripts], canonical, page.base_url)
+        author_nodes = {}
+        for _, value in parsed_scripts:
+            for obj in objects(value):
+                if isinstance(obj.get("@id"), str):
+                    ident = urljoin(page.base_url, obj["@id"])
+                    author_nodes.setdefault(ident, {}).update(obj)
         for script, value in parsed_scripts:
             for obj in objects(value):
                 types = obj.get("@type", [])
@@ -605,6 +611,7 @@ class Auditor:
                     continue
                 page_type = id(obj) in current_entities
                 if page_type:
+                    self.check_project_author(page, obj.get("author"), script.line, author_nodes)
                     for field in ("datePublished", "dateModified"):
                         if field in obj:
                             self.record_page_date(page, field, obj[field], script.line, "JSONLD_DATE")
@@ -657,6 +664,31 @@ class Auditor:
                             # compare target order and count, not editorial wording.
                             if [u for _, u in crumbs] != [u for _, u in schema_crumbs]:
                                 self.issue("BREADCRUMB_MISMATCH", "Visible and structured breadcrumb targets differ", page, script.line)
+
+    def check_project_author(self, page, value, line, author_nodes):
+        """Keep this site's brand author consistent without restricting people.
+
+        A real Person and an Organization may legitimately co-author a page.
+        Only the current page's explicitly named ChongGrok author is covered;
+        cited works and other people/organizations retain their own identities.
+        """
+        for author in value if isinstance(value, list) else [value]:
+            if isinstance(author, str):
+                author = author_nodes.get(urljoin(page.base_url, author), {"name": author})
+            if not isinstance(author, dict):
+                continue
+            if isinstance(author.get("@id"), str):
+                author = {**author_nodes.get(urljoin(page.base_url, author["@id"]), {}), **author}
+            if norm(author.get("name")).casefold() != "chonggrok":
+                continue
+            self.stats["projectAuthorFieldsChecked"] += 1
+            types = author.get("@type", [])
+            types = [types] if isinstance(types, str) else types if isinstance(types, list) else []
+            if "Organization" not in types or "Person" in types:
+                self.issue("JSONLD_PROJECT_AUTHOR", "ChongGrok is the organization author; declare @type=Organization, not Person", page, line)
+            url = author.get("url")
+            if not isinstance(url, str) or url not in {"https://chonggrok.com/", "https://chonggrok.com"}:
+                self.issue("JSONLD_PROJECT_AUTHOR_URL", "ChongGrok author.url must consistently identify https://chonggrok.com/", page, line)
 
     def record_page_date(self, page, field, value, line, code):
         try:
