@@ -1,10 +1,10 @@
 ---
 title: "Codex 使用上限排查：计划、共享用量与重置"
-description: "Codex 提示达到使用上限时，按 ChatGPT 计划、正确账号、Usage Dashboard、CLI /status 和页面重置时间逐步排查。"
+description: "Codex 额度用完或消耗过快时，核对账号、Usage Dashboard、Work 共享用量、速度模式及恢复时间；区分 Plus 五小时限制与 Pro 当前规则。"
 permalink: /guides/codex-usage-limit-reached/
 schema_type: Article
 date_published: 2026-08-14
-last_modified_at: 2026-11-01
+last_modified_at: 2026-11-13
 breadcrumbs:
   - name: "首页"
     url: /
@@ -18,7 +18,7 @@ faq:
   - question: "在哪里查看 Codex 还可以使用多少？"
     answer: "打开 ChatGPT 的 Codex Usage Dashboard 查看当前账号的用量。使用 Codex CLI 时，还可以在正在运行的 Codex 会话中输入 /status 查看剩余限制。"
   - question: "Codex 桌面端、CLI、IDE 和云端任务的用量彼此独立吗？"
-    answer: "不要把更换客户端当成获得新用量的方法。OpenAI 当前说明，本地消息和云端任务共用计划内的五小时用量周期，并且还可能存在每周限制；具体状态以当前账号的 Usage Dashboard 为准。"
+    answer: "不要把更换客户端当成获得新用量的方法。本地消息和云端聊天共用计划内用量，ChatGPT Work 与 Codex 也共用用量。Plus 和标准版 Business 有五小时用量周期；Pro 当前没有五小时限制，但仍须核对内含用量及页面列出的其他限制。具体状态以当前账号的 Usage Dashboard 为准。"
   - question: "页面显示的恢复时间到了，Codex 仍然不能使用怎么办？"
     answer: "先确认设备时间和时区正确，再用原 ChatGPT 账号重新登录 Codex，并检查 OpenAI Status。若 Usage Dashboard 仍显示可用，但多个 Codex 入口都出现同一错误，应联系 OpenAI 支持并提交脱敏截图和发生时间。"
   - question: "达到上限后需要再买一份 ChatGPT 会员吗？"
@@ -29,9 +29,9 @@ faq:
 
 # Codex 提示达到使用上限怎么办？先确认 ChatGPT 计划、共享用量和账户状态
 
-**先不要重新购买 ChatGPT 会员。**打开 [Codex Usage Dashboard](https://chatgpt.com/settings/usage)，确认当前账号的套餐、剩余用量和页面显示的恢复时间；如果你正在使用 Codex CLI，还可以在会话中输入 `/status` 查看剩余限制。
+**先不要重新购买 ChatGPT 会员。**打开 [Codex Usage Dashboard](https://chatgpt.com/codex/settings/usage)，确认当前账号的套餐、剩余用量和页面显示的恢复时间；如果你正在使用 Codex CLI，还可以在会话中输入 `/status` 查看剩余限制。
 
-Codex 的“使用上限”是指当前 ChatGPT 套餐允许使用 Codex 的量已经接近或达到限制，并不自动表示 Plus 或 Pro 已失效。只有账号显示 `Free`、订阅到期或续费失败时，才需要转入订阅状态排查。
+Codex 的“使用上限”并不自动表示 Plus 或 Pro 已失效。先看账号还剩多少可用量，再看限制适用于什么范围；**Pro 当前没有五小时限制，也不代表用量无限。**如果你已付费，但账号显示 `Free`、订阅到期或续费失败，应先转入订阅状态排查。
 
 > 本文只处理使用 ChatGPT 账号登录 Codex 后遇到的用量问题。它不讨论 API 账单，也不提供提高或绕过 OpenAI 限制的方法。ChongGrok 与 OpenAI 没有隶属关系。
 
@@ -41,9 +41,9 @@ Codex 的“使用上限”是指当前 ChatGPT 套餐允许使用 Codex 的量�
 | --- | --- | --- |
 | Codex 提示达到上限，Usage Dashboard 也显示用量已满或给出恢复时间 | 当前账号的计划内 Codex 用量已经用完 | 保存恢复时间，停止新增长任务，按第三步处理 |
 | Usage Dashboard 仍显示可用，但 CLI、IDE 或桌面端报错 | 可能登录了不同账号，或客户端、网络、服务状态存在问题 | 先核对账号，再按第四步排查 |
-| ChatGPT 账户页面显示 `Free` | 这不是单纯的 Codex 用量问题 | 进入[已付款仍显示 Free 排查]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }}) |
+| 已购买 Plus 或 Pro，ChatGPT 账户页面却显示 `Free` | 还需核对账号与订阅权益 | 进入[已付款仍显示 Free 排查]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }}) |
 | 原会员已到期，续费没有成功 | 订阅已经结束或续费交易失败 | 进入[续费失败后变回 Free 排查]({{ '/guides/chatgpt-renewal-failed-back-to-free/' | relative_url }}) |
-| ChatGPT 网页中的某个对话模型不可用，但 Codex 可以使用 | 这是 ChatGPT 模型使用限制，不是 Codex 上限 | 进入[ChatGPT 使用上限与模型不可用排查]({{ '/guides/chatgpt-usage-limit-model-unavailable/' | relative_url }}) |
+| 普通 Chat 中的某个模型不可用，但 Codex 可以使用 | 先核对该模型的提示及适用范围，不能直接判断 Codex 用量已满 | 进入[ChatGPT 使用上限与模型不可用排查]({{ '/guides/chatgpt-usage-limit-model-unavailable/' | relative_url }}) |
 | 报错明确写着 API rate limit、billing 或 API key | 当前任务使用的是 API 计费 | 回 API 账户处理；本文流程不适用 |
 
 先找到最接近的一行，再继续对应步骤。不要同时更换账号、重新安装、购买会员和购买 credits，否则很难判断真正原因。
@@ -57,7 +57,7 @@ Codex 的“使用上限”是指当前 ChatGPT 套餐允许使用 Codex 的量�
 3. **发生时间。**记录日期、时间和时区；
 4. **当前套餐。**记录 ChatGPT 账户页面显示的 Free、Plus、Pro 或其他计划；
 5. **Usage Dashboard。**保存剩余用量、恢复时间和每周限制提示；
-6. **当前任务。**简单记录所用模型、任务类型和大致范围，不要上传私人代码。
+6. **当前任务。**记录所用模型、Standard / Fast / Ultrafast 速度模式、任务范围，以及同期是否还在运行 Work 或云端任务；不要上传私人代码。
 
 这些资料用于判断问题，也能在联系支持时减少重复沟通。不要公开密码、验证码、恢复码、session、API Key 或完整付款信息。
 
@@ -73,11 +73,11 @@ Codex 的“使用上限”是指当前 ChatGPT 套餐允许使用 Codex 的量�
 
 然后核对 Codex：
 
-- **Codex CLI：**在普通终端运行 `codex login status`，确认当前使用 ChatGPT 登录，而不是另一个 API Key；
+- **Codex CLI：**在普通终端运行 `codex login status`，确认当前认证方式；这个命令本身不能证明具体邮箱或套餐仍然有效，仍须核对账户菜单中的身份；
 - **Codex 桌面端或 IDE：**打开账户菜单，核对登录邮箱和工作区；
-- **怀疑登录错账号：**先退出 Codex，再用原购买账号重新登录。
+- **怀疑登录错账号：**先保存当前任务，再用原购买账号重新登录。[官方认证说明](https://learn.chatgpt.com/docs/auth)
 
-CLI 可以依次运行：
+在使用普通 ChatGPT 登录的个人 CLI 环境中，可以依次运行下列命令。CLI 与 IDE 扩展共用登录缓存，退出后相关入口可能都需要重新登录；工作负载身份认证等专门配置不适用这套步骤。
 
 ```text
 codex logout
@@ -86,13 +86,13 @@ codex login
 
 **预期结果：**ChatGPT 账户页面显示有效套餐，Codex 也使用同一账号。此时继续第二步。
 
-**如果 ChatGPT 显示 Free：**停止本页流程。已有扣款或 ChongGrok 订单时，转入[已付款仍显示 Free 排查]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }})，不要重新购买。
+**如果已购买的套餐没有显示出来：**先处理账号与权益问题。已有扣款或 ChongGrok 订单时，转入[已付款仍显示 Free 排查]({{ '/guides/chatgpt-paid-but-still-free/' | relative_url }})，不要重新购买。
 
 **如果不会确认 Codex 的登录方式：**先阅读[ChatGPT Plus / Pro 使用 Codex 指南]({{ '/guides/chatgpt-codex-app-cli-ide/' | relative_url }})，完成账号核对后再回来。
 
 ## 第二步：查看 Usage Dashboard 和 CLI `/status`
 
-打开 [Codex Usage Dashboard](https://chatgpt.com/settings/usage)，依次记录：
+打开 [Codex Usage Dashboard](https://chatgpt.com/codex/settings/usage)，依次记录：
 
 1. 当前浏览器登录的账号是否正确；
 2. 计划内用量是否已经用完；
@@ -108,24 +108,40 @@ codex login
 
 `/status` 可以帮助你查看当前会话和剩余限制，但最终仍应以账户的 Usage Dashboard 为准。
 
-OpenAI 当前说明，本地消息和云端任务会计入同一个五小时用量周期，此外还可能存在每周限制。ChatGPT Work 与 Codex 也会共用用量。因此，即使你只在一个入口看到报错，也要查看整个账号的用量，而不是只计算当前对话发送了多少条消息。
+### 五小时限制、其他用量限制和订阅到期要分开看
 
-不同模型、任务大小、上下文长度和工具调用会消耗不同用量。网上流传的固定消息次数不能代表你的账号，请以实时页面为准。
+OpenAI 当前定价说明中，**Plus 和标准版 Business 的本地消息估算按五小时周期展示，Pro 当前没有五小时限制**；本地消息与云端聊天共用计划内用量，还可能适用每周限制。不要把“五小时后恢复”当作所有套餐的统一规则，也不要把“Pro 没有五小时限制”理解成无限使用。[官方用量说明](https://learn.chatgpt.com/docs/pricing)
+
+按自己页面上显示的限制、恢复时间和时区处理。如果 Pro 页面显示其他用量已满，换客户端或自己等满五小时，都不能据此认定已经恢复。
+
+### 还要核对 Work 和其他同时运行的任务
+
+ChatGPT Work 与 Codex 共用用量。因此，只数当前 Codex 对话发了几条消息，会漏掉其他入口的消耗。记录一下同期是否还有 Work 任务或云端聊天正在运行，再对照 Usage Dashboard。[官方共享用量说明](https://learn.chatgpt.com/docs/pricing)
+
+核对时分清普通 Chat、Work 和 Codex。不能只凭转发消息，就断言“所有 ChatGPT 聊天都已对所有账号并入 Codex 用量”；实际范围应以当前官方说明和自己账号提示为准。
+
+### 消耗比预期快，再看模型、材料和速度模式
+
+任务并不是按“一条消息扣一次”计算。模型、文件和上下文、任务范围都会影响消耗；网上流传的固定消息次数不能代表你的账号。
+
+先看这次是否提供了大量无关文件、要求了很长的输出，或者让多个任务同时处理同一批材料。后续任务可以只保留必要来源、明确输出范围，再观察能否满足需要。[官方用量优化建议](https://learn.chatgpt.com/docs/pricing)
+
+如果当前入口支持速度模式，再看是否启用了 Fast 或 Ultrafast。它们以高于 Standard 的速率消耗内含用量；**内含用量的消耗倍率和另购 credits 的扣费倍率是两套口径，不能混算。**先对照[官方速度说明](https://learn.chatgpt.com/docs/agent-configuration/speed)，再决定后续任务是否需要这份速度，不把购买新会员当作首个排障动作。
 
 ## 第三步：确认真的达到上限后，按页面状态处理
 
 如果 Usage Dashboard 明确显示用量已经达到限制，请按下面顺序处理：
 
-1. **让正在执行的任务结束。**OpenAI 当前说明，如果在一次正在执行的任务中达到上限，该任务可能仍会完成；不要同时启动新的长任务；
+1. **不要重复启动同一任务。**OpenAI 当前说明，在执行中的一轮任务达到用量上限后，仍可在合理使用限制内继续该轮工作。先观察原任务状态，不要同时启动新的长任务；
 2. **记录恢复时间。**按页面显示的日期、时间和时区等待，不要猜测固定恢复时间；
-3. **缩小后续任务。**只提供必要文件，明确必须完成的部分，并把大型任务拆成几个可以单独验收的小任务；
+3. **缩小后续任务。**只提供必要文件，明确必须完成的部分；需要分阶段时，让每一阶段有独立结果，避免反复重新发送整批材料；
 4. **选择较小模型。**如果页面提供较小的模型，可以将常规任务改用该模型，以延长计划内用量；
 5. **查看官方 credits 选项。**Plus 或 Pro 账号达到上限后，官方页面可能提供额外 ChatGPT credits。是否购买由你决定，并以页面实时说明为准；
 6. **到恢复时间后只测试一次。**重新打开 Codex，发送一个范围很小的只读任务，确认是否已经恢复。
 
 测试任务可以写成下面这句话：
 
-> 只读取当前项目的 README，概括启动方式。不要修改文件，也不要执行命令。
+> 只读取当前项目的 README，概括启动方式。允许为读取文件运行必要的只读命令；不要修改文件、安装依赖或运行项目代码。
 
 **验收成功：**任务开始执行，Usage Dashboard 显示新的可用状态，原来的上限提示不再阻止新任务。此时不需要重新购买会员。
 
@@ -176,7 +192,7 @@ ChongGrok 可以核对自己的订单，但不能提高 OpenAI 设置的 Codex �
 2. 你经常按照 Usage Dashboard 的提示用完计划内 Codex 用量；
 3. 缩小任务和使用较小模型仍不能满足工作需要。
 
-OpenAI 当前说明，Pro 5x 和 Pro 20x 提供比 Plus 更高的 Codex 用量。具体差异可查看[ChatGPT Plus 与 Pro 怎么选]({{ '/guides/chatgpt-plus-vs-pro/' | relative_url }})。
+比较时，以[OpenAI 当前套餐与用量说明](https://learn.chatgpt.com/docs/pricing)及账号实际显示的档位为准，不再用旧的“Pro 5x / 20x”简称直接推算所有入口的可用量。Pro 当前没有五小时限制，仍需要判断内含用量能否覆盖你的任务。需要比较产品范围时，可继续阅读[ChatGPT Plus 与 Pro 怎么选]({{ '/guides/chatgpt-plus-vs-pro/' | relative_url }})。
 
 如果当前没有有效订阅、没有成功扣款，也没有待处理订单，并且已经确认需要重新选择会员，可以查看 [ChongGrok ChatGPT 实时方案](https://chonggrok.com/chatgpt)。已有有效会员、成功扣款或待处理订单时，不要再次购买。
 
@@ -187,7 +203,8 @@ OpenAI 当前说明，Pro 5x 和 Pro 20x 提供比 Plus 更高的 Codex 用量�
 - 已确认 ChatGPT 和 Codex 登录的是同一账号；
 - 已确认当前 ChatGPT 套餐状态；
 - 已打开 Usage Dashboard，而不是根据网上固定次数猜测；
-- 已记录剩余用量、恢复时间和每周限制提示；
+- 已记录剩余用量、恢复时间和页面列出的其他限制，没有把五小时周期套给 Pro；
+- 已核对同时运行的 Work / 云端任务和当前速度模式；
 - 已区分 Codex 上限、ChatGPT 模型上限、订阅失效和 API 报错；
 - 达到上限后没有重复购买会员；
 - 恢复时间后只进行了一次小型测试；
@@ -201,11 +218,11 @@ OpenAI 当前说明，Pro 5x 和 Pro 20x 提供比 Plus 更高的 Codex 用量�
 
 ### 在哪里查看 Codex 还可以使用多少？
 
-打开 [Codex Usage Dashboard](https://chatgpt.com/settings/usage) 查看当前账号的用量。使用 Codex CLI 时，还可以在正在运行的 Codex 会话中输入 `/status` 查看剩余限制。
+打开 [Codex Usage Dashboard](https://chatgpt.com/codex/settings/usage) 查看当前账号的用量。使用 Codex CLI 时，还可以在正在运行的 Codex 会话中输入 `/status` 查看剩余限制。
 
 ### Codex 桌面端、CLI、IDE 和云端任务的用量彼此独立吗？
 
-不要把更换客户端当成获得新用量的方法。OpenAI 当前说明，本地消息和云端任务共用计划内的五小时用量周期，并且还可能存在每周限制；具体状态以当前账号的 Usage Dashboard 为准。
+不要把更换客户端当成获得新用量的方法。本地消息和云端聊天共用计划内用量，ChatGPT Work 与 Codex 也共用用量。Plus 和标准版 Business 有五小时用量周期；Pro 当前没有五小时限制，但仍须核对内含用量及页面列出的其他限制。具体状态以当前账号的 Usage Dashboard 为准。
 
 ### 页面显示的恢复时间到了，Codex 仍然不能使用怎么办？
 
@@ -222,11 +239,12 @@ OpenAI 当前说明，Pro 5x 和 Pro 20x 提供比 Plus 更高的 Codex 用量�
 ## OpenAI 官方来源
 
 - [OpenAI：ChatGPT Work 与 Codex 套餐、使用上限和 Usage Dashboard](https://learn.chatgpt.com/docs/pricing)
+- [OpenAI：Standard、Fast 与 Ultrafast 的适用范围和消耗口径](https://learn.chatgpt.com/docs/agent-configuration/speed)
 - [OpenAI：Codex 登录方式与账号状态检查](https://learn.chatgpt.com/docs/auth)
 - [OpenAI：Codex CLI 命令与 `/status` 参考](https://learn.chatgpt.com/docs/developer-commands?surface=cli)
 - [OpenAI Status](https://status.openai.com/)
 
-**核验日期：2026 年 8 月 14 日。**套餐、模型、使用限制、credits 和页面入口可能变化，请以 OpenAI 当前页面为准。
+**产品用量与速度规则核对日期：2026 年 11 月 13 日。**套餐、模型、使用限制、credits 和页面入口可能变化，请以 OpenAI 当前页面为准。
 
 ## 风险与业务边界
 
