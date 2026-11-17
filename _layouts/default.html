@@ -19,6 +19,9 @@
     {% endif %}
     {% include seo-structured-data.html %}
     <script src="{{ '/assets/js/knowledge-ui.js' | relative_url }}?v={{ site.asset_version }}" defer></script>
+    {% if site.data.umami.website_id and site.data.umami.paths contains page.url %}
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="{{ site.data.umami.website_id | escape }}" data-domains="he20000405-pixel.github.io" data-exclude-search="true" data-exclude-hash="true" data-do-not-track="true"></script>
+    {% endif %}
   </head>
   {% assign page_kind = 'article' %}
   {% if page.url == '/' %}
